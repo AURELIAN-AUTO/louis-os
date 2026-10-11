@@ -1,9 +1,32 @@
 {
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-10T18:44:17.074308+00:00",
-  "platforms": [],
-  "prepared_count": 0,
-  "receipts": [],
+  "generated_at": "2026-10-11T09:06:07.370546+00:00",
+  "platforms": [
+    "Freelancer.com"
+  ],
+  "prepared_count": 1,
+  "receipts": [
+    {
+      "capabilities": [
+        "evidence_research_dossier"
+      ],
+      "currency": "USD",
+      "deadline": "6 days left",
+      "estimated_effort_hours": 8.0,
+      "external_receipt": null,
+      "externally_submitted": false,
+      "opportunity_id": "market-67128a5ac012ec40",
+      "platform": "Freelancer.com",
+      "proposal_path": "results/simple_mission_dossiers/market-67128a5ac012ec40/proposal.md",
+      "proposal_sha256": "5720c78b81171bdf4dc286e9c89063122d6dc665b4678164a7c50841bcf55651",
+      "revenue_verified": false,
+      "reward_amount": 129.0,
+      "schema_version": "1.2",
+      "source_id": "freelancer_public_simple_jobs",
+      "source_url": "https://www.freelancer.com/projects/typing/hindi-data-entry-online-forms",
+      "title": "Hindi Data Entry – Online Forms"
+    }
+  ],
   "revenue_verified_eur": 0.0,
   "schema_version": "1.2",
   "software_dossier_count": 0

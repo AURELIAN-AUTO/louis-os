@@ -1,7 +1,7 @@
 {
   "capability_gaps_created": 0,
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-10T18:44:17.074308+00:00",
+  "generated_at": "2026-10-11T09:06:07.370546+00:00",
   "human_actions_created": 0,
   "items": [
     {
@@ -11,10 +11,10 @@
       "title": "Build a minimal HTTP/1.1 server in Python using raw sockets"
     },
     {
-      "opportunity_id": "market-73e648968763bcf2",
+      "opportunity_id": "market-3699d9e4289c872c",
       "reason": "hourly_rate_below_cash_first_floor",
-      "source_url": "https://www.freelancer.com/projects/customer-service/butuh-admin-balas-chat",
-      "title": "Butuh Admin Balas Chat"
+      "source_url": "https://www.freelancer.com/projects/education-tutoring/high-school-english-literature-tutor",
+      "title": "High School English Literature Tutor"
     }
   ],
   "reason_counts": {
