@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-12T09:28:32.606642+00:00",
+    "generated_at": "2026-10-12T22:12:10.272022+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,27 +23,63 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "cf2558a6a515d694",
-      "url": "https://github.com/Changejarapp/aurum-mcp/issues/16",
-      "title": "Release stale — main is 18 commits ahead of v0.5.0",
+      "candidate_id": "0a75422ab48f9f8f",
+      "url": "https://github.com/uwaggs/usportspy/issues/6",
+      "title": "include \"all\" argument in functions",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d37d42d5bd75f996",
-      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
-      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
+      "candidate_id": "a4cd532b4964899f",
+      "url": "https://github.com/d6g8k5htny-coder/main/issues/307",
+      "title": "Agent Message Board (continued from #229): bottlenecks, coordination and working guidance",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0d3fc26aec74c4e6",
-      "url": "https://github.com/Ikalus1988/MisakaNet/issues/3168",
-      "title": "[Lesson] DSH desktop shell (dsh-app://app origin): /api/* answers 403, SSE dies after a 200, WebSocket handshake rejected — while the same Host works from http://127.0.0.1",
+      "candidate_id": "df6ea4c936b5be2f",
+      "url": "https://github.com/halfsend-02/test-repo-01/issues/2",
+      "title": "Server crashes with 'concurrent map writes' under load",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b74eb32a7599b7ce",
-      "url": "https://github.com/A9T9/OCR.Space-OCR-API-Code-Snippets/issues/14",
-      "title": "what is this",
+      "candidate_id": "86b1baa81e25344d",
+      "url": "https://github.com/pl0n3r/Factory/issues/1308",
+      "title": "chore(factory): dieta fase 1C — retirar Sonar Watch programado sin perder Sonar ni QA",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "362a163675837975",
+      "url": "https://github.com/microg/GmsCore/issues/2843",
+      "title": "[BOUNTY] WearOS Support [$2340]",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "e6c7480601c35ecb",
+      "url": "https://github.com/xiaodlb/TDMK/issues/12",
+      "title": "12. Add recurring-template persistence",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "3e8809a722425bbb",
+      "url": "https://github.com/Dulain-Willis/steam-infra/issues/112",
+      "title": "Spec: dev / staging / prod environments for Airflow (and the Snowflake layout they need)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "13cd47b1d6ab4cb7",
+      "url": "https://github.com/2AMLogic/gf180-sram/issues/140",
+      "title": "README: embed the fleet burndown chart (one line)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "164eff549570f863",
+      "url": "https://github.com/AmirRaptoR/quesshi/issues/209",
+      "title": "Platform: run question kinds and serve the `choice` kind",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "5b48a164a5ebf278",
+      "url": "https://github.com/stranske/Workflows/issues/1836",
+      "title": "Sync/Dependency campaign queue",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -55,153 +91,125 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "be1b2228f4a9dd58",
-      "url": "https://github.com/alexander-bain/bainluck/issues/10868",
-      "title": "Event-page design: real-game card coverage and selected-hybrid native-feasible prototype",
+      "candidate_id": "acf6641950a4de53",
+      "url": "https://github.com/obsoletesony/PSPMAN-Issues/issues/111",
+      "title": "[PSPMAN][BETA 1][REQUALIFY][RECOVERY] Abrupt power loss must not leave persistent PocketJS OOM on startup",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "910c5f7423b44a1a",
-      "url": "https://github.com/objectionary/eo/issues/9362",
-      "title": "`wrapper.made` puts the `wrapper` into the receiver census of `made`, so a read off the result lands on an attribute of the wrapper",
+      "candidate_id": "240720d0db16080f",
+      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/1713",
+      "title": "[NAYA 5] LEARN-engine — gates-wiring-bridge-to-10-10",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "793e3e6f0905ffc6",
-      "url": "https://github.com/KytyPS5/kytyps5.github.io/issues/778",
-      "title": "[GAME STATUS] Inazuma Eleven Victory Road (windows)",
+      "candidate_id": "ad8f850a3fee8e95",
+      "url": "https://github.com/tompassarelli/smashcraft/issues/513",
+      "title": "Autoland heals every stall class on GitHub's side within 20 minutes, with no laptop service",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "598d9049cd8e56da",
-      "url": "https://github.com/gkrost/unidrive/issues/443",
-      "title": "Lane B: bug triage and fix queue, ordered by impact",
+      "candidate_id": "3284b0e752fd5ace",
+      "url": "https://github.com/OpenDevicePartnership/patina/issues/1861",
+      "title": "Investigate better coupling of patina tests to components",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5fe602ab42ff7dba",
-      "url": "https://github.com/KAFKA2306/yt3/issues/201",
-      "title": "Series #01: なぜソフトウェア開発を数字で測るのか",
+      "candidate_id": "8a91b52298804678",
+      "url": "https://github.com/drizzle-team/drizzle-orm/issues/1603",
+      "title": "[BUG]: Nested Partial Select returns null on left join if first column value is null",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "997fe6aad4a41b97",
-      "url": "https://github.com/Feel-ix-343/markdown-oxide/issues/269",
-      "title": "Unresolved reference when using `[[` and `]]`",
+      "candidate_id": "487068c0dda08d3e",
+      "url": "https://github.com/openai/codex/issues/24864",
+      "title": "Feature request: additional triggers for automations",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "47a9bc3ffc7259df",
-      "url": "https://github.com/Cotal-AI/Cotal/issues/3653",
-      "title": "lang: performScope refuses a scope under once by its kind name instead of its dispatch trait",
+      "candidate_id": "fbeb589f423c00ad",
+      "url": "https://github.com/obsoletesony/PSPMAN-Issues/issues/109",
+      "title": "[PSPMAN][BETA 1][HIGH][COMPATIBILITY] Install-location-independent app paths / Game Categories Lite",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "eefce852c8b7b410",
-      "url": "https://github.com/HDCharts/charts/issues/698",
-      "title": "[Issue] Measure frame cost of large charts",
+      "candidate_id": "475aefc2211c13da",
+      "url": "https://github.com/heukshow/aicity-os/issues/292",
+      "title": "COSHUMA Work execution bridge",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5a3e933fd3fe5ec3",
-      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2175",
-      "title": "Team Naya coordination — continued from #1354 (comment cap reached)",
+      "candidate_id": "50bb8aa8acc2cc41",
+      "url": "https://github.com/n0tevi1/ygorl/issues/62",
+      "title": "[M4] T4e.1 致死搜索：对局时兜底 → 搜索作老师蒸馏 → PIMC",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "353e0654e7cfc00b",
-      "url": "https://github.com/Willzy12h/M365-Buildstandards/issues/83",
-      "title": "Shared Astra and Claude coordination inbox",
+      "candidate_id": "f2c235544786f46e",
+      "url": "https://github.com/kinoko34077/devflow/issues/404",
+      "title": "[REPO] map-data-semi-automation",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "07de770a0aca4d96",
-      "url": "https://github.com/asm0dey/maven-to-gradle/issues/3",
-      "title": "Dependency Dashboard",
+      "candidate_id": "16fa94d7130642be",
+      "url": "https://github.com/SCIBASE-AI/SCIBASE.AI/issues/18",
+      "title": "Scientific Bounty System",
+      "reason": "task_not_narrow_enough",
+      "narrowness_score": 5.0,
+      "scope": {
+        "file_paths": [],
+        "requirements": 39,
+        "broad_hits": 0,
+        "body_length": 3075,
+        "exact_replacement": false
+      }
+    },
+    {
+      "candidate_id": "e4028bd12b3e81d1",
+      "url": "https://github.com/ThomasHendrickx/aeolus-fleet/issues/756",
+      "title": "Design: delivery protocol revision for broker, machine and agent",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "362a163675837975",
-      "url": "https://github.com/microg/GmsCore/issues/2843",
-      "title": "[BOUNTY] WearOS Support [$2340]",
+      "candidate_id": "6f0e3beefecf1ff2",
+      "url": "https://github.com/robpaolella/bureaucracy-forever/issues/98",
+      "title": "Record an unlisted drop by Wowhead Forever link (server: lookup, add-and-record, migration)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "cf014315133b27b4",
-      "url": "https://github.com/qigao/TurboAgent/issues/74",
-      "title": "P0 conformance: Tool Journal, cancellation and crash recovery across executors",
+      "candidate_id": "e72dafb4d5034626",
+      "url": "https://github.com/equinor/neqsim/issues/3153",
+      "title": "[Campaign] State-of-the-art NeqSim MCP process simulation and troubleshooting",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5693952160fa77ae",
-      "url": "https://github.com/globe-and-citizen/cnc-portal/issues/2908",
-      "title": "[Goals] Sprint 20 Bug and perf",
+      "candidate_id": "9f26cd9dea599ff6",
+      "url": "https://github.com/AmirRaptoR/quesshi/issues/166",
+      "title": "Platform: question kind runtime, `choice`, and fractional scoring",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5b879f833839d9d8",
-      "url": "https://github.com/objectstack-ai/objectstack/issues/6015",
-      "title": "[PM seat] triage (objectstack-wide) — 🟢 Routine · session_01AavokzJ5DndAwitDXvKy4U · trig_01NcnCtMS2tH46nUg1a5TaMJ (hourly) · state = body + the round records newer than it",
+      "candidate_id": "28303a7aee870922",
+      "url": "https://github.com/muhammetalali/AegisScan/issues/343",
+      "title": "Production acceptance blocker: password recovery stub and broken legal links",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "fb93a57c39acccd2",
-      "url": "https://github.com/handarbeit/fabrik/issues/2207",
-      "title": "fabrik mcp finds the project's daemon from a subdirectory and stays quiet outside Fabrik projects",
+      "candidate_id": "42ce797f3b65493b",
+      "url": "https://github.com/antfu/raycast-multi-translate/issues/7",
+      "title": "Add support for DeepL Api",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b173c67b73e3af76",
-      "url": "https://github.com/jordanl17/sanity-plugin-blank-space/issues/6",
-      "title": "Dependency Dashboard",
+      "candidate_id": "25850440636ec610",
+      "url": "https://github.com/quantrinitylab/Quant-Ecosystem/issues/902",
+      "title": "Quant Ecosystem War Room — canonical command, tasks, approvals & evidence",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a9f1e6ea12d45712",
-      "url": "https://github.com/rc0/mairix/issues/29",
-      "title": "Non-ASCII queries (UTF-8)?",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "69233505409332c6",
-      "url": "https://github.com/haseatsu114514-dot/shisha-game/issues/399",
-      "title": "[P1][制作フロー] 吸い出し→提供→温度低下→調整を明示し、ヘッダーの調整を統合",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "075dd421b5f98da0",
-      "url": "https://github.com/zakiarsyad/medali/issues/57",
-      "title": "Konseling: Counselling session notes",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "fc61b1281099fec8",
-      "url": "https://github.com/mobinpda-lab/Arvin-clean/issues/2102",
-      "title": "release-gate: obtain exact-head CI and Device Smoke evidence for current main",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "4dc0025f445c8f4f",
-      "url": "https://github.com/flashserve/flash-linear-attention-npu/issues/873",
-      "title": "[Bug][A5][KDA] Recompute 变长序列单 token 尾块的 w/qg/kg 精度错误（含独立复现脚本）",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "1c2103625349f8a1",
-      "url": "https://github.com/freelensapp/freelens-for-claude-extension/issues/6",
-      "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ad1f9bd2466de9ab",
-      "url": "https://github.com/seveibar/pgstrap/issues/2",
-      "title": "Use pglite so that postgres isn't required when generating types",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "31e3026ab321f06f",
-      "url": "https://github.com/adamtopaz/acl_geom/issues/6",
-      "title": "M4: geometric Q, Q', J and their correctness over ACF",
+      "candidate_id": "ede45520fba3917e",
+      "url": "https://github.com/mojtaba2020/Crypto_Intelligence_OS_Core/issues/76",
+      "title": "Stage-6 Wave-3 FEATURE-03 — at most two point-in-time feature proposals",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
