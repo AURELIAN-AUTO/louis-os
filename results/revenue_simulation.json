@@ -2,7 +2,7 @@
   "annualization_status": "insufficient_history",
   "counted_as_pipeline": false,
   "counted_as_revenue": false,
-  "generated_at": "2026-10-12T09:28:00.479434+00:00",
+  "generated_at": "2026-10-12T22:11:27.500900+00:00",
   "schema_version": "1.0",
   "simulations": [
     {
@@ -97,17 +97,35 @@
     },
     {
       "annualization_status": "insufficient_history",
+      "capability_id": "structured_document_delivery",
+      "cluster_id": "cluster-0ee287ec90a3ea7f",
+      "counted_as_pipeline": false,
+      "counted_as_revenue": false,
+      "scenarios_by_currency": {
+        "USDC": {
+          "base_expected_value": 0.0,
+          "conservative_expected_value": 0.0,
+          "median_verified_reward": 0.01,
+          "observed_opportunity_count": 1,
+          "upside_expected_value": 0.0
+        }
+      },
+      "scope": "currently observed qualified opportunities; not annualized",
+      "type": "simulation_only"
+    },
+    {
+      "annualization_status": "insufficient_history",
       "capability_id": "go_software_delivery",
       "cluster_id": "cluster-6c3f05a24453ca40",
       "counted_as_pipeline": false,
       "counted_as_revenue": false,
       "scenarios_by_currency": {
         "USDC": {
-          "base_expected_value": 1.14,
-          "conservative_expected_value": 0.48,
-          "median_verified_reward": 4.75,
-          "observed_opportunity_count": 2,
-          "upside_expected_value": 2.38
+          "base_expected_value": 0.42,
+          "conservative_expected_value": 0.18,
+          "median_verified_reward": 3.5,
+          "observed_opportunity_count": 1,
+          "upside_expected_value": 0.88
         }
       },
       "scope": "currently observed qualified opportunities; not annualized",

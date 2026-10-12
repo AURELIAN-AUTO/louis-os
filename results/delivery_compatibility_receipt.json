@@ -1,7 +1,7 @@
 {
   "capability_gaps_created": 0,
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-12T09:28:00.081437+00:00",
+  "generated_at": "2026-10-12T22:11:27.116609+00:00",
   "human_actions_created": 0,
   "items": [
     {
@@ -11,18 +11,6 @@
       "title": "Build a minimal HTTP/1.1 server in Python using raw sockets"
     },
     {
-      "opportunity_id": "market-023d6d9149e4e053",
-      "reason": "hourly_rate_below_cash_first_floor",
-      "source_url": "https://www.freelancer.com/projects/content-writing/teen-dry-skin-barrier-guide",
-      "title": "Teen Dry Skin Barrier Guide"
-    },
-    {
-      "opportunity_id": "market-810dc8ef450e49e8",
-      "reason": "hourly_rate_below_cash_first_floor",
-      "source_url": "https://www.freelancer.com/projects/data-analysis/excel-text-data-entry-formatting",
-      "title": "Excel Text Data Entry & Formatting"
-    },
-    {
       "opportunity_id": "market-52f2150d2266f1af",
       "reason": "hourly_rate_below_cash_first_floor",
       "source_url": "https://www.freelancer.com/projects/research/islamic-studies-topics-related-marriage",
@@ -30,10 +18,10 @@
     }
   ],
   "reason_counts": {
-    "hourly_rate_below_cash_first_floor": 3,
+    "hourly_rate_below_cash_first_floor": 1,
     "provider_verification_failure_retry_paused": 1
   },
-  "rejected_count": 4,
+  "rejected_count": 2,
   "revenue_verified_eur": 0.0,
   "schema_version": "1.1"
 }
