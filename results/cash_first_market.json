@@ -267,7 +267,7 @@
     "rejected": 53,
     "strategic": 68
   },
-  "generated_at": "2026-10-12T22:11:27.116609+00:00",
+  "generated_at": "2026-10-13T09:35:39.273369+00:00",
   "human_action_ready": [],
   "policy": {
     "agent_native_minimum_reward": 5.0,

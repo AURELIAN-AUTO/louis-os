@@ -765,7 +765,7 @@
     "clusters": 12,
     "strategic_clusters": 5
   },
-  "generated_at": "2026-10-12T22:11:27.500900+00:00",
+  "generated_at": "2026-10-13T09:35:39.669854+00:00",
   "policy": {
     "cash_first_effort_hours_max": 16,
     "cash_first_time_to_cash_days_max": 30,
