@@ -84,10 +84,10 @@
       ],
       "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
       "capability_id": "rust_software_delivery",
-      "capability_market_score": 53.59,
+      "capability_market_score": 51.56,
       "cluster_id": "cluster-be71839c3a477384",
       "evidence": [
-        "https://www.bountybook.ai/job/13e5b137-7f9d-4a6c-affa-215b8dd15657",
+        "https://www.bountybook.ai/job/552d8068-b164-4917-b3ec-f2438a890192",
         "bountybook_agent_jobs"
       ],
       "fixture_opportunity_ids": [
@@ -97,8 +97,8 @@
       ],
       "immediate_next_action": "create_or_update_capability_issue:rust_software_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `rust_software_delivery` as a reusable `rust_software_delivery` delivery capability for 4 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 4,
+      "objective": "Implement and validate `rust_software_delivery` as a reusable `rust_software_delivery` delivery capability for 3 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 3,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 3,
       "required_interface": {
@@ -154,19 +154,20 @@
       ],
       "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
       "capability_id": "go_software_delivery",
-      "capability_market_score": 46.01,
+      "capability_market_score": 49.14,
       "cluster_id": "cluster-6c3f05a24453ca40",
       "evidence": [
-        "https://www.bountybook.ai/job/25e871ca-fb8d-4974-8cc6-258d352c1a55",
+        "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
         "bountybook_agent_jobs"
       ],
       "fixture_opportunity_ids": [
+        "market-43cfc713818c42b3",
         "market-9e72342cee57cb3c"
       ],
       "immediate_next_action": "create_or_update_capability_issue:go_software_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `go_software_delivery` as a reusable `go_software_delivery` delivery capability for 1 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 1,
+      "objective": "Implement and validate `go_software_delivery` as a reusable `go_software_delivery` delivery capability for 2 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 2,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 5,
       "required_interface": {
@@ -389,9 +390,9 @@
     },
     {
       "capability_id": "rust_software_delivery",
-      "capability_market_score": 53.59,
+      "capability_market_score": 51.56,
       "capability_status": "unknown",
-      "capped_score_value": 24.5,
+      "capped_score_value": 12.5,
       "cluster_id": "cluster-be71839c3a477384",
       "deliverable_family": "rust_software_delivery",
       "first_payment_probability": 0.2283,
@@ -400,18 +401,17 @@
       "median_accessibility": 0.96,
       "median_competition": 0.55,
       "median_effort_hours": 2.0,
-      "median_reward": 4.5,
-      "median_time_to_cash_days": 10.0,
-      "opportunity_count": 4,
+      "median_reward": 4.0,
+      "median_time_to_cash_days": 10,
+      "opportunity_count": 3,
       "opportunity_ids": [
         "market-46c66d38d5c7a2bc",
         "market-6d211653a743e740",
-        "market-73a7f157c2ccf876",
-        "market-f01a30986b5f69df"
+        "market-73a7f157c2ccf876"
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=4",
+        "opportunities=3",
         "sources=1",
         "median_effort_hours=2",
         "median_time_to_cash_days=10",
@@ -419,15 +419,15 @@
         "capability_status=unknown",
         "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
       ],
-      "reusable_deliverable_ratio": 0.91,
+      "reusable_deliverable_ratio": 0.79,
       "source_count": 1,
       "source_ids": [
         "bountybook_agent_jobs"
       ],
-      "top_opportunity_title": "Build a Trie struct in Rust with insert, search, and starts_with methods",
-      "top_opportunity_url": "https://www.bountybook.ai/job/13e5b137-7f9d-4a6c-affa-215b8dd15657",
+      "top_opportunity_title": "Build a Rust program that counts lines, words, and bytes in files like Unix wc",
+      "top_opportunity_url": "https://www.bountybook.ai/job/552d8068-b164-4917-b3ec-f2438a890192",
       "verified_value_by_currency": {
-        "USDC": 24.5
+        "USDC": 12.5
       }
     },
     {
@@ -472,9 +472,9 @@
     },
     {
       "capability_id": "go_software_delivery",
-      "capability_market_score": 46.01,
+      "capability_market_score": 49.14,
       "capability_status": "unknown",
-      "capped_score_value": 3.5,
+      "capped_score_value": 9.5,
       "cluster_id": "cluster-6c3f05a24453ca40",
       "deliverable_family": "go_software_delivery",
       "first_payment_probability": 0.2283,
@@ -483,15 +483,16 @@
       "median_accessibility": 0.96,
       "median_competition": 0.55,
       "median_effort_hours": 2.0,
-      "median_reward": 3.5,
-      "median_time_to_cash_days": 10,
-      "opportunity_count": 1,
+      "median_reward": 4.75,
+      "median_time_to_cash_days": 10.0,
+      "opportunity_count": 2,
       "opportunity_ids": [
+        "market-43cfc713818c42b3",
         "market-9e72342cee57cb3c"
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=1",
+        "opportunities=2",
         "sources=1",
         "median_effort_hours=2",
         "median_time_to_cash_days=10",
@@ -499,22 +500,22 @@
         "capability_status=unknown",
         "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
       ],
-      "reusable_deliverable_ratio": 0.55,
+      "reusable_deliverable_ratio": 0.67,
       "source_count": 1,
       "source_ids": [
         "bountybook_agent_jobs"
       ],
-      "top_opportunity_title": "Build envloader.go with LoadEnv function to parse .env files",
-      "top_opportunity_url": "https://www.bountybook.ai/job/25e871ca-fb8d-4974-8cc6-258d352c1a55",
+      "top_opportunity_title": "Build a CLI program that checks HTTP status codes for URLs in a file",
+      "top_opportunity_url": "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
       "verified_value_by_currency": {
-        "USDC": 3.5
+        "USDC": 9.5
       }
     },
     {
       "capability_id": "evidence_research_dossier",
       "capability_market_score": 28.57,
       "capability_status": "validated",
-      "capped_score_value": 14000.0,
+      "capped_score_value": 15000.0,
       "cluster_id": "cluster-3cbaec53e8253316",
       "deliverable_family": "web_research_and_evidence_dossier",
       "first_payment_probability": 0.0123,
@@ -523,13 +524,14 @@
       "median_accessibility": 0.55,
       "median_competition": 0.8,
       "median_effort_hours": 120.0,
-      "median_reward": 999995.0,
-      "median_time_to_cash_days": 120.0,
-      "opportunity_count": 14,
+      "median_reward": 999990.0,
+      "median_time_to_cash_days": 120,
+      "opportunity_count": 15,
       "opportunity_ids": [
         "market-106b59a047e35450",
         "market-1439b4282f487f05",
         "market-1ee13912610733bb",
+        "market-31fe3bcb46c72919",
         "market-3e05a7c6e9ae7ad8",
         "market-43f73e1e78724a63",
         "market-4e4679c375c82915",
@@ -544,7 +546,7 @@
       ],
       "rationale": [
         "lane=strategic",
-        "opportunities=14",
+        "opportunities=15",
         "sources=1",
         "median_effort_hours=120",
         "median_time_to_cash_days=120",
@@ -560,14 +562,14 @@
       "top_opportunity_title": "xTech|Kinetic Reach",
       "top_opportunity_url": "https://www.usa.gov/challenges/xtech-kinetic-reach",
       "verified_value_by_currency": {
-        "USD": 45098990.0
+        "USD": 45748990.0
       }
     },
     {
       "capability_id": "technical_proposal",
       "capability_market_score": 25.51,
       "capability_status": "experimental",
-      "capped_score_value": 14000.0,
+      "capped_score_value": 15000.0,
       "cluster_id": "cluster-2f439110c8d8b82b",
       "deliverable_family": "technical_proposal",
       "first_payment_probability": 0.0123,
@@ -576,13 +578,14 @@
       "median_accessibility": 0.55,
       "median_competition": 0.8,
       "median_effort_hours": 120.0,
-      "median_reward": 999995.0,
-      "median_time_to_cash_days": 120.0,
-      "opportunity_count": 14,
+      "median_reward": 999990.0,
+      "median_time_to_cash_days": 120,
+      "opportunity_count": 15,
       "opportunity_ids": [
         "market-106b59a047e35450",
         "market-1439b4282f487f05",
         "market-1ee13912610733bb",
+        "market-31fe3bcb46c72919",
         "market-3e05a7c6e9ae7ad8",
         "market-43f73e1e78724a63",
         "market-4e4679c375c82915",
@@ -597,7 +600,7 @@
       ],
       "rationale": [
         "lane=strategic",
-        "opportunities=14",
+        "opportunities=15",
         "sources=1",
         "median_effort_hours=120",
         "median_time_to_cash_days=120",
@@ -613,14 +616,14 @@
       "top_opportunity_title": "xTech|Kinetic Reach",
       "top_opportunity_url": "https://www.usa.gov/challenges/xtech-kinetic-reach",
       "verified_value_by_currency": {
-        "USD": 45098990.0
+        "USD": 45748990.0
       }
     },
     {
       "capability_id": "web_application_prototype",
       "capability_market_score": 25.51,
       "capability_status": "experimental",
-      "capped_score_value": 14000.0,
+      "capped_score_value": 15000.0,
       "cluster_id": "cluster-14511ab14f2659f9",
       "deliverable_family": "web_application_prototype",
       "first_payment_probability": 0.0123,
@@ -629,13 +632,14 @@
       "median_accessibility": 0.55,
       "median_competition": 0.8,
       "median_effort_hours": 120.0,
-      "median_reward": 999995.0,
-      "median_time_to_cash_days": 120.0,
-      "opportunity_count": 14,
+      "median_reward": 999990.0,
+      "median_time_to_cash_days": 120,
+      "opportunity_count": 15,
       "opportunity_ids": [
         "market-106b59a047e35450",
         "market-1439b4282f487f05",
         "market-1ee13912610733bb",
+        "market-31fe3bcb46c72919",
         "market-3e05a7c6e9ae7ad8",
         "market-43f73e1e78724a63",
         "market-4e4679c375c82915",
@@ -650,7 +654,7 @@
       ],
       "rationale": [
         "lane=strategic",
-        "opportunities=14",
+        "opportunities=15",
         "sources=1",
         "median_effort_hours=120",
         "median_time_to_cash_days=120",
@@ -666,7 +670,7 @@
       "top_opportunity_title": "xTech|Kinetic Reach",
       "top_opportunity_url": "https://www.usa.gov/challenges/xtech-kinetic-reach",
       "verified_value_by_currency": {
-        "USD": 45098990.0
+        "USD": 45748990.0
       }
     },
     {
@@ -765,7 +769,7 @@
     "clusters": 12,
     "strategic_clusters": 5
   },
-  "generated_at": "2026-10-13T09:35:39.669854+00:00",
+  "generated_at": "2026-10-13T20:18:30.297163+00:00",
   "policy": {
     "cash_first_effort_hours_max": 16,
     "cash_first_time_to_cash_days_max": 30,

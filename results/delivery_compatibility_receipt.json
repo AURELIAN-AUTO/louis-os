@@ -1,7 +1,7 @@
 {
   "capability_gaps_created": 0,
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-13T09:35:39.273369+00:00",
+  "generated_at": "2026-10-13T20:18:29.910549+00:00",
   "human_actions_created": 0,
   "items": [
     {
@@ -9,19 +9,12 @@
       "reason": "provider_verification_failure_retry_paused",
       "source_url": "https://www.bountybook.ai/job/19a16071-2be4-4fce-ae05-217b4e7098a8",
       "title": "Build a minimal HTTP/1.1 server in Python using raw sockets"
-    },
-    {
-      "opportunity_id": "market-52f2150d2266f1af",
-      "reason": "hourly_rate_below_cash_first_floor",
-      "source_url": "https://www.freelancer.com/projects/research/islamic-studies-topics-related-marriage",
-      "title": "Islamic studies on topics related to Marriage Divorce and Intimacy -- 2"
     }
   ],
   "reason_counts": {
-    "hourly_rate_below_cash_first_floor": 1,
     "provider_verification_failure_retry_paused": 1
   },
-  "rejected_count": 2,
+  "rejected_count": 1,
   "revenue_verified_eur": 0.0,
   "schema_version": "1.1"
 }
