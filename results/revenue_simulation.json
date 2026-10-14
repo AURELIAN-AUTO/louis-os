@@ -2,7 +2,7 @@
   "annualization_status": "insufficient_history",
   "counted_as_pipeline": false,
   "counted_as_revenue": false,
-  "generated_at": "2026-10-14T07:49:56.644010+00:00",
+  "generated_at": "2026-10-14T18:45:55.260027+00:00",
   "schema_version": "1.0",
   "simulations": [
     {
@@ -79,24 +79,6 @@
     },
     {
       "annualization_status": "insufficient_history",
-      "capability_id": "deployment_and_validation",
-      "cluster_id": "cluster-85c0c640281b0a22",
-      "counted_as_pipeline": false,
-      "counted_as_revenue": false,
-      "scenarios_by_currency": {
-        "USD": {
-          "base_expected_value": 30.0,
-          "conservative_expected_value": 12.5,
-          "median_verified_reward": 250.0,
-          "observed_opportunity_count": 1,
-          "upside_expected_value": 62.5
-        }
-      },
-      "scope": "currently observed qualified opportunities; not annualized",
-      "type": "simulation_only"
-    },
-    {
-      "annualization_status": "insufficient_history",
       "capability_id": "rust_software_delivery",
       "cluster_id": "cluster-be71839c3a477384",
       "counted_as_pipeline": false,
@@ -144,6 +126,24 @@
           "median_verified_reward": 4.75,
           "observed_opportunity_count": 2,
           "upside_expected_value": 2.38
+        }
+      },
+      "scope": "currently observed qualified opportunities; not annualized",
+      "type": "simulation_only"
+    },
+    {
+      "annualization_status": "insufficient_history",
+      "capability_id": "python_data_analysis",
+      "cluster_id": "cluster-8f10881af4490a83",
+      "counted_as_pipeline": false,
+      "counted_as_revenue": false,
+      "scenarios_by_currency": {
+        "USD": {
+          "base_expected_value": 1.2,
+          "conservative_expected_value": 0.5,
+          "median_verified_reward": 10.0,
+          "observed_opportunity_count": 1,
+          "upside_expected_value": 2.5
         }
       },
       "scope": "currently observed qualified opportunities; not annualized",
