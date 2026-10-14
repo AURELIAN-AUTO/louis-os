@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-13T20:19:13.093453+00:00",
+    "generated_at": "2026-10-14T07:50:29.158035+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,9 +23,9 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "8faf5b12955dce51",
-      "url": "https://github.com/grafana/promql-canonical-data-model/issues/1",
-      "title": "Dependency Dashboard",
+      "candidate_id": "eba6d0a1be5d5baa",
+      "url": "https://github.com/DegrassiAaron/refactor-tactics-main/issues/3762",
+      "title": "La fog of war ripensata · l'arco del nemico: su richiesta si vede che cosa vede un nemico in vista",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -35,51 +35,15 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0515f6b0092edb1a",
-      "url": "https://github.com/faberline/mamba/issues/26",
-      "title": "runtime: deliver and verify the 0.1.0-alpha core runtime",
+      "candidate_id": "1b77ee810d1f7c4d",
+      "url": "https://github.com/NVIDIA/cudf-spark/issues/16283",
+      "title": "[BUG][DBR 18.3] acosh/asinh return infinity for finite CPU results",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "6434b8747841932a",
-      "url": "https://github.com/DoodleScheduling/apollo-controller/issues/30",
+      "candidate_id": "ebd170f21df5be71",
+      "url": "https://github.com/IGNF/validator-api/issues/51",
       "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ad1f9bd2466de9ab",
-      "url": "https://github.com/seveibar/pgstrap/issues/2",
-      "title": "Use pglite so that postgres isn't required when generating types",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ae36b4434bd30a42",
-      "url": "https://github.com/Aburomoh/Learn-platform/issues/519",
-      "title": "Team V2 state board (one comment per role, edited in place)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "77e76a6358661b43",
-      "url": "https://github.com/Flowseal/zapret-discord-youtube/issues/18099",
-      "title": "[Проблема] Не работают нормально стратегии (не работает \"Дискорд\")",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "70b67feb7380018e",
-      "url": "https://github.com/chetan-anand-hub/Lazytopper-Production/issues/973",
-      "title": "COORD BOARD (controllers)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "2a8de053c71845f6",
-      "url": "https://github.com/SvenvanDalen/climbBrooo/issues/464",
-      "title": "SonarQube major: Assertion arguments should be passed in the correct order (45x)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "2b9e8289c3544138",
-      "url": "https://github.com/nickderobertis/llmlint/issues/239",
-      "title": "ci(macos): consolidate coverage and release builds",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -89,33 +53,63 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2835429b4553f019",
-      "url": "https://github.com/agigante80/forge-kit/issues/484",
-      "title": "no-poll-loops: probe whether a depth-2 subagent's late Agent result reaches its parent interactively",
+      "candidate_id": "810bfc8434a67393",
+      "url": "https://github.com/folo-rs/folo/issues/726",
+      "title": "Benchmark history findings for folo (updated 2026-10-14)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5eb2973253a94727",
-      "url": "https://github.com/jonpulsifer/infra/issues/426",
-      "title": "Renovate Dashboard",
+      "candidate_id": "624a39cae0d92841",
+      "url": "https://github.com/nicdenny/reaclaude/issues/316",
+      "title": "[web] JSON API for everything the web app shows",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a4cd532b4964899f",
-      "url": "https://github.com/d6g8k5htny-coder/main/issues/307",
-      "title": "Agent Message Board (continued from #229): bottlenecks, coordination and working guidance",
+      "candidate_id": "a7659222e2198d57",
+      "url": "https://github.com/dkedar7/langstage/issues/28",
+      "title": "Daily library health check",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1c4f6c40612133a9",
-      "url": "https://github.com/juv4uk/sens/issues/5029",
-      "title": "[P0][COORD] SID8/SENS8 → доменна драбина: власники файлів, CLAIM, single-writer main",
+      "candidate_id": "1a72d306b9df8220",
+      "url": "https://github.com/elastic/kibana/issues/287574",
+      "title": "Failing test: Jest Tests.src/platform/plugins/shared/workflows_management/public/entities/workflows/model - useWorkflowStepExecutions should handle HTTP errors",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c9e5b7ad394b76c2",
-      "url": "https://github.com/EmiRZx/skills-getting-started-with-github-copilot/issues/1",
-      "title": "Exercise: Getting Started with GitHub Copilot",
+      "candidate_id": "ff43c8d4163cda34",
+      "url": "https://github.com/openairymax/agentrt/issues/1014",
+      "title": "ci-debug windows ctest rerun (run 38529042634)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ad1f9bd2466de9ab",
+      "url": "https://github.com/seveibar/pgstrap/issues/2",
+      "title": "Use pglite so that postgres isn't required when generating types",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "89cc3b3d8f376b8c",
+      "url": "https://github.com/cvolkernick/personal-workspace/issues/701",
+      "title": "[Ops] Pi alert log (standing)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "85decf50b74f1e67",
+      "url": "https://github.com/schlessera/brain-kit/issues/1777",
+      "title": "core: route pending sync media decisions through hygiene review",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "70584f58b25a6fc3",
+      "url": "https://github.com/guettli/sharedinbox/issues/918",
+      "title": "Mail not in sent folder",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "4e9cfcaaa63ffa70",
+      "url": "https://github.com/atolis-hq/wake/issues/910",
+      "title": "Replace delivery-oversight agent input with generic prompt vars",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -127,32 +121,32 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "51b152834e06e963",
-      "url": "https://github.com/pyrycode/pyrycode-mobile/issues/2151",
-      "title": "fix shared live failures: 2 tests fail on main",
+      "candidate_id": "5a836fb3e049a217",
+      "url": "https://github.com/alopex-db/alopex/issues/577",
+      "title": "security(sql): READ_PARQUET に読み込み上限がなく、ファイルの有無を探れ、検証から読み込みまでの間に差し替えられる",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a35dbe6540d28f07",
-      "url": "https://github.com/Technarion-Oy/thaw/issues/900",
-      "title": "Dependency Dashboard",
+      "candidate_id": "e0d595273013dcc3",
+      "url": "https://github.com/ChiefFlea-8/skills-introduction-to-gitx/issues/1",
+      "title": "Exercise: Introduction to Git",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "716630a944bd1edd",
-      "url": "https://github.com/matthewtaylor141-lab/SportsAssets/issues/6",
-      "title": "BETTOR RECOVERY GATE — first verified dual-venue AI trading lifecycle",
+      "candidate_id": "04960e4a4b5ca2b5",
+      "url": "https://github.com/JWST-GC/data-qa/issues/326",
+      "title": "GC Treasury — jw10678-o085 (MIRI)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2bdcd33603f85cef",
-      "url": "https://github.com/heke99/gridex-ops-platform/issues/766",
-      "title": "Ediel masterplan v2 — fem nya agenter, baslinje 2026-10-12",
+      "candidate_id": "d26733bb9d2506a3",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/issues/102026",
+      "title": "Bluetooth: CAP: Failing PTS tests",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "cde41ab81f0576c0",
-      "url": "https://github.com/cubismod/ryanwallace.cloud/issues/12",
+      "candidate_id": "0848e1a1af93fa0f",
+      "url": "https://github.com/unjs/get-port-please/issues/11",
       "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
@@ -163,33 +157,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5d9f9db1acb4f8ac",
-      "url": "https://github.com/monarch-initiative/dismech/issues/14062",
-      "title": "Curate BARD1-related cancer predisposition (MONDO:0700267)",
+      "candidate_id": "6668a30ef6873ffa",
+      "url": "https://github.com/charityfundplus/CFP.plus/issues/130",
+      "title": "HUB 69 • One-Round Review • Siêu Bộ Đôi Training, Office & 5-Store Sync",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a437dc4e87f9eab2",
-      "url": "https://github.com/mb-89/SE/issues/83",
-      "title": "Principles 17–19: consistency, talk only about what you own, write for your reader; generated manifests and checks",
+      "candidate_id": "4e7f28642d17d4c7",
+      "url": "https://github.com/aiur-team/aiur/issues/4391",
+      "title": "aiur-style: committed dist bundle makes every pair of style PRs conflict",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "023df8494ddb2965",
-      "url": "https://github.com/eh-homelab/ScadBuddy/issues/2454",
-      "title": "a11y: every page has the title \"ScadBuddy\", no skip link, and the logo link's name doesn't match its text",
+      "candidate_id": "64a4290f9b31b060",
+      "url": "https://github.com/JWST-GC/data-qa/issues/328",
+      "title": "GC Treasury — jw10678-o086 (MIRI)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a555889730bfe0a5",
-      "url": "https://github.com/nickderobertis/onevcs/issues/377",
-      "title": "fix(deps): read and write host files with serde-saphyr in place of serde_yaml_ng",
+      "candidate_id": "ef96bc9c28f5eefa",
+      "url": "https://github.com/elastic/elasticsearch/issues/154059",
+      "title": "[CI] TestCompoundOutputEvaluatorTests testSimpleCircuitBreaking failing",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "384318694deda903",
-      "url": "https://github.com/jonyardley/intrada/issues/2631",
-      "title": "Document the Play release secrets and first upload in SETUP.md",
+      "candidate_id": "f8a7063be2c472f7",
+      "url": "https://github.com/nicolasguelfi/streamtex/issues/113",
+      "title": "st_include: option to leave out the markers of the included block",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -207,9 +201,15 @@
       }
     },
     {
-      "candidate_id": "f213bb39281c8327",
-      "url": "https://github.com/marioatcloudvane/litefactory/issues/821",
-      "title": "Linear story write still fails after #801: 'content readback differs' on the first live story (MAR-12)",
+      "candidate_id": "f5cc57005a90d178",
+      "url": "https://github.com/Achi1984/meridian/issues/774",
+      "title": "Integrated publisher host preparation: reservation binding + orchestration + E2E gates",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "2730aebd5486a54a",
+      "url": "https://github.com/Jacob-Met/RecallWeave/issues/336",
+      "title": "Learn queue averages through complete timelines and observation boundaries",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
