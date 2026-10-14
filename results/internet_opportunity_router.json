@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-14T07:51:01.626282+00:00",
+  "generated_at": "2026-10-14T18:47:09.438891+00:00",
   "objective": "adaptive multidomain Internet opportunity discovery and execution",
   "allocation": {
     "exploit": 0.5,
@@ -18,37 +18,37 @@
   ],
   "items_seen": 80,
   "sources_seen": 7,
-  "domains_seen": 6,
+  "domains_seen": 7,
   "decision_counts": {
     "execute_now": 0,
     "prepare_then_gate": 9,
-    "capability_build": 9,
-    "reject": 62
+    "capability_build": 8,
+    "reject": 63
   },
   "domain_metrics": {
-    "web_landing_pages": {
-      "seen": 2,
-      "eligible": 1,
-      "execute_now": 0,
-      "prepare_then_gate": 1,
-      "capability_build": 1,
-      "reject": 0
-    },
     "b2b_research": {
+      "seen": 21,
+      "eligible": 3,
+      "execute_now": 0,
+      "prepare_then_gate": 3,
+      "capability_build": 0,
+      "reject": 18
+    },
+    "code_automation": {
       "seen": 23,
       "eligible": 4,
       "execute_now": 0,
       "prepare_then_gate": 4,
-      "capability_build": 0,
-      "reject": 19
-    },
-    "code_automation": {
-      "seen": 24,
-      "eligible": 4,
-      "execute_now": 0,
-      "prepare_then_gate": 4,
-      "capability_build": 7,
+      "capability_build": 6,
       "reject": 13
+    },
+    "data_csv": {
+      "seen": 2,
+      "eligible": 2,
+      "execute_now": 0,
+      "prepare_then_gate": 2,
+      "capability_build": 0,
+      "reject": 0
     },
     "digital_products": {
       "seen": 6,
@@ -58,13 +58,21 @@
       "capability_build": 1,
       "reject": 5
     },
+    "web_landing_pages": {
+      "seen": 1,
+      "eligible": 0,
+      "execute_now": 0,
+      "prepare_then_gate": 0,
+      "capability_build": 1,
+      "reject": 0
+    },
     "writing_documentation": {
-      "seen": 19,
+      "seen": 21,
       "eligible": 0,
       "execute_now": 0,
       "prepare_then_gate": 0,
       "capability_build": 0,
-      "reject": 19
+      "reject": 21
     },
     "open_source_bounties": {
       "seen": 6,
@@ -76,15 +84,15 @@
     }
   },
   "source_metrics": {
-    "freelancer_public_software_jobs": {
-      "seen": 2,
-      "eligible": 1,
-      "reject": 0
-    },
     "bountybook_agent_jobs": {
-      "seen": 17,
-      "eligible": 8,
+      "seen": 16,
+      "eligible": 7,
       "reject": 1
+    },
+    "freelancer_public_simple_jobs": {
+      "seen": 4,
+      "eligible": 2,
+      "reject": 2
     },
     "agentpact_open_needs": {
       "seen": 17,
@@ -92,9 +100,9 @@
       "reject": 17
     },
     "algora_public_bounties": {
-      "seen": 17,
+      "seen": 16,
       "eligible": 0,
-      "reject": 17
+      "reject": 16
     },
     "github_bounties": {
       "seen": 10,
@@ -113,134 +121,96 @@
     }
   },
   "selected": {
-    "accessibility": 0.86,
+    "accessibility": 0.96,
     "account_required": true,
-    "canonical_url": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
-    "competition": 0.0,
-    "cost": 0.1,
-    "currency": "USD",
-    "deadline": "6 days left",
+    "canonical_url": "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
+    "competition": 0.55,
+    "cost": 0.0,
+    "currency": "USDC",
+    "deadline": "",
     "decision": {
       "blockers": [
         "account_required",
         "terms_acceptance_required"
       ],
       "evidence": [
-        "https://www.freelancer.com/jobs/html/",
-        "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now",
-        "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp"
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
+        "budget_usdc=7",
+        "official_open_jobs_require_attached_usdc",
+        "https://www.bountybook.ai/docs",
+        "https://www.bountybook.ai/terms"
       ],
       "human_action_minimal": "account_required, terms_acceptance_required",
       "missing_capabilities": [],
       "next_action": "prepare_complete_submission_dossier_then_request_minimal_external_authorization",
-      "opportunity_id": "market-f6be7c80a06cf4ef",
-      "score": 62.2,
+      "opportunity_id": "market-685081cabe16a6b0",
+      "score": 66.69,
       "status": "prepare_then_gate"
     },
-    "description": "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now",
+    "description": "Research 5 CI/CD platforms (GitHub Actions, GitLab CI, CircleCI, Jenkins, Drone CI) and output cicd_comparison.json. All required fields present, correctly typed, accurate as of 2024-2025.\nResearch and write a structured comparison of 5 CI/CD platforms commonly used for open-source projects.\n\n## Platforms to cover\n1. GitHub Actions\n2. GitLab CI/CD\n3. CircleCI\n4. Jenkins\n5. Drone CI\n\n## Required output format\nA single JSON file `cicd_comparison.json`:\n\n```json\n{\n  \"generated_at\": \"YYYY-MM-DD\",\n  \"platforms\": [\n    {\n      \"name\": \"GitHub Actions\",\n      \"open_source\": false,\n      \"self_hosted_runner\": true,\n      \"free_tier_minutes\": 2000,\n      \"free_tier_notes\": \"2000 min/month for public repos (unlimited); private repos limited\",\n      \"config_format\": \"YAML\",\n      \"config_file\": \".github/workflows/*.yml\",\n      \"parallel_jobs\": true,\n      \"matrix_builds\": true,\n      \"docker_support\": true,\n      \"secret_management\": \"GitHub Secrets (encrypted)\",\n      \"marketplace\": \"GitHub Actions Marketplace\",\n      \"best_for\": \"GitHub-hosted projects, rich ecosystem\",\n      \"limitations\": \"Vendor lock-in to GitHub, limited customization outside GitHub\",\n      \"pricing_summary\": \"free for public repos; tiered for private use\"\n    }\n  ]\n}\n```\n\n## Verification criteria\n- All 5 platforms present\n- Required fields: name, open_source, self_hosted_runner, free_tier_minutes, free_tier_notes, config_format, config_file, parallel_jobs, matrix_builds, docker_support, secret_management, best_for, limitations, pricing_summary\n- Boolean fields must be actual booleans\n- `free_tier_minutes` is integer (use -1 for unlimited, 0 for no free tier)\n- `generated_at` in YYYY-MM-DD format\n\n## Constraints\n- Data accurate as of 2024-2025\n- Verify pricing from official docs; note \"check official pricing\" if uncertain\n- File must be valid JSON",
     "evidence": [
-      "https://www.freelancer.com/jobs/html/",
-      "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
-      "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
-      "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json"
+      "https://api.bountybook.ai/jobs?status=open&limit=100",
+      "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
+      "https://www.bountybook.ai/docs",
+      "https://www.bountybook.ai/terms"
     ],
-    "human_dependency": 0.22,
+    "human_dependency": 0.08,
     "identity_or_kyc_required": false,
     "legal_entity_required": false,
     "metadata": {
-      "active_bids": 0,
-      "budget_currency": "USD",
-      "budget_max": 750.0,
-      "budget_min": 250.0,
-      "days_left": 6,
-      "estimated_effort_hours": 3.0,
-      "human_action_instructions": [
-        "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
-      ],
+      "autonomous_claim_enabled": false,
+      "claim_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/claim",
+      "claim_is_free": true,
+      "days_left": 7,
+      "deadline_verified": false,
+      "estimated_effort_hours": 2.0,
+      "financial_transaction_signing_enabled": false,
+      "job_id": "d47a42b6-8203-4bc7-8bbf-c22ef912c232",
       "official_source": true,
-      "payment_methods": [
-        "Freelancer milestone payment; account payout method selected after award"
-      ],
-      "payout_setup_required": false,
-      "platform": "Freelancer.com",
-      "price_guidance_eur": [
-        50,
-        150
-      ],
-      "price_guidance_status": "internal_guidance_only_not_client_quote",
-      "proposal_manifest_path": "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json",
-      "proposal_path": "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
-      "proposal_sha256": "5633efa2267efd4be6e4d306ae61fbe36bf127c5c36fdc1204f0bb79153898f1",
-      "software_acceptance_checks": [
-        "the package contains deterministic build-free static assets",
-        "all local paths and links are validated",
-        "deployment instructions identify the exact reversible steps",
-        "the external deployment state remains false until a platform receipt exists"
-      ],
-      "software_boundaries": [
-        "static hosting only by default",
-        "DNS, billing and production ownership changes require explicit approval",
-        "no hidden telemetry or third-party script injection"
-      ],
-      "software_capability_id": "deployment_and_validation",
-      "software_deliverable_family": "deployment_package_and_validation",
-      "software_micro_mission": true,
-      "software_scope_assessment": {
-        "acceptance_checks": [
-          "the package contains deterministic build-free static assets",
-          "all local paths and links are validated",
-          "deployment instructions identify the exact reversible steps",
-          "the external deployment state remains false until a platform receipt exists"
-        ],
-        "accepted": true,
-        "boundaries": [
-          "static hosting only by default",
-          "DNS, billing and production ownership changes require explicit approval",
-          "no hidden telemetry or third-party script injection"
-        ],
-        "capability_id": "deployment_and_validation",
-        "deliverable_family": "deployment_package_and_validation",
-        "estimated_effort_hours": 3.0,
-        "matched": true,
-        "price_guidance_eur": [
-          50,
-          150
-        ],
-        "reason": "bounded_software_micro_mission"
-      },
-      "source_kind": "public_freelance_listing",
-      "source_page": "https://www.freelancer.com/jobs/html/",
-      "submission_dossier_prepared": true,
+      "operator_gate": "build_deliverable_before_claim",
+      "payout_asset": "USDC",
+      "payout_chain": "Base",
+      "platform": "BountyBook",
+      "source_kind": "agent_native_public_api",
+      "spend_authorized": false,
+      "status_verified_open": true,
+      "submission_dossier_prepared": false,
       "submission_dossier_required": true,
-      "submission_mode": "platform_proposal"
+      "submission_is_free": true,
+      "submission_mode": "bountybook_agent_api",
+      "submit_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/submit",
+      "wallet_type": "EVM"
     },
-    "observed_at": "2026-10-14T07:49:53.796879+00:00",
-    "opportunity_id": "market-f6be7c80a06cf4ef",
+    "observed_at": "2026-10-14T18:45:37.182729+00:00",
+    "opportunity_id": "market-685081cabe16a6b0",
     "payment_evidence": [
-      "https://www.freelancer.com/jobs/html/",
-      "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now"
+      "https://api.bountybook.ai/jobs?status=open&limit=100",
+      "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
+      "budget_usdc=7",
+      "official_open_jobs_require_attached_usdc"
     ],
     "physical_presence_required": false,
     "required_capabilities": [
-      "deployment_and_validation"
+      "evidence_research_dossier"
     ],
-    "reward_amount": 250.0,
+    "reward_amount": 7.0,
     "reward_verified": true,
-    "risk": 0.2,
+    "risk": 0.22,
     "security_scope_authorized": true,
-    "source_category": "freelance_marketplace",
-    "source_id": "freelancer_public_software_jobs",
-    "source_url": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
+    "source_category": "agent_native_marketplace",
+    "source_id": "bountybook_agent_jobs",
+    "source_url": "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
     "terms_required": true,
-    "time_to_cash_days": 30,
-    "title": "Build PRESTIA AI SaaS MVP",
-    "effort_hours": 3.0,
-    "reward_eur": 250.0,
-    "competition_risk": 0.0,
+    "time_to_cash_days": 10,
+    "title": "Write a structured JSON comparison of 5 CI/CD platforms for open-source projects",
+    "effort_hours": 2.0,
+    "reward_eur": 7.0,
+    "competition_risk": 0.55,
     "payment_confidence": 0.85,
     "capability_fit": 0.9,
     "human_actions_required": 1,
-    "payment_path": "Freelancer milestone payment; account payout method selected after award",
+    "payment_path": "verified public reward evidence; payout terms require platform confirmation",
     "acceptance_criteria": [
       "deliver the bounded scope described in the verified public listing"
     ],
@@ -253,165 +223,16 @@
     "upstream_decision": "prepare_then_gate",
     "upstream_rejected": false,
     "internet_opportunity_router": {
-      "domain": "web_landing_pages",
+      "domain": "b2b_research",
       "lane": "exploit",
       "decision": "prepare_then_gate",
-      "score": 63.75,
+      "score": 1.794,
       "reasons": [],
       "forecast_only_not_pipeline_or_revenue": true
     }
   },
   "selection_source": "canonical_cash_first",
   "top_ranked": [
-    {
-      "accessibility": 0.86,
-      "account_required": true,
-      "canonical_url": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
-      "competition": 0.0,
-      "cost": 0.1,
-      "currency": "USD",
-      "deadline": "6 days left",
-      "decision": {
-        "blockers": [
-          "account_required",
-          "terms_acceptance_required"
-        ],
-        "evidence": [
-          "https://www.freelancer.com/jobs/html/",
-          "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now",
-          "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp"
-        ],
-        "human_action_minimal": "account_required, terms_acceptance_required",
-        "missing_capabilities": [],
-        "next_action": "prepare_complete_submission_dossier_then_request_minimal_external_authorization",
-        "opportunity_id": "market-f6be7c80a06cf4ef",
-        "score": 62.2,
-        "status": "prepare_then_gate"
-      },
-      "description": "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now",
-      "evidence": [
-        "https://www.freelancer.com/jobs/html/",
-        "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
-        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
-        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json"
-      ],
-      "human_dependency": 0.22,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "active_bids": 0,
-        "budget_currency": "USD",
-        "budget_max": 750.0,
-        "budget_min": 250.0,
-        "days_left": 6,
-        "estimated_effort_hours": 3.0,
-        "human_action_instructions": [
-          "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
-        ],
-        "official_source": true,
-        "payment_methods": [
-          "Freelancer milestone payment; account payout method selected after award"
-        ],
-        "payout_setup_required": false,
-        "platform": "Freelancer.com",
-        "price_guidance_eur": [
-          50,
-          150
-        ],
-        "price_guidance_status": "internal_guidance_only_not_client_quote",
-        "proposal_manifest_path": "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json",
-        "proposal_path": "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
-        "proposal_sha256": "5633efa2267efd4be6e4d306ae61fbe36bf127c5c36fdc1204f0bb79153898f1",
-        "software_acceptance_checks": [
-          "the package contains deterministic build-free static assets",
-          "all local paths and links are validated",
-          "deployment instructions identify the exact reversible steps",
-          "the external deployment state remains false until a platform receipt exists"
-        ],
-        "software_boundaries": [
-          "static hosting only by default",
-          "DNS, billing and production ownership changes require explicit approval",
-          "no hidden telemetry or third-party script injection"
-        ],
-        "software_capability_id": "deployment_and_validation",
-        "software_deliverable_family": "deployment_package_and_validation",
-        "software_micro_mission": true,
-        "software_scope_assessment": {
-          "acceptance_checks": [
-            "the package contains deterministic build-free static assets",
-            "all local paths and links are validated",
-            "deployment instructions identify the exact reversible steps",
-            "the external deployment state remains false until a platform receipt exists"
-          ],
-          "accepted": true,
-          "boundaries": [
-            "static hosting only by default",
-            "DNS, billing and production ownership changes require explicit approval",
-            "no hidden telemetry or third-party script injection"
-          ],
-          "capability_id": "deployment_and_validation",
-          "deliverable_family": "deployment_package_and_validation",
-          "estimated_effort_hours": 3.0,
-          "matched": true,
-          "price_guidance_eur": [
-            50,
-            150
-          ],
-          "reason": "bounded_software_micro_mission"
-        },
-        "source_kind": "public_freelance_listing",
-        "source_page": "https://www.freelancer.com/jobs/html/",
-        "submission_dossier_prepared": true,
-        "submission_dossier_required": true,
-        "submission_mode": "platform_proposal"
-      },
-      "observed_at": "2026-10-14T07:49:53.796879+00:00",
-      "opportunity_id": "market-f6be7c80a06cf4ef",
-      "payment_evidence": [
-        "https://www.freelancer.com/jobs/html/",
-        "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "deployment_and_validation"
-      ],
-      "reward_amount": 250.0,
-      "reward_verified": true,
-      "risk": 0.2,
-      "security_scope_authorized": true,
-      "source_category": "freelance_marketplace",
-      "source_id": "freelancer_public_software_jobs",
-      "source_url": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
-      "terms_required": true,
-      "time_to_cash_days": 30,
-      "title": "Build PRESTIA AI SaaS MVP",
-      "effort_hours": 3.0,
-      "reward_eur": 250.0,
-      "competition_risk": 0.0,
-      "payment_confidence": 0.85,
-      "capability_fit": 0.9,
-      "human_actions_required": 1,
-      "payment_path": "Freelancer milestone payment; account payout method selected after award",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "prepare_then_gate",
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "web_landing_pages",
-        "lane": "exploit",
-        "decision": "prepare_then_gate",
-        "score": 63.75,
-        "reasons": [],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
     {
       "accessibility": 0.96,
       "account_required": true,
@@ -474,7 +295,7 @@
         "submit_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.651132+00:00",
+      "observed_at": "2026-10-14T18:45:37.182729+00:00",
       "opportunity_id": "market-685081cabe16a6b0",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -585,7 +406,7 @@
         "submit_endpoint": "/jobs/87b131ee-7102-4d69-a99d-08cff67e9c1a/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.649225+00:00",
+      "observed_at": "2026-10-14T18:45:37.180719+00:00",
       "opportunity_id": "market-35e48723df7daf2e",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -696,7 +517,7 @@
         "submit_endpoint": "/jobs/fde07b58-6aa8-42ea-852a-ead105819045/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.652906+00:00",
+      "observed_at": "2026-10-14T18:45:37.184663+00:00",
       "opportunity_id": "market-3e18287c7f9f2373",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -807,7 +628,7 @@
         "submit_endpoint": "/jobs/193daf43-6436-4456-a028-dcb3149a2b95/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.650031+00:00",
+      "observed_at": "2026-10-14T18:45:37.181558+00:00",
       "opportunity_id": "market-6ff305afb75cc024",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -918,7 +739,7 @@
         "submit_endpoint": "/jobs/212e5e5c-4b39-406a-a33e-ffc8b7c20398/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.652665+00:00",
+      "observed_at": "2026-10-14T18:45:37.184390+00:00",
       "opportunity_id": "market-83bee863b0c890d8",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1029,7 +850,7 @@
         "submit_endpoint": "/jobs/3994dba9-a6b4-4ef0-bbac-db0455b0faf8/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.652218+00:00",
+      "observed_at": "2026-10-14T18:45:37.183899+00:00",
       "opportunity_id": "market-0a0b7855a3e9298f",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1140,7 +961,7 @@
         "submit_endpoint": "/jobs/c490df55-b112-4357-8be5-a772b7a318a1/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.652815+00:00",
+      "observed_at": "2026-10-14T18:45:37.184561+00:00",
       "opportunity_id": "market-3cbde7eb9f7e7d5f",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1190,96 +1011,85 @@
       }
     },
     {
-      "accessibility": 0.96,
+      "accessibility": 0.86,
       "account_required": true,
-      "canonical_url": "https://www.bountybook.ai/job/2597db6c-bf69-4f66-967d-15ddf66ccf29",
-      "competition": 0.55,
-      "cost": 0.0,
-      "currency": "USDC",
-      "deadline": "",
+      "canonical_url": "https://www.freelancer.com/projects/community-management/event-community-onboarding-virtual",
+      "competition": 0.1,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "6 days left",
       "decision": {
         "blockers": [
-          "account_required",
-          "terms_acceptance_required"
+          "capability_missing:python_data_analysis",
+          "capability_requires_validation:python_data_analysis"
         ],
         "evidence": [
-          "https://api.bountybook.ai/jobs?status=open&limit=100",
-          "https://www.bountybook.ai/job/2597db6c-bf69-4f66-967d-15ddf66ccf29",
-          "budget_usdc=4",
-          "official_open_jobs_require_attached_usdc",
-          "https://www.bountybook.ai/docs",
-          "https://www.bountybook.ai/terms"
+          "https://www.freelancer.com/jobs/data-entry/",
+          "Event Community Onboarding Virtual Assistant 6 days left Verified Virtual Assistant for WhatsApp Community Outreach & Contact Management We are looking for a reliable, detail-oriented Virtual Assistant to assist with community onboarding for an event guestlist. Responsibilities: - Ingest a clean, formatted contact spreadsheet (700 numbers). - Pace the distribution of group invite links and member onboarding into an established event community. - Maintain accurate logs of delivered contacts and responses. - Ensure all additions are paced with human delays across multiple daily intervals. Requirements: - Proven experience as a Virtual Assistant or Data Entry specialist. - Active WhatsApp Web access on an administrative secondary device. - High attention to detail and daily communication. Turnaround: 48 to 72 hours. Fixed milestone released immediat... Administrative Support Community Management Customer Service Customer Support Data Entry Data Management Virtual Assistant $10 - $30 Sealed NDA $10 - $30 2 bids Bid now",
+          "https://www.freelancer.com/projects/community-management/event-community-onboarding-virtual"
         ],
-        "human_action_minimal": "account_required, terms_acceptance_required",
-        "missing_capabilities": [],
-        "next_action": "prepare_complete_submission_dossier_then_request_minimal_external_authorization",
-        "opportunity_id": "market-3e558d1245abb5ed",
-        "score": 66.67,
-        "status": "prepare_then_gate"
+        "human_action_minimal": "none",
+        "missing_capabilities": [
+          "python_data_analysis"
+        ],
+        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
+        "opportunity_id": "market-374cec7795754b0c",
+        "score": 60.26,
+        "status": "capability_build"
       },
-      "description": "Compare Pinecone, Weaviate, Qdrant, Milvus, Chroma, pgvector. Output vector_db_comparison.json with all required fields per database.\nResearch and compare 6 vector databases commonly used for AI/ML: Pinecone, Weaviate, Qdrant, Milvus, Chroma, and pgvector.\n\n## Output\nFile `vector_db_comparison.json`:\n```json\n{\n  \"generated_at\": \"YYYY-MM-DD\",\n  \"databases\": [\n    {\n      \"name\": \"Qdrant\",\n      \"open_source\": true,\n      \"self_hostable\": true,\n      \"managed_cloud\": true,\n      \"free_tier\": true,\n      \"free_tier_notes\": \"Free tier with 1GB storage on Qdrant Cloud\",\n      \"primary_language\": \"Rust\",\n      \"embedding_dimensions_supported\": \"up to 65535\",\n      \"approximate_ann\": true,\n      \"filtering_support\": true,\n      \"best_for\": \"high-performance self-hosted vector search with rich filtering\",\n      \"limitations\": \"younger ecosystem than Pinecone; smaller community\",\n      \"github_stars_approx\": 20000\n    }\n  ]\n}\n```\n\n## Required fields\nname, open_source (bool), self_hostable (bool), managed_cloud (bool), free_tier (bool), free_tier_notes, primary_language, embedding_dimensions_supported, approximate_ann (bool), filtering_support (bool), best_for, limitations, github_stars_approx (int, 0 if proprietary/no GitHub)\n\n## Constraints\n- All 6 databases must be present\n- Booleans must be actual booleans\n- github_stars_approx must be integer",
+      "description": "Event Community Onboarding Virtual Assistant 6 days left Verified Virtual Assistant for WhatsApp Community Outreach & Contact Management We are looking for a reliable, detail-oriented Virtual Assistant to assist with community onboarding for an event guestlist. Responsibilities: - Ingest a clean, formatted contact spreadsheet (700 numbers). - Pace the distribution of group invite links and member onboarding into an established event community. - Maintain accurate logs of delivered contacts and responses. - Ensure all additions are paced with human delays across multiple daily intervals. Requirements: - Proven experience as a Virtual Assistant or Data Entry specialist. - Active WhatsApp Web access on an administrative secondary device. - High attention to detail and daily communication. Turnaround: 48 to 72 hours. Fixed milestone released immediat... Administrative Support Community Management Customer Service Customer Support Data Entry Data Management Virtual Assistant $10 - $30 Sealed NDA $10 - $30 2 bids Bid now",
       "evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/2597db6c-bf69-4f66-967d-15ddf66ccf29",
-        "https://www.bountybook.ai/docs",
-        "https://www.bountybook.ai/terms"
+        "https://www.freelancer.com/jobs/data-entry/",
+        "https://www.freelancer.com/projects/community-management/event-community-onboarding-virtual"
       ],
-      "human_dependency": 0.08,
+      "human_dependency": 0.22,
       "identity_or_kyc_required": false,
       "legal_entity_required": false,
       "metadata": {
-        "autonomous_claim_enabled": false,
-        "claim_endpoint": "/jobs/2597db6c-bf69-4f66-967d-15ddf66ccf29/claim",
-        "claim_is_free": true,
-        "days_left": 7,
-        "deadline_verified": false,
-        "estimated_effort_hours": 2.0,
-        "financial_transaction_signing_enabled": false,
-        "job_id": "2597db6c-bf69-4f66-967d-15ddf66ccf29",
+        "active_bids": 2,
+        "budget_currency": "USD",
+        "budget_max": 30.0,
+        "budget_min": 10.0,
+        "days_left": 6,
+        "estimated_effort_hours": 8.0,
         "official_source": true,
-        "operator_gate": "build_deliverable_before_claim",
-        "payout_asset": "USDC",
-        "payout_chain": "Base",
-        "platform": "BountyBook",
-        "source_kind": "agent_native_public_api",
-        "spend_authorized": false,
-        "status_verified_open": true,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/data-entry/",
         "submission_dossier_prepared": false,
         "submission_dossier_required": true,
-        "submission_is_free": true,
-        "submission_mode": "bountybook_agent_api",
-        "submit_endpoint": "/jobs/2597db6c-bf69-4f66-967d-15ddf66ccf29/submit",
-        "wallet_type": "EVM"
+        "submission_mode": "platform_proposal"
       },
-      "observed_at": "2026-10-14T07:49:45.650950+00:00",
-      "opportunity_id": "market-3e558d1245abb5ed",
+      "observed_at": "2026-10-14T18:45:39.363126+00:00",
+      "opportunity_id": "market-374cec7795754b0c",
       "payment_evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/2597db6c-bf69-4f66-967d-15ddf66ccf29",
-        "budget_usdc=4",
-        "official_open_jobs_require_attached_usdc"
+        "https://www.freelancer.com/jobs/data-entry/",
+        "Event Community Onboarding Virtual Assistant 6 days left Verified Virtual Assistant for WhatsApp Community Outreach & Contact Management We are looking for a reliable, detail-oriented Virtual Assistant to assist with community onboarding for an event guestlist. Responsibilities: - Ingest a clean, formatted contact spreadsheet (700 numbers). - Pace the distribution of group invite links and member onboarding into an established event community. - Maintain accurate logs of delivered contacts and responses. - Ensure all additions are paced with human delays across multiple daily intervals. Requirements: - Proven experience as a Virtual Assistant or Data Entry specialist. - Active WhatsApp Web access on an administrative secondary device. - High attention to detail and daily communication. Turnaround: 48 to 72 hours. Fixed milestone released immediat... Administrative Support Community Management Customer Service Customer Support Data Entry Data Management Virtual Assistant $10 - $30 Sealed NDA $10 - $30 2 bids Bid now"
       ],
       "physical_presence_required": false,
       "required_capabilities": [
-        "evidence_research_dossier"
+        "python_data_analysis"
       ],
-      "reward_amount": 4.0,
+      "reward_amount": 10.0,
       "reward_verified": true,
-      "risk": 0.22,
+      "risk": 0.2,
       "security_scope_authorized": true,
-      "source_category": "agent_native_marketplace",
-      "source_id": "bountybook_agent_jobs",
-      "source_url": "https://www.bountybook.ai/job/2597db6c-bf69-4f66-967d-15ddf66ccf29",
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_simple_jobs",
+      "source_url": "https://www.freelancer.com/projects/community-management/event-community-onboarding-virtual",
       "terms_required": true,
-      "time_to_cash_days": 10,
-      "title": "Research and compare 6 vector databases for AI/ML applications",
-      "effort_hours": 2.0,
-      "reward_eur": 4.0,
-      "competition_risk": 0.55,
+      "time_to_cash_days": 30,
+      "title": "Event Community Onboarding Virtual Assistant",
+      "effort_hours": 8.0,
+      "reward_eur": 10.0,
+      "competition_risk": 0.1,
       "payment_confidence": 0.85,
-      "capability_fit": 0.9,
       "human_actions_required": 1,
-      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
+      "payment_path": "Freelancer milestone payment; account payout method selected after award",
       "acceptance_criteria": [
         "deliver the bounded scope described in the verified public listing"
       ],
@@ -1289,13 +1099,13 @@
       "personal_eligibility_required": false,
       "active_competing_claim": false,
       "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "prepare_then_gate",
+      "upstream_decision": "capability_build",
       "upstream_rejected": false,
       "internet_opportunity_router": {
-        "domain": "b2b_research",
+        "domain": "data_csv",
         "lane": "exploit",
         "decision": "prepare_then_gate",
-        "score": 1.025,
+        "score": 0.999,
         "reasons": [],
         "forecast_only_not_pipeline_or_revenue": true
       }
@@ -1303,27 +1113,27 @@
     {
       "accessibility": 0.86,
       "account_required": true,
-      "collector_source_id": "freelancer_public_software_jobs",
-      "competition": 0.0,
+      "collector_source_id": "freelancer_public_simple_jobs",
+      "competition": 0.1,
       "cost": 0.1,
       "currency": "USD",
       "deadline": "6 days left",
-      "description": "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now",
+      "description": "Event Community Onboarding Virtual Assistant 6 days left Verified Virtual Assistant for WhatsApp Community Outreach & Contact Management We are looking for a reliable, detail-oriented Virtual Assistant to assist with community onboarding for an event guestlist. Responsibilities: - Ingest a clean, formatted contact spreadsheet (700 numbers). - Pace the distribution of group invite links and member onboarding into an established event community. - Maintain accurate logs of delivered contacts and responses. - Ensure all additions are paced with human delays across multiple daily intervals. Requirements: - Proven experience as a Virtual Assistant or Data Entry specialist. - Active WhatsApp Web access on an administrative secondary device. - High attention to detail and daily communication. Turnaround: 48 to 72 hours. Fixed milestone released immediat... Administrative Support Community Management Customer Service Customer Support Data Entry Data Management Virtual Assistant $10 - $30 Sealed NDA $10 - $30 2 bids Bid now",
       "evidence": [
-        "https://www.freelancer.com/jobs/html/",
-        "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp"
+        "https://www.freelancer.com/jobs/data-entry/",
+        "https://www.freelancer.com/projects/community-management/event-community-onboarding-virtual"
       ],
       "human_dependency": 0.22,
       "identity_or_kyc_required": false,
       "legal_entity_required": false,
       "metadata": {
-        "active_bids": 0,
+        "active_bids": 2,
         "budget_currency": "USD",
-        "budget_max": 750.0,
-        "budget_min": 250.0,
-        "collector_source_id": "freelancer_public_software_jobs",
+        "budget_max": 30.0,
+        "budget_min": 10.0,
+        "collector_source_id": "freelancer_public_simple_jobs",
         "days_left": 6,
-        "estimated_effort_hours": 12.0,
+        "estimated_effort_hours": 8.0,
         "official_source": true,
         "payment_methods": [
           "Freelancer milestone payment; account payout method selected after award"
@@ -1331,34 +1141,34 @@
         "payout_setup_required": false,
         "platform": "Freelancer.com",
         "source_kind": "public_freelance_listing",
-        "source_page": "https://www.freelancer.com/jobs/html/",
+        "source_page": "https://www.freelancer.com/jobs/data-entry/",
         "submission_dossier_prepared": false,
         "submission_dossier_required": true,
         "submission_mode": "platform_proposal"
       },
-      "observed_at": "2026-10-14T07:49:53.796879+00:00",
+      "observed_at": "2026-10-14T18:45:39.363126+00:00",
       "payment_evidence": [
-        "https://www.freelancer.com/jobs/html/",
-        "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now"
+        "https://www.freelancer.com/jobs/data-entry/",
+        "Event Community Onboarding Virtual Assistant 6 days left Verified Virtual Assistant for WhatsApp Community Outreach & Contact Management We are looking for a reliable, detail-oriented Virtual Assistant to assist with community onboarding for an event guestlist. Responsibilities: - Ingest a clean, formatted contact spreadsheet (700 numbers). - Pace the distribution of group invite links and member onboarding into an established event community. - Maintain accurate logs of delivered contacts and responses. - Ensure all additions are paced with human delays across multiple daily intervals. Requirements: - Proven experience as a Virtual Assistant or Data Entry specialist. - Active WhatsApp Web access on an administrative secondary device. - High attention to detail and daily communication. Turnaround: 48 to 72 hours. Fixed milestone released immediat... Administrative Support Community Management Customer Service Customer Support Data Entry Data Management Virtual Assistant $10 - $30 Sealed NDA $10 - $30 2 bids Bid now"
       ],
       "physical_presence_required": false,
       "required_capabilities": [
-        "technical_proposal"
+        "python_data_analysis"
       ],
-      "reward_amount": 250.0,
+      "reward_amount": 10.0,
       "reward_verified": true,
       "risk": 0.2,
       "security_scope_authorized": true,
       "source_category": "freelance_marketplace",
-      "source_id": "freelancer_public_software_jobs",
-      "source_url": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
+      "source_id": "freelancer_public_simple_jobs",
+      "source_url": "https://www.freelancer.com/projects/community-management/event-community-onboarding-virtual",
       "terms_required": true,
       "time_to_cash_days": 30,
-      "title": "Build PRESTIA AI SaaS MVP",
-      "opportunity_id": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
-      "effort_hours": 12.0,
-      "reward_eur": 250.0,
-      "competition_risk": 0.0,
+      "title": "Event Community Onboarding Virtual Assistant",
+      "opportunity_id": "https://www.freelancer.com/projects/community-management/event-community-onboarding-virtual",
+      "effort_hours": 8.0,
+      "reward_eur": 10.0,
+      "competition_risk": 0.1,
       "payment_confidence": 0.85,
       "human_actions_required": 1,
       "payment_path": "Freelancer milestone payment; account payout method selected after award",
@@ -1374,10 +1184,10 @@
       "upstream_decision": null,
       "upstream_rejected": false,
       "internet_opportunity_router": {
-        "domain": "code_automation",
+        "domain": "data_csv",
         "lane": "exploit",
-        "decision": "capability_build",
-        "score": 1.786,
+        "decision": "prepare_then_gate",
+        "score": 0.999,
         "reasons": [],
         "forecast_only_not_pipeline_or_revenue": true
       }
@@ -1445,7 +1255,7 @@
         "submit_endpoint": "/jobs/733d4731-7e60-4bb8-9233-ba3771c779d3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.649355+00:00",
+      "observed_at": "2026-10-14T18:45:37.180861+00:00",
       "opportunity_id": "market-43cfc713818c42b3",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1556,7 +1366,7 @@
         "submit_endpoint": "/jobs/d6d3d8f1-dfaa-4a4c-9f65-df670bdfdb26/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.651258+00:00",
+      "observed_at": "2026-10-14T18:45:37.182862+00:00",
       "opportunity_id": "market-94d8490d83fbd824",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1667,7 +1477,7 @@
         "submit_endpoint": "/jobs/552d8068-b164-4917-b3ec-f2438a890192/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.650992+00:00",
+      "observed_at": "2026-10-14T18:45:37.182583+00:00",
       "opportunity_id": "market-46c66d38d5c7a2bc",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1778,7 +1588,7 @@
         "submit_endpoint": "/jobs/05972785-3be7-4b20-be73-acd7484767d3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.653371+00:00",
+      "observed_at": "2026-10-14T18:45:37.185174+00:00",
       "opportunity_id": "market-1fb23eafad516f31",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1889,7 +1699,7 @@
         "submit_endpoint": "/jobs/734626a0-26b5-478b-b9cf-fb575aea8adc/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.648598+00:00",
+      "observed_at": "2026-10-14T18:45:37.180025+00:00",
       "opportunity_id": "market-2cffba087e9be944",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -2000,7 +1810,7 @@
         "submit_endpoint": "/jobs/784345ae-fd58-481e-93cd-c1f6226ffd0d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.652282+00:00",
+      "observed_at": "2026-10-14T18:45:37.183968+00:00",
       "opportunity_id": "market-59e80f1486713142",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -2111,7 +1921,7 @@
         "submit_endpoint": "/jobs/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.649875+00:00",
+      "observed_at": "2026-10-14T18:45:37.181390+00:00",
       "opportunity_id": "market-e91dcdf4892d3082",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -2222,7 +2032,7 @@
         "submit_endpoint": "/jobs/fca0ae30-6edc-401d-86dc-69c9681f233f/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-14T07:49:45.653549+00:00",
+      "observed_at": "2026-10-14T18:45:37.185361+00:00",
       "opportunity_id": "market-fc390e04e71a092e",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -2330,7 +2140,7 @@
         "spend_authorized": false,
         "submission_mode": "agentpact_deal_proposal"
       },
-      "observed_at": "2026-10-14T07:49:46.694646+00:00",
+      "observed_at": "2026-10-14T18:45:38.367935+00:00",
       "opportunity_id": "market-892d0a1a48096d70",
       "payment_evidence": [
         "https://api.agentpact.xyz/api/needs",
@@ -2407,7 +2217,7 @@
         "platform": "Algora",
         "source_kind": "public_bounty_platform"
       },
-      "observed_at": "2026-10-14T07:49:22.409435+00:00",
+      "observed_at": "2026-10-14T18:45:11.833433+00:00",
       "payment_evidence": [
         "https://algora.io/cal/bounties?status=open",
         "r Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand CA Cal.com, Inc. Bounties Cash rewards for contributors who solve open issues Open 2 Completed 183 $50 font#2 Plans on weights? 5 months ago $100 font#2 Plans on weights? 40 months ago Footer Algora PBC © 2026 Schedule a call US +1 (650) 420-2207 EU +30 (697) 318-4144 Customer stories CodeRabbit ComfyUI Firecrawl Connect OSS Founder Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand llms.txt"
@@ -2453,17 +2263,136 @@
         ],
         "forecast_only_not_pipeline_or_revenue": true
       }
+    },
+    {
+      "accessibility": 0.96,
+      "account_required": true,
+      "canonical_url": "https://www.bountybook.ai/job/19a16071-2be4-4fce-ae05-217b4e7098a8",
+      "competition": 0.55,
+      "cost": 0.0,
+      "currency": "USDC",
+      "deadline": "",
+      "decision": {
+        "blockers": [
+          "account_required",
+          "terms_acceptance_required",
+          "provider_verification_failure_retry_paused"
+        ],
+        "evidence": [
+          "https://api.bountybook.ai/jobs?status=open&limit=100",
+          "https://www.bountybook.ai/job/19a16071-2be4-4fce-ae05-217b4e7098a8",
+          "budget_usdc=8",
+          "official_open_jobs_require_attached_usdc",
+          "https://www.bountybook.ai/docs",
+          "https://www.bountybook.ai/terms"
+        ],
+        "human_action_minimal": "none",
+        "missing_capabilities": [],
+        "next_action": "reject_and_continue_discovery",
+        "opportunity_id": "market-3ed6e5a2ef3a1df6",
+        "score": 66.7,
+        "status": "rejected"
+      },
+      "description": "Implement HTTPServer in http_server.py using raw Python sockets. Parse HTTP/1.1 requests, route GET/POST, return proper HTTP responses with headers. 404 for unknown routes. No http.server or frameworks.\nWrite `http_server.py` implementing a minimal HTTP/1.1 server using Python's `socket` module directly (no `http.server`, no frameworks).\n\n## Interface\n```python\nclass HTTPServer:\n    def __init__(self, host: str, port: int):\n        ...\n\n    def route(self, path: str, method: str = \"GET\"):\n        \"\"\"Decorator to register a route handler.\"\"\"\n        # Usage:\n        # @server.route(\"/hello\")\n        # def hello(request):\n        #     return Response(200, \"text/plain\", \"Hello!\")\n\n    def start(self, timeout: float = None):\n        \"\"\"Start accepting connections. timeout=None runs forever; float stops after N seconds (for testing).\"\"\"\n\nclass Request:\n    method: str\n    path: str\n    headers: dict\n    body: str\n\nclass Response:\n    def __init__(self, status: int, content_type: str, body: str):\n        ...\n```\n\n## Requirements\n- Parse raw HTTP/1.1 request (method, path, headers, body)\n- Send correct HTTP/1.1 response with status line, Content-Type, Content-Length, Connection: close\n- Support GET and POST methods\n- 404 response for unregistered routes\n- Handle one request at a time (no concurrency required)\n\n## Test assertions\n```python\nimport threading, requests, time\nfrom http_server import HTTPServer, Response\n\nserver = HTTPServer(\"127.0.0.1\", 18765)\n\n@server.route(\"/ping\")\ndef ping(req):\n    return Response(200, \"text/plain\", \"pong\")\n\n@server.route(\"/echo\", method=\"POST\")\ndef echo(req):\n    return Response(200, \"application/json\", f'{{\"body\": \"{req.body}\"}}')\n\nt = threading.Thread(target=lambda: server.start(timeout=3))\nt.start()\ntime.sleep(0.1)\n\nr = requests.get(\"http://127.0.0.1:18765/ping\")\nassert r.status_code == 200\nassert r.text == \"pong\"\n\nr2 = requests.post(\"http://127.0.0.1:18765/echo\", data=\"hello\")\nassert r2.status_code == 200\nassert \"hello\" in r2.text\n\nr3 = requests.get(\"http://127.0.0.1:18765/missing\")\nassert r3.status_code == 404\n\nt.join()\nprint(\"ALL TESTS PASSED\")\n```\n\n## Constraints\n- stdlib only: `socket`, `threading`, `re`\n- Single file `http_server.py`\n- No `http.server`, `socketserver`, `asyncio`, or external frameworks",
+      "evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/19a16071-2be4-4fce-ae05-217b4e7098a8",
+        "https://www.bountybook.ai/docs",
+        "https://www.bountybook.ai/terms"
+      ],
+      "human_dependency": 0.08,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "autonomous_claim_enabled": false,
+        "capability_gap_allowed": false,
+        "claim_endpoint": "/jobs/19a16071-2be4-4fce-ae05-217b4e7098a8/claim",
+        "claim_is_free": true,
+        "days_left": 7,
+        "deadline_verified": false,
+        "estimated_effort_hours": 2.0,
+        "financial_transaction_signing_enabled": false,
+        "human_action_instructions": [],
+        "job_id": "19a16071-2be4-4fce-ae05-217b4e7098a8",
+        "official_source": true,
+        "operator_gate": "build_deliverable_before_claim",
+        "payout_asset": "USDC",
+        "payout_chain": "Base",
+        "platform": "BountyBook",
+        "policy_rejection": "provider_verification_failure_retry_paused",
+        "policy_rejection_source": "persistent_registry",
+        "policy_rejection_verified": true,
+        "source_kind": "agent_native_public_api",
+        "spend_authorized": false,
+        "status_verified_open": true,
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_is_free": true,
+        "submission_mode": "bountybook_agent_api",
+        "submit_endpoint": "/jobs/19a16071-2be4-4fce-ae05-217b4e7098a8/submit",
+        "wallet_type": "EVM"
+      },
+      "observed_at": "2026-10-14T18:45:37.182787+00:00",
+      "opportunity_id": "market-3ed6e5a2ef3a1df6",
+      "payment_evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/19a16071-2be4-4fce-ae05-217b4e7098a8",
+        "budget_usdc=8",
+        "official_open_jobs_require_attached_usdc"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "python_automation_delivery"
+      ],
+      "reward_amount": 8.0,
+      "reward_verified": true,
+      "risk": 0.22,
+      "security_scope_authorized": true,
+      "source_category": "agent_native_marketplace",
+      "source_id": "bountybook_agent_jobs",
+      "source_url": "https://www.bountybook.ai/job/19a16071-2be4-4fce-ae05-217b4e7098a8",
+      "terms_required": true,
+      "time_to_cash_days": 10,
+      "title": "Build a minimal HTTP/1.1 server in Python using raw sockets",
+      "effort_hours": 2.0,
+      "reward_eur": 8.0,
+      "competition_risk": 0.55,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "rejected",
+      "upstream_rejected": true,
+      "persistent_rejection_reason": "provider_verification_failure_retry_paused",
+      "internet_opportunity_router": {
+        "domain": "code_automation",
+        "lane": "exploit",
+        "decision": "reject",
+        "score": 0.0,
+        "reasons": [
+          "upstream_rejected"
+        ],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
     }
   ],
   "pivot_metrics": {
     "rejected_without_candidate": 0,
-    "source_results_without_eligible": 61,
+    "source_results_without_eligible": 60,
     "proposals_without_reply": 0,
     "replies_without_conversion": 0,
     "verified_payments": 0
   },
   "next_pivot": "pause_source_and_replace",
-  "next_action": "request exact platform account and terms gate for tested deliverable",
+  "next_action": "execute and validate selected opportunity before requesting external gate",
   "truth": {
     "external_submission_verified": false,
     "payment_verified": false,
