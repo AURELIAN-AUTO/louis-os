@@ -1,6 +1,59 @@
 {
   "cash_first": [
     {
+      "cash_priority_score": 69.57,
+      "currency": "USD",
+      "deadline": "6 days left",
+      "decision_status": "prepare_then_gate",
+      "estimated_effort_hours": 3.0,
+      "estimated_hourly_value": 83.33,
+      "evidence": [
+        "https://www.freelancer.com/jobs/html/",
+        "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now",
+        "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
+        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
+        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json"
+      ],
+      "human_actions": [
+        "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
+      ],
+      "human_gate_required": true,
+      "lane": "cash_first",
+      "notification_fingerprint": "433bc3a484082c3402de",
+      "opportunity_id": "market-f6be7c80a06cf4ef",
+      "payment_methods": [
+        "Freelancer milestone payment; account payout method selected after award"
+      ],
+      "prepared_artifacts": [
+        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
+        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json"
+      ],
+      "rationale": [
+        "estimated_effort_hours=3",
+        "page_count=unknown",
+        "time_to_cash_days=30",
+        "competition=0.00",
+        "cost=0.10",
+        "accessibility=0.86",
+        "economics_viable=true",
+        "minimum_hourly_value=8",
+        "agent_native_microjob=false",
+        "agent_native_minimum_reward=5",
+        "execution_ready=true",
+        "scope_exception_applied=false",
+        "hours and page volume are scoring inputs, not standalone rejection gates",
+        "headline prize size is not used as the primary ranking signal"
+      ],
+      "ready_for_human_action": true,
+      "reward_amount": 250.0,
+      "risk_summary": "risk=0.20; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
+      "scope_exception_applied": false,
+      "source_url": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
+      "time_to_cash_days": 30,
+      "title": "Build PRESTIA AI SaaS MVP",
+      "urgency": "high"
+    },
+    {
       "cash_priority_score": 62.96,
       "currency": "USDC",
       "deadline": "",
@@ -262,13 +315,67 @@
     }
   ],
   "counts": {
-    "cash_first": 5,
-    "human_action_ready": 0,
+    "cash_first": 6,
+    "human_action_ready": 1,
     "rejected": 52,
     "strategic": 69
   },
-  "generated_at": "2026-10-13T20:18:29.910549+00:00",
-  "human_action_ready": [],
+  "generated_at": "2026-10-14T07:49:56.336235+00:00",
+  "human_action_ready": [
+    {
+      "cash_priority_score": 69.57,
+      "currency": "USD",
+      "deadline": "6 days left",
+      "decision_status": "prepare_then_gate",
+      "estimated_effort_hours": 3.0,
+      "estimated_hourly_value": 83.33,
+      "evidence": [
+        "https://www.freelancer.com/jobs/html/",
+        "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now",
+        "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
+        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
+        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json"
+      ],
+      "human_actions": [
+        "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
+      ],
+      "human_gate_required": true,
+      "lane": "cash_first",
+      "notification_fingerprint": "433bc3a484082c3402de",
+      "opportunity_id": "market-f6be7c80a06cf4ef",
+      "payment_methods": [
+        "Freelancer milestone payment; account payout method selected after award"
+      ],
+      "prepared_artifacts": [
+        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
+        "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json"
+      ],
+      "rationale": [
+        "estimated_effort_hours=3",
+        "page_count=unknown",
+        "time_to_cash_days=30",
+        "competition=0.00",
+        "cost=0.10",
+        "accessibility=0.86",
+        "economics_viable=true",
+        "minimum_hourly_value=8",
+        "agent_native_microjob=false",
+        "agent_native_minimum_reward=5",
+        "execution_ready=true",
+        "scope_exception_applied=false",
+        "hours and page volume are scoring inputs, not standalone rejection gates",
+        "headline prize size is not used as the primary ranking signal"
+      ],
+      "ready_for_human_action": true,
+      "reward_amount": 250.0,
+      "risk_summary": "risk=0.20; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
+      "scope_exception_applied": false,
+      "source_url": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
+      "time_to_cash_days": 30,
+      "title": "Build PRESTIA AI SaaS MVP",
+      "urgency": "high"
+    }
+  ],
   "policy": {
     "agent_native_minimum_reward": 5.0,
     "cash_first_minimum_hourly_value": 8.0,
@@ -3671,55 +3778,56 @@
     }
   ],
   "top_cash_first": {
-    "cash_priority_score": 62.96,
-    "currency": "USDC",
-    "deadline": "",
+    "cash_priority_score": 69.57,
+    "currency": "USD",
+    "deadline": "6 days left",
     "decision_status": "prepare_then_gate",
-    "estimated_effort_hours": 2.0,
-    "estimated_hourly_value": 3.5,
+    "estimated_effort_hours": 3.0,
+    "estimated_hourly_value": 83.33,
     "evidence": [
-      "https://api.bountybook.ai/jobs?status=open&limit=100",
-      "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
-      "budget_usdc=7",
-      "official_open_jobs_require_attached_usdc",
-      "https://www.bountybook.ai/docs",
-      "https://www.bountybook.ai/terms"
+      "https://www.freelancer.com/jobs/html/",
+      "Build PRESTIA AI SaaS MVP 6 days left * Senior Full-Stack Developer Wanted: Build the MVP for PRESTIA AI We are seeking an elite, execution-focused Senior Full-Stack Developer to build the Minimum Viable Product (MVP) for PRESTIA AI—a high-converting SaaS platform featuring a dynamic sales, payment, and post-purchase upsell engine. * Required Tech Stack We maintain strict engineering standards. You will develop directly on our infrastructure using: Framework: 14 (App Router) + TypeScript Styling & UI: Tailwind CSS (Unified, high-converting interfaces with full RTL/English support via next-intl) Database & Backend: Supabase (PostgreSQL, Auth, RLS, Webhooks) Payments & Billing: Stripe (Checkout, Tokenization/Setup Intents, Webhooks) + PayPal Vault Hosting & Version Control: Vercel + GitHub (Direct ... Bootstrap Full Stack Development HTML Next.js PHP SaaS Development Stripe Supabase Typescript Website Design $250 - $750 $250 - $750 0 bids Bid now",
+      "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
+      "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
+      "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json"
     ],
     "human_actions": [
-      "Authorize or use an existing lawful account for the platform.",
-      "Review and accept the platform or opportunity terms."
+      "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
     ],
     "human_gate_required": true,
     "lane": "cash_first",
-    "notification_fingerprint": "b82950ff43ee4dd7cdc9",
-    "opportunity_id": "market-685081cabe16a6b0",
+    "notification_fingerprint": "433bc3a484082c3402de",
+    "opportunity_id": "market-f6be7c80a06cf4ef",
     "payment_methods": [
-      "payer-supported lawful method to be confirmed"
+      "Freelancer milestone payment; account payout method selected after award"
     ],
-    "prepared_artifacts": [],
+    "prepared_artifacts": [
+      "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
+      "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/manifest.json"
+    ],
     "rationale": [
-      "estimated_effort_hours=2",
+      "estimated_effort_hours=3",
       "page_count=unknown",
-      "time_to_cash_days=10",
-      "competition=0.55",
-      "cost=0.00",
-      "accessibility=0.96",
+      "time_to_cash_days=30",
+      "competition=0.00",
+      "cost=0.10",
+      "accessibility=0.86",
       "economics_viable=true",
       "minimum_hourly_value=8",
-      "agent_native_microjob=true",
+      "agent_native_microjob=false",
       "agent_native_minimum_reward=5",
       "execution_ready=true",
       "scope_exception_applied=false",
       "hours and page volume are scoring inputs, not standalone rejection gates",
       "headline prize size is not used as the primary ranking signal"
     ],
-    "ready_for_human_action": false,
-    "reward_amount": 7.0,
-    "risk_summary": "risk=0.22; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
+    "ready_for_human_action": true,
+    "reward_amount": 250.0,
+    "risk_summary": "risk=0.20; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
     "scope_exception_applied": false,
-    "source_url": "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
-    "time_to_cash_days": 10,
-    "title": "Write a structured JSON comparison of 5 CI/CD platforms for open-source projects",
-    "urgency": "normal"
+    "source_url": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
+    "time_to_cash_days": 30,
+    "title": "Build PRESTIA AI SaaS MVP",
+    "urgency": "high"
   }
 }

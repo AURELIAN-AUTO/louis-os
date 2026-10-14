@@ -1,0 +1,20 @@
+{
+  "capabilities": [
+    "deployment_and_validation"
+  ],
+  "currency": "USD",
+  "deadline": "6 days left",
+  "estimated_effort_hours": 3.0,
+  "external_receipt": null,
+  "externally_submitted": false,
+  "opportunity_id": "market-f6be7c80a06cf4ef",
+  "platform": "Freelancer.com",
+  "proposal_path": "results/simple_mission_dossiers/market-f6be7c80a06cf4ef/proposal.md",
+  "proposal_sha256": "5633efa2267efd4be6e4d306ae61fbe36bf127c5c36fdc1204f0bb79153898f1",
+  "revenue_verified": false,
+  "reward_amount": 250.0,
+  "schema_version": "1.2",
+  "source_id": "freelancer_public_software_jobs",
+  "source_url": "https://www.freelancer.com/projects/nextjs/build-prestia-saas-mvp",
+  "title": "Build PRESTIA AI SaaS MVP"
+}
