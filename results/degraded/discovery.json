@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-14T18:46:36.271351+00:00",
+    "generated_at": "2026-10-15T07:36:16.598425+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,27 +23,21 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "531f7df8cf4361f9",
-      "url": "https://github.com/csi-addons/kubernetes-csi-addons/issues/1174",
-      "title": "controller: nil pointer dereferences on inline VolumeAttachments, unset history limits, and ReplaceConcurrent",
+      "candidate_id": "9f95a51c194bda8c",
+      "url": "https://github.com/ToluLabs/StellarCred/issues/414",
+      "title": "Feature: income_proof range mode — prove income within a band, not just above a threshold",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "48bf1b8812030679",
-      "url": "https://github.com/robpaolella/bureaucracy-forever-helper/issues/7",
-      "title": "Helper self-update and the officers' install guide",
+      "candidate_id": "88fd53e156316c79",
+      "url": "https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/923",
+      "title": "fix(docs): close the parser cases left by the second docs-check review",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "70584f58b25a6fc3",
-      "url": "https://github.com/guettli/sharedinbox/issues/918",
-      "title": "Mail not in sent folder",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "cf6ab1b9e34d9f4f",
-      "url": "https://github.com/nextellarlabs/nextellar/issues/801",
-      "title": "Add .nextellar/config.json to the pack-guard required entries",
+      "candidate_id": "e542509d237b5aeb",
+      "url": "https://github.com/epam/dmtools-dart/issues/376",
+      "title": "Parity with dm.ai#672: optional Markdown 'format' on ADO description / field / comment / create tools",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -53,15 +47,15 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "49a4f8a48812537e",
-      "url": "https://github.com/quadseven/loom/issues/296",
-      "title": "One Usage page for every subscription's limits",
+      "candidate_id": "0dd00476951c713a",
+      "url": "https://github.com/harryhua-ai/ne301/issues/79",
+      "title": "[A 架构重规划][Prepared] 独立 App 业务 WebUI 所有权与受信交付",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0967f9317fb1b455",
-      "url": "https://github.com/semcod/repatch/issues/81",
-      "title": "Address code smell: Shotgun Surgery: target",
+      "candidate_id": "ab4efbbab16d8544",
+      "url": "https://github.com/Twin-Fang/passQL/issues/458",
+      "title": "🚀[기능개선][공통] 아키텍처 검수 결과 기반 공통화 리팩터링 (브랜드 자산·에러 코드·API 계약·규칙 문서)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -71,51 +65,15 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "6270c1c23de48d0a",
-      "url": "https://github.com/nextellarlabs/nextellar/issues/662",
-      "title": "Add ReceiveForm component to the default template",
+      "candidate_id": "de3b1bbf39185bac",
+      "url": "https://github.com/PersonalClaw/PersonalClawApps/issues/385",
+      "title": "Writing Studio: your voice for each audience, learned only from what you wrote, and rewrites that keep every fact",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "fc0bed2e00cd8369",
-      "url": "https://github.com/nextellarlabs/nextellar/issues/800",
-      "title": "Harden verify-pack-contents.mjs to fail when zero hooks/.env.example are found",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "882e69be1828e4cf",
-      "url": "https://github.com/amithmandassociates-oss/hash-report-tool/issues/2",
-      "title": "Add SHA-3 (Keccak) Hashing Support",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "c0fdc47c2ac9b000",
-      "url": "https://github.com/docktermj/senzing-bootcamp-claude-plugin-development/issues/608",
-      "title": "Two hard rules shipped with no governing invariant: System verification's failed status is never rewritten, and SDK setup's update check never blocks",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8d792d0d8c9d2f45",
-      "url": "https://github.com/robpaolella/bureaucracy-forever-helper/issues/15",
-      "title": "Install guide and release docs for the helper",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "05bfdae987c76933",
-      "url": "https://github.com/robpaolella/bureaucracy-forever-helper/issues/24",
-      "title": "Start the helper when the computer starts",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "5b8167fdb4786b53",
-      "url": "https://github.com/p2pKit/P2pKit/issues/462",
-      "title": "Windows RPC: deferred standard-user, protected-profile, JNI and installed-app qualification",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "4c8774ef6814fb0e",
-      "url": "https://github.com/nextellarlabs/nextellar/issues/796",
-      "title": "Persist resolved horizonUrl/sorobanUrl to .nextellar/config.json at scaffold time",
+      "candidate_id": "f25d1136599ba35a",
+      "url": "https://github.com/Claudinite/ClaudiniteCanaryFleetMember/issues/13",
+      "title": "[claudinite-work] engine/update",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -125,33 +83,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "accf9c41638bdf60",
-      "url": "https://github.com/rjwalters/kicad-tools/issues/6563",
-      "title": "kct route --dry-run routes for real and writes files on the layer-escalation path",
+      "candidate_id": "189c9621ac1d7c40",
+      "url": "https://github.com/congdang-agilityio/SwimQuest/issues/429",
+      "title": "Add sign-up validation rules and password hashing",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "02174243cac0bbaa",
-      "url": "https://github.com/Mohith1612/job-queue-system/issues/3",
-      "title": "README links to k6/REPORT.md and vm/README.md, which aren't in the repo",
+      "candidate_id": "daab1b2c48046a03",
+      "url": "https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/issues/277",
+      "title": "Change ErrantRecordHandler to default to logging the errant records.",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c43952e4f0a9e688",
-      "url": "https://github.com/robpaolella/bureaucracy-forever-helper/issues/13",
-      "title": "Connect the helper: find the game folder",
+      "candidate_id": "6a5d1ce462f42c44",
+      "url": "https://github.com/anthropics/claude-code/issues/91870",
+      "title": "Mods - make Claude 10x more extensible",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "36f4ce6942118ada",
-      "url": "https://github.com/HouMinXi/forge/issues/68",
-      "title": "review: retain immutable bounded records for every model wire attempt",
+      "candidate_id": "05122f7ae26772d2",
+      "url": "https://github.com/elastic/kibana/issues/296903",
+      "title": "Failing test: Jest Tests.x-pack/platform/plugins/shared/fleet/public/applications/fleet/sections/agent_policy/details_page/components/package_policies - PackagePoliciesTable renders upgrade button when hasUpgrade is true and keepPoliciesUpToDate is false",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a17a9664f2520757",
-      "url": "https://github.com/JoNil-Botta/typelisp/issues/8908",
-      "title": "lower: avoid redundant copies for tail updates of Copy aggregate parameters (#8830)",
+      "candidate_id": "84352f594b879638",
+      "url": "https://github.com/Claudinite/ClaudiniteCanaryFleetMember/issues/14",
+      "title": "[claudinite-work] engine/usage-fold",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -163,27 +121,27 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "d901ab2ac1573e23",
-      "url": "https://github.com/williacj/rigger/issues/629",
-      "title": "A dispatched Claude Code session saves oversized tool output under ~/.claude/projects, outside its directory",
+      "candidate_id": "e7dc96a81aa39037",
+      "url": "https://github.com/tokuhirom/mutsu/issues/7564",
+      "title": "RakuAST roadmap: make RakuAST the frontend IR (ADR-10723)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "255d9337fca15530",
-      "url": "https://github.com/pwyde/home-ops/issues/2006",
-      "title": "Renovate Dashboard 🤖",
+      "candidate_id": "86509617494554c9",
+      "url": "https://github.com/autonomous-ai/lampOS/issues/705",
+      "title": "lampOS builders' queue",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "e796d75e6503164d",
-      "url": "https://github.com/robpaolella/bureaucracy-forever-helper/issues/12",
-      "title": "Fetch every upcoming raid for the add-on",
+      "candidate_id": "95c6ac959afc130f",
+      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2537",
+      "title": "Naya coordination board — live feed (successor to #2175)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1a751aa7638ab321",
-      "url": "https://github.com/Lighfe/quack-rl/issues/77",
-      "title": "M2.7: Online RL check with self-play",
+      "candidate_id": "8690f4478524e431",
+      "url": "https://github.com/handarbeit/fabrik-test-alpha/issues/8420",
+      "title": "e2e base-branch pipeline (20261015-072826)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -193,15 +151,65 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5aae07f8dc30f63b",
-      "url": "https://github.com/quadseven/loom/issues/294",
-      "title": "The Brain and Hot spots views",
+      "candidate_id": "40f0b384b9b6088a",
+      "url": "https://github.com/elsa-workflows/elsa-foundation/issues/2293",
+      "title": "main is red: CI",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2f89872e2c83eb24",
-      "url": "https://github.com/Dtwosam/Cocomelon/issues/469",
-      "title": "Continuous Paper Trader — Live Status",
+      "candidate_id": "e57ca4aae23930f9",
+      "url": "https://github.com/semcod/repatch/issues/67",
+      "title": "Address code smell: Shotgun Surgery: css",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "42674255d1bc5b13",
+      "url": "https://github.com/JWST-GC/data-qa/issues/301",
+      "title": "GC Treasury — jw10678-o071 (NIRCam)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "c17b4418fd4b621b",
+      "url": "https://github.com/gHashTag/t27/issues/9581",
+      "title": "Port scripts/gen_w765.py (Python, 3 functions) to specs/port/scripts/gen_w765.t27",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "3798a660b5b95827",
+      "url": "https://github.com/coder/coder/issues/30825",
+      "title": "bug: The coder agent is unable to connect back when an external workspace is created for another user",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "16fa94d7130642be",
+      "url": "https://github.com/SCIBASE-AI/SCIBASE.AI/issues/18",
+      "title": "Scientific Bounty System",
+      "reason": "task_not_narrow_enough",
+      "narrowness_score": 5.0,
+      "scope": {
+        "file_paths": [],
+        "requirements": 39,
+        "broad_hits": 0,
+        "body_length": 3075,
+        "exact_replacement": false
+      }
+    },
+    {
+      "candidate_id": "8252d76006ee08d6",
+      "url": "https://github.com/agentic-os-org/ANOLISA/issues/3529",
+      "title": "[skill] feat: os-skills 缺少容器管理技能，建议新增 docker-admin",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "0ce0960ccb1b0017",
+      "url": "https://github.com/harryhua-ai/ne301/issues/58",
+      "title": "[P8][Prepared] 独立 App 平台首个 Line Crossing 工程交付验收与结项证据",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "22e329f9153b285c",
+      "url": "https://github.com/JWST-GC/data-qa/issues/172",
+      "title": "GC Treasury — jw10678-o132 (MIRI)",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
