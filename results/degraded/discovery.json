@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-15T07:36:16.598425+00:00",
+    "generated_at": "2026-10-15T18:26:01.393626+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,39 +23,9 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "9f95a51c194bda8c",
-      "url": "https://github.com/ToluLabs/StellarCred/issues/414",
-      "title": "Feature: income_proof range mode — prove income within a band, not just above a threshold",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "88fd53e156316c79",
-      "url": "https://github.com/cubrid-lab/sqlalchemy-cubrid/issues/923",
-      "title": "fix(docs): close the parser cases left by the second docs-check review",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "e542509d237b5aeb",
-      "url": "https://github.com/epam/dmtools-dart/issues/376",
-      "title": "Parity with dm.ai#672: optional Markdown 'format' on ADO description / field / comment / create tools",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ad1f9bd2466de9ab",
-      "url": "https://github.com/seveibar/pgstrap/issues/2",
-      "title": "Use pglite so that postgres isn't required when generating types",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "0dd00476951c713a",
-      "url": "https://github.com/harryhua-ai/ne301/issues/79",
-      "title": "[A 架构重规划][Prepared] 独立 App 业务 WebUI 所有权与受信交付",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ab4efbbab16d8544",
-      "url": "https://github.com/Twin-Fang/passQL/issues/458",
-      "title": "🚀[기능개선][공통] 아키텍처 검수 결과 기반 공통화 리팩터링 (브랜드 자산·에러 코드·API 계약·규칙 문서)",
+      "candidate_id": "c178b306a2a936d6",
+      "url": "https://github.com/JensWinter/StadtratWatch-web/issues/530",
+      "title": "Wayfinder: Replace Deno scripts with Bun",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -65,15 +35,89 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "de3b1bbf39185bac",
-      "url": "https://github.com/PersonalClaw/PersonalClawApps/issues/385",
-      "title": "Writing Studio: your voice for each audience, learned only from what you wrote, and rewrites that keep every fact",
+      "candidate_id": "5aa9e8fdbfa528d0",
+      "url": "https://github.com/Core-Foundry/Notify-Chain/issues/1001",
+      "title": "Add Cryptographic Verification Tests for Webhook Signatures",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f25d1136599ba35a",
-      "url": "https://github.com/Claudinite/ClaudiniteCanaryFleetMember/issues/13",
-      "title": "[claudinite-work] engine/update",
+      "candidate_id": "855e9780c3d523bb",
+      "url": "https://github.com/the-vibey-project/vibey/issues/364",
+      "title": "feat(queue): the composition root selects the queue backend",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "b58f9f73497a47aa",
+      "url": "https://github.com/gyroflow/gyroflow/issues/742",
+      "title": "Refactor lens profile handling",
+      "reason": "overcrowded_bounty",
+      "active_attempts": 18,
+      "maximum_allowed": 5
+    },
+    {
+      "candidate_id": "506b8cda53dbc4ca",
+      "url": "https://github.com/CongliangK/router-training/issues/21",
+      "title": "[Phase 1][P1] 无泄漏 OOF、共形风险控制可行性与 Model Soup 研究",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "d84f81e96f7da968",
+      "url": "https://github.com/ssupportme/support-me/issues/218",
+      "title": "Contracts: consider explicit checked_add/checked_sub for user-influenced amount arithmetic",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "018c12874fb1430a",
+      "url": "https://github.com/TiesL/spec-driven-guardrails/issues/455",
+      "title": "[Epic] Codex support for spec-driven-guardrails",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "57fc765832f7943c",
+      "url": "https://github.com/elastic/kibana/issues/288684",
+      "title": "Failing test: Jest Tests.x-pack/solutions/observability/plugins/infra/public/pages/metrics/hosts/hooks - useMetricsCharts should return an array of charts with breakdown config",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "7522ce69c1776cbf",
+      "url": "https://github.com/pyrycode/pyrycode/issues/3335",
+      "title": "refactor(thread): save and restore fold state with output identical to an uninterrupted fold",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ad1f9bd2466de9ab",
+      "url": "https://github.com/seveibar/pgstrap/issues/2",
+      "title": "Use pglite so that postgres isn't required when generating types",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "12701923634dc33b",
+      "url": "https://github.com/2AMLogic/klayout-tools/issues/2679",
+      "title": "decks/sg13g2: poly-resistor body/marker are inverted vs the PDK's own PCell convention, so no drawn rsil/rppd/rhigh is ever recognized",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "8b0026a2f460f0bb",
+      "url": "https://github.com/bisswanger/aem-byog-renovate/issues/4",
+      "title": "Dependency Dashboard",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "1c4f6c40612133a9",
+      "url": "https://github.com/juv4uk/sens/issues/5029",
+      "title": "[P0][COORD] SID8/SENS8 → доменна драбина: власники файлів, CLAIM, single-writer main",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "103fe920d0c9318f",
+      "url": "https://github.com/saadshahd/roundup/issues/1639",
+      "title": "UI lane: Pads (pads/) onto the primitives",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "486e15a4dddd67dd",
+      "url": "https://github.com/signature-studio/signature-studio-dev/issues/5168",
+      "title": "[PY-4877] 述語 E の初期化経路 (0x12d0cc0・0x12d1760) の到達性と patternCount の実起動値を実測で確定する (#4343 の子 1/2)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -83,65 +127,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "189c9621ac1d7c40",
-      "url": "https://github.com/congdang-agilityio/SwimQuest/issues/429",
-      "title": "Add sign-up validation rules and password hashing",
+      "candidate_id": "16b07ee2998dd899",
+      "url": "https://github.com/apliteni/apliteni-ui/issues/619",
+      "title": "DataTable: the select-all checkbox never shows a partial selection",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "daab1b2c48046a03",
-      "url": "https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/issues/277",
-      "title": "Change ErrantRecordHandler to default to logging the errant records.",
+      "candidate_id": "ebacf1c2b6a1fa33",
+      "url": "https://github.com/zakiarsyad/medali/issues/90",
+      "title": "Asrama: Dorm dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "6a5d1ce462f42c44",
-      "url": "https://github.com/anthropics/claude-code/issues/91870",
-      "title": "Mods - make Claude 10x more extensible",
+      "candidate_id": "349a03d4c1d5c110",
+      "url": "https://github.com/mikesvoboda/nemotron-v3-home-security-intelligence/issues/6854",
+      "title": "Uplevel daily batch",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "05122f7ae26772d2",
-      "url": "https://github.com/elastic/kibana/issues/296903",
-      "title": "Failing test: Jest Tests.x-pack/platform/plugins/shared/fleet/public/applications/fleet/sections/agent_policy/details_page/components/package_policies - PackagePoliciesTable renders upgrade button when hasUpgrade is true and keepPoliciesUpToDate is false",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "84352f594b879638",
-      "url": "https://github.com/Claudinite/ClaudiniteCanaryFleetMember/issues/14",
-      "title": "[claudinite-work] engine/usage-fold",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "b58f9f73497a47aa",
-      "url": "https://github.com/gyroflow/gyroflow/issues/742",
-      "title": "Refactor lens profile handling",
-      "reason": "overcrowded_bounty",
-      "active_attempts": 17,
-      "maximum_allowed": 5
-    },
-    {
-      "candidate_id": "e7dc96a81aa39037",
-      "url": "https://github.com/tokuhirom/mutsu/issues/7564",
-      "title": "RakuAST roadmap: make RakuAST the frontend IR (ADR-10723)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "86509617494554c9",
-      "url": "https://github.com/autonomous-ai/lampOS/issues/705",
-      "title": "lampOS builders' queue",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "95c6ac959afc130f",
-      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2537",
-      "title": "Naya coordination board — live feed (successor to #2175)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8690f4478524e431",
-      "url": "https://github.com/handarbeit/fabrik-test-alpha/issues/8420",
-      "title": "e2e base-branch pipeline (20261015-072826)",
+      "candidate_id": "af1855b5de4231c5",
+      "url": "https://github.com/ssupportme/support-me/issues/224",
+      "title": "Creator dashboard analytics and metrics",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -151,33 +157,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "40f0b384b9b6088a",
-      "url": "https://github.com/elsa-workflows/elsa-foundation/issues/2293",
-      "title": "main is red: CI",
+      "candidate_id": "7bde3b9e5d63b301",
+      "url": "https://github.com/clearmeasure-aisf-sample-apps/cmdemo1-workorders/issues/338",
+      "title": "Work order Title: trim surrounding spaces and reject a title of only spaces",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "e57ca4aae23930f9",
-      "url": "https://github.com/semcod/repatch/issues/67",
-      "title": "Address code smell: Shotgun Surgery: css",
+      "candidate_id": "e13ea50ff69f6342",
+      "url": "https://github.com/augustina-jpg/scoopdope/issues/1195",
+      "title": "Grants contract expiry date not checked before withdrawal",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "42674255d1bc5b13",
-      "url": "https://github.com/JWST-GC/data-qa/issues/301",
-      "title": "GC Treasury — jw10678-o071 (NIRCam)",
+      "candidate_id": "02bfc35a3637bf6f",
+      "url": "https://github.com/rachelgonsalves821/Envoi/issues/34",
+      "title": "Agent-native build board",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c17b4418fd4b621b",
-      "url": "https://github.com/gHashTag/t27/issues/9581",
-      "title": "Port scripts/gen_w765.py (Python, 3 functions) to specs/port/scripts/gen_w765.t27",
+      "candidate_id": "b84551441bbaf39a",
+      "url": "https://github.com/morluto/rea/issues/4201",
+      "title": "[Bug] WASM optional-file failures identify the primary module argument",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "3798a660b5b95827",
-      "url": "https://github.com/coder/coder/issues/30825",
-      "title": "bug: The coder agent is unable to connect back when an external workspace is created for another user",
+      "candidate_id": "fbb05c0781b978a6",
+      "url": "https://github.com/Bjorkan/MESHRIK/issues/22",
+      "title": "[Feature] Localization (i18n/l10n) support for frontend UI and backend messages",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -195,21 +201,15 @@
       }
     },
     {
-      "candidate_id": "8252d76006ee08d6",
-      "url": "https://github.com/agentic-os-org/ANOLISA/issues/3529",
-      "title": "[skill] feat: os-skills 缺少容器管理技能，建议新增 docker-admin",
+      "candidate_id": "e503742e2268ab86",
+      "url": "https://github.com/congdang-agilityio/SwimQuest/issues/541",
+      "title": "Build the organizer page for a tournament draft",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0ce0960ccb1b0017",
-      "url": "https://github.com/harryhua-ai/ne301/issues/58",
-      "title": "[P8][Prepared] 独立 App 平台首个 Line Crossing 工程交付验收与结项证据",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "22e329f9153b285c",
-      "url": "https://github.com/JWST-GC/data-qa/issues/172",
-      "title": "GC Treasury — jw10678-o132 (MIRI)",
+      "candidate_id": "f60417d7239e345a",
+      "url": "https://github.com/Pulsefy/QiuckEx/issues/1173",
+      "title": "Post-Upgrade Invariant Check Skips Per-Asset Fee, TTL, Quorum, and Oracle Config Bounds",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
