@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-15T18:26:01.393626+00:00",
+    "generated_at": "2026-10-16T07:23:07.105333+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,27 +23,63 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "c178b306a2a936d6",
-      "url": "https://github.com/JensWinter/StadtratWatch-web/issues/530",
-      "title": "Wayfinder: Replace Deno scripts with Bun",
+      "candidate_id": "988befd47b516713",
+      "url": "https://github.com/AlamiaSoft/AlamiaAccounts/issues/39",
+      "title": "[Task][Day 4][#8] Make concurrent posting retries race-safe",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d37d42d5bd75f996",
-      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
-      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
+      "candidate_id": "fbe99cfcfe0ed435",
+      "url": "https://github.com/JWST-GC/data-qa/issues/277",
+      "title": "GC Treasury — jw10678-o045 (NIRCam)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "5aa9e8fdbfa528d0",
-      "url": "https://github.com/Core-Foundry/Notify-Chain/issues/1001",
-      "title": "Add Cryptographic Verification Tests for Webhook Signatures",
+      "candidate_id": "4edf6aacee6bfde4",
+      "url": "https://github.com/E-merging-digital/agency-website-drupal/issues/1432",
+      "title": "[P0][Security] Mettre Drupal Core 11.4.8 à 11.4.10 (SA-CORE-2026-014)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "855e9780c3d523bb",
-      "url": "https://github.com/the-vibey-project/vibey/issues/364",
-      "title": "feat(queue): the composition root selects the queue backend",
+      "candidate_id": "d8ba5717df9d345b",
+      "url": "https://github.com/F1nal04/tikkit/issues/3",
+      "title": "CI: run frontend and Rust quality gates on pull requests",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ad1f9bd2466de9ab",
+      "url": "https://github.com/seveibar/pgstrap/issues/2",
+      "title": "Use pglite so that postgres isn't required when generating types",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "a15e304398f710e1",
+      "url": "https://github.com/the-vibey-project/vibey/issues/1029",
+      "title": "epic(job-queue): the job queue on RabbitMQ (ADR-0044) — QwenStorm 3.0.0",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "bdcc53cfd5b9f3cc",
+      "url": "https://github.com/scout-off/scout-off-backend/issues/1605",
+      "title": "Write docs/metrics.md listing every exported Prometheus metric",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "3015ade66a7fca77",
+      "url": "https://github.com/JWST-GC/data-qa/issues/177",
+      "title": "GC Treasury — jw10678-o135 (NIRCam)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "aa1838f6bc71d521",
+      "url": "https://github.com/oll4com/spaceapp/issues/64",
+      "title": "[$400] Per-service container images: ship each image only the code and dependencies it runs",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ee1f76ab1e5fa919",
+      "url": "https://github.com/F1nal04/tikkit/issues/4",
+      "title": "CI: automate dependency updates and vulnerability checks",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -55,69 +91,27 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "506b8cda53dbc4ca",
-      "url": "https://github.com/CongliangK/router-training/issues/21",
-      "title": "[Phase 1][P1] 无泄漏 OOF、共形风险控制可行性与 Model Soup 研究",
+      "candidate_id": "b5885c90d0513e11",
+      "url": "https://github.com/fo4sf/fo4-to-starfield/issues/32",
+      "title": "Project update (shared post: Claude, Codex, Grok)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d84f81e96f7da968",
-      "url": "https://github.com/ssupportme/support-me/issues/218",
-      "title": "Contracts: consider explicit checked_add/checked_sub for user-influenced amount arithmetic",
+      "candidate_id": "8dec5b98ef799aca",
+      "url": "https://github.com/EffortlessMetrics/ub-review/issues/923",
+      "title": "runtime: bind every task, claim, receipt, and outcome to immutable revision identity",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "018c12874fb1430a",
-      "url": "https://github.com/TiesL/spec-driven-guardrails/issues/455",
-      "title": "[Epic] Codex support for spec-driven-guardrails",
+      "candidate_id": "d37d42d5bd75f996",
+      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
+      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "57fc765832f7943c",
-      "url": "https://github.com/elastic/kibana/issues/288684",
-      "title": "Failing test: Jest Tests.x-pack/solutions/observability/plugins/infra/public/pages/metrics/hosts/hooks - useMetricsCharts should return an array of charts with breakdown config",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "7522ce69c1776cbf",
-      "url": "https://github.com/pyrycode/pyrycode/issues/3335",
-      "title": "refactor(thread): save and restore fold state with output identical to an uninterrupted fold",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ad1f9bd2466de9ab",
-      "url": "https://github.com/seveibar/pgstrap/issues/2",
-      "title": "Use pglite so that postgres isn't required when generating types",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "12701923634dc33b",
-      "url": "https://github.com/2AMLogic/klayout-tools/issues/2679",
-      "title": "decks/sg13g2: poly-resistor body/marker are inverted vs the PDK's own PCell convention, so no drawn rsil/rppd/rhigh is ever recognized",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8b0026a2f460f0bb",
-      "url": "https://github.com/bisswanger/aem-byog-renovate/issues/4",
-      "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "1c4f6c40612133a9",
-      "url": "https://github.com/juv4uk/sens/issues/5029",
-      "title": "[P0][COORD] SID8/SENS8 → доменна драбина: власники файлів, CLAIM, single-writer main",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "103fe920d0c9318f",
-      "url": "https://github.com/saadshahd/roundup/issues/1639",
-      "title": "UI lane: Pads (pads/) onto the primitives",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "486e15a4dddd67dd",
-      "url": "https://github.com/signature-studio/signature-studio-dev/issues/5168",
-      "title": "[PY-4877] 述語 E の初期化経路 (0x12d0cc0・0x12d1760) の到達性と patternCount の実起動値を実測で確定する (#4343 の子 1/2)",
+      "candidate_id": "f18e55f35156e1f5",
+      "url": "https://github.com/FerroHEALTH/FerroBRIDGE/issues/575",
+      "title": "The XML reader rewrites every narrative div attribute in double quotes, breaking a single-quoted value that contains a double quote",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -127,27 +121,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "16b07ee2998dd899",
-      "url": "https://github.com/apliteni/apliteni-ui/issues/619",
-      "title": "DataTable: the select-all checkbox never shows a partial selection",
+      "candidate_id": "444dd29b10c759c1",
+      "url": "https://github.com/Luminous-Dynamics/symthaea/issues/7543",
+      "title": "SX-033: uncertainty-aware cumulative mission resource budgets and margins",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ebacf1c2b6a1fa33",
-      "url": "https://github.com/zakiarsyad/medali/issues/90",
-      "title": "Asrama: Dorm dashboard",
+      "candidate_id": "a43e876bc997dc6e",
+      "url": "https://github.com/semcod/repatch/issues/83",
+      "title": "Address code smell: Shotgun Surgery: label",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "349a03d4c1d5c110",
-      "url": "https://github.com/mikesvoboda/nemotron-v3-home-security-intelligence/issues/6854",
-      "title": "Uplevel daily batch",
+      "candidate_id": "475aefc2211c13da",
+      "url": "https://github.com/heukshow/aicity-os/issues/292",
+      "title": "COSHUMA Work execution bridge",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "af1855b5de4231c5",
-      "url": "https://github.com/ssupportme/support-me/issues/224",
-      "title": "Creator dashboard analytics and metrics",
+      "candidate_id": "ca7dee921eb4d891",
+      "url": "https://github.com/oll4com/spaceapp/issues/63",
+      "title": "[$600] Support rootless Podman as a container engine in the run-spaceapp launcher",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "79fe899579be0e3b",
+      "url": "https://github.com/camunda/camunda-7-to-8-migration-tooling/issues/3564",
+      "title": "Migration skill: collect an explicit test-run choice before unattended assessments",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -157,33 +157,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "7bde3b9e5d63b301",
-      "url": "https://github.com/clearmeasure-aisf-sample-apps/cmdemo1-workorders/issues/338",
-      "title": "Work order Title: trim surrounding spaces and reject a title of only spaces",
+      "candidate_id": "9e0b95a098f707f5",
+      "url": "https://github.com/aaime921/aaime921-monorepo/issues/94",
+      "title": "Grok coach: 'dashboard' command + training-only Coach's tips grounded in history",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "e13ea50ff69f6342",
-      "url": "https://github.com/augustina-jpg/scoopdope/issues/1195",
-      "title": "Grants contract expiry date not checked before withdrawal",
+      "candidate_id": "06c531d850a67818",
+      "url": "https://github.com/vllm-project/vllm-ascend/issues/14582",
+      "title": "[RFC]: Long-Context Feature Roadmap Q3 2026",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "02bfc35a3637bf6f",
-      "url": "https://github.com/rachelgonsalves821/Envoi/issues/34",
-      "title": "Agent-native build board",
+      "candidate_id": "3fdbec85aa38d7c1",
+      "url": "https://github.com/craigbalding/safeyolo/issues/239",
+      "title": "Smoke-test published release artifacts on clean supported hosts",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b84551441bbaf39a",
-      "url": "https://github.com/morluto/rea/issues/4201",
-      "title": "[Bug] WASM optional-file failures identify the primary module argument",
+      "candidate_id": "84db978511311cce",
+      "url": "https://github.com/shyden-labs/yawelo-idle/issues/617",
+      "title": "Post-launch: the Steam app keeps the same on-device log as the web game",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "fbb05c0781b978a6",
-      "url": "https://github.com/Bjorkan/MESHRIK/issues/22",
-      "title": "[Feature] Localization (i18n/l10n) support for frontend UI and backend messages",
+      "candidate_id": "1f63f7602cd3fe6e",
+      "url": "https://github.com/okou-ai/okou/issues/40654",
+      "title": "refactor(runner-storage): converge multipart scheduler failure retirement",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -201,15 +201,15 @@
       }
     },
     {
-      "candidate_id": "e503742e2268ab86",
-      "url": "https://github.com/congdang-agilityio/SwimQuest/issues/541",
-      "title": "Build the organizer page for a tournament draft",
+      "candidate_id": "c9fd3268cc5de8e2",
+      "url": "https://github.com/oscharko-dev/Keiko/issues/3914",
+      "title": "Epic: Enforce precise type safety and test fidelity across Keiko",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f60417d7239e345a",
-      "url": "https://github.com/Pulsefy/QiuckEx/issues/1173",
-      "title": "Post-Upgrade Invariant Check Skips Per-Asset Fee, TTL, Quorum, and Oracle Config Bounds",
+      "candidate_id": "ec1a506e5f011b87",
+      "url": "https://github.com/MarcelRoozekrans/AI.Sentinel/issues/3",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
