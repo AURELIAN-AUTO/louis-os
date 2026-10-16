@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-16T07:23:07.105333+00:00",
+    "generated_at": "2026-10-16T18:13:35.996384+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,27 +23,21 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "988befd47b516713",
-      "url": "https://github.com/AlamiaSoft/AlamiaAccounts/issues/39",
-      "title": "[Task][Day 4][#8] Make concurrent posting retries race-safe",
+      "candidate_id": "d2d9eb308ee79b85",
+      "url": "https://github.com/Pi-Defi-world/acbu-smart-contract/issues/996",
+      "title": "W10-I-015 - CI uses deprecated/EOL GitHub Actions",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "fbe99cfcfe0ed435",
-      "url": "https://github.com/JWST-GC/data-qa/issues/277",
-      "title": "GC Treasury — jw10678-o045 (NIRCam)",
+      "candidate_id": "d37d42d5bd75f996",
+      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
+      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "4edf6aacee6bfde4",
-      "url": "https://github.com/E-merging-digital/agency-website-drupal/issues/1432",
-      "title": "[P0][Security] Mettre Drupal Core 11.4.8 à 11.4.10 (SA-CORE-2026-014)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "d8ba5717df9d345b",
-      "url": "https://github.com/F1nal04/tikkit/issues/3",
-      "title": "CI: run frontend and Rust quality gates on pull requests",
+      "candidate_id": "8c954ba4170a85b2",
+      "url": "https://github.com/KingInYellows/yellow-plugins/issues/1226",
+      "title": "yellow-core Stop capture: record-aware dialogue window (scan past 1000 lines, passthrough slots, overlapping captures)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -53,33 +47,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a15e304398f710e1",
-      "url": "https://github.com/the-vibey-project/vibey/issues/1029",
-      "title": "epic(job-queue): the job queue on RabbitMQ (ADR-0044) — QwenStorm 3.0.0",
+      "candidate_id": "a971e9b6c2fac7e3",
+      "url": "https://github.com/orbi-build/orbi/issues/1659",
+      "title": "Identify delivery comments and review rounds without English headings",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "bdcc53cfd5b9f3cc",
-      "url": "https://github.com/scout-off/scout-off-backend/issues/1605",
-      "title": "Write docs/metrics.md listing every exported Prometheus metric",
+      "candidate_id": "adaaf7d7f4816f05",
+      "url": "https://github.com/MisterRaindrop/postgresql-github-mirror/issues/1023",
+      "title": "BUG #19765: Wrong result from a chain of LEFT JOINs since v16",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "3015ade66a7fca77",
-      "url": "https://github.com/JWST-GC/data-qa/issues/177",
-      "title": "GC Treasury — jw10678-o135 (NIRCam)",
+      "candidate_id": "b5885c90d0513e11",
+      "url": "https://github.com/fo4sf/fo4-to-starfield/issues/32",
+      "title": "Project update (shared post: Claude, Codex, Grok)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "aa1838f6bc71d521",
-      "url": "https://github.com/oll4com/spaceapp/issues/64",
-      "title": "[$400] Per-service container images: ship each image only the code and dependencies it runs",
+      "candidate_id": "9b25552cabf839d9",
+      "url": "https://github.com/cozyGarage/BookiE/issues/1032",
+      "title": "Measure and bound retained streamed-result resources across pins, export and teardown",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ee1f76ab1e5fa919",
-      "url": "https://github.com/F1nal04/tikkit/issues/4",
-      "title": "CI: automate dependency updates and vulnerability checks",
+      "candidate_id": "f7c462f4574781b9",
+      "url": "https://github.com/diegoami/goal2/issues/156",
+      "title": "T69 follow-up: clarify spacing in desktop startup guide",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -91,27 +85,27 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "b5885c90d0513e11",
-      "url": "https://github.com/fo4sf/fo4-to-starfield/issues/32",
-      "title": "Project update (shared post: Claude, Codex, Grok)",
+      "candidate_id": "457fc1a3db3b653e",
+      "url": "https://github.com/spoorendonk/cbls/issues/204",
+      "title": "CVRP: execute the CVRPLIB X campaign (smoke, dev, full) and publish gaps to BKS",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8dec5b98ef799aca",
-      "url": "https://github.com/EffortlessMetrics/ub-review/issues/923",
-      "title": "runtime: bind every task, claim, receipt, and outcome to immutable revision identity",
+      "candidate_id": "a71f3bb6002b3735",
+      "url": "https://github.com/hjrdave/StarScriptMapMaker/issues/236",
+      "title": "Pop tabs out into separate windows so multiple maps can be open side by side",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d37d42d5bd75f996",
-      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
-      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
+      "candidate_id": "6ae82ad0e95d86f3",
+      "url": "https://github.com/markgoodbody-bit/COM/issues/840",
+      "title": "YAC next encounter — one usable read-and-return release path",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f18e55f35156e1f5",
-      "url": "https://github.com/FerroHEALTH/FerroBRIDGE/issues/575",
-      "title": "The XML reader rewrites every narrative div attribute in double quotes, breaking a single-quoted value that contains a double quote",
+      "candidate_id": "cb32c4e87b4871c3",
+      "url": "https://github.com/phuongnse/axis/issues/456",
+      "title": "Scenario record actions check their expected outcome",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -121,33 +115,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "444dd29b10c759c1",
-      "url": "https://github.com/Luminous-Dynamics/symthaea/issues/7543",
-      "title": "SX-033: uncertainty-aware cumulative mission resource budgets and margins",
+      "candidate_id": "2d62225ca4dac59b",
+      "url": "https://github.com/valtteriluomapareto/photo-export/issues/116",
+      "title": "Move PhotoKit enumerations off main thread to eliminate startup beachball",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a43e876bc997dc6e",
-      "url": "https://github.com/semcod/repatch/issues/83",
-      "title": "Address code smell: Shotgun Surgery: label",
+      "candidate_id": "fad0a9e23b7abcb4",
+      "url": "https://github.com/hjrdave/StarScriptMapMaker/issues/235",
+      "title": "Multi-select layers with the mouse, context menu (copy, cut, group), and copy/paste between tabs",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "475aefc2211c13da",
-      "url": "https://github.com/heukshow/aicity-os/issues/292",
-      "title": "COSHUMA Work execution bridge",
+      "candidate_id": "611a0654bb56a268",
+      "url": "https://github.com/d6g8k5htny-coder/main/issues/419",
+      "title": "Agent Message Board (continued from #307): successor coordination board to #307",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ca7dee921eb4d891",
-      "url": "https://github.com/oll4com/spaceapp/issues/63",
-      "title": "[$600] Support rootless Podman as a container engine in the run-spaceapp launcher",
+      "candidate_id": "275dec553b2e3141",
+      "url": "https://github.com/rgleason/weather_routing_pi/issues/690",
+      "title": "WR 1.15.45.9 (current release) opencpn crashes when calculation of a weather route is started",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "79fe899579be0e3b",
-      "url": "https://github.com/camunda/camunda-7-to-8-migration-tooling/issues/3564",
-      "title": "Migration skill: collect an explicit test-run choice before unattended assessments",
+      "candidate_id": "c90ab4b3cd279117",
+      "url": "https://github.com/koshian/cayenchat/issues/437",
+      "title": "macOS・Windows・Linuxのスリープ復帰後にIRC接続を検証し、失われた接続を自動復旧する",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -157,33 +151,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9e0b95a098f707f5",
-      "url": "https://github.com/aaime921/aaime921-monorepo/issues/94",
-      "title": "Grok coach: 'dashboard' command + training-only Coach's tips grounded in history",
+      "candidate_id": "95a580bd52a89d21",
+      "url": "https://github.com/DanielCWeng/predictions-cup/issues/201",
+      "title": "ALPHA-RECOVERY: inventory recycling, executable reversal, election-night event engine",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "06c531d850a67818",
-      "url": "https://github.com/vllm-project/vllm-ascend/issues/14582",
-      "title": "[RFC]: Long-Context Feature Roadmap Q3 2026",
+      "candidate_id": "92191d397a02cc6b",
+      "url": "https://github.com/Blake11/PenBridge/issues/156",
+      "title": "P5-C1: Mac Settings window, region overlay and settings store",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "3fdbec85aa38d7c1",
-      "url": "https://github.com/craigbalding/safeyolo/issues/239",
-      "title": "Smoke-test published release artifacts on clean supported hosts",
+      "candidate_id": "3740ba5147140943",
+      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2641",
+      "title": "[NAYA] Team coordination feed — live board (successor to #2537)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "84db978511311cce",
-      "url": "https://github.com/shyden-labs/yawelo-idle/issues/617",
-      "title": "Post-launch: the Steam app keeps the same on-device log as the web game",
+      "candidate_id": "7da2eb3ad9da2fef",
+      "url": "https://github.com/wegamekinglc/calc-flow/issues/406",
+      "title": "perf: stream join and ASOF second-stage acceleration plan (after #363)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1f63f7602cd3fe6e",
-      "url": "https://github.com/okou-ai/okou/issues/40654",
-      "title": "refactor(runner-storage): converge multipart scheduler failure retirement",
+      "candidate_id": "e19cf77d77497b9d",
+      "url": "https://github.com/omacom/omarchy-plugin-marketplace/issues/11763",
+      "title": "[Plugin]: Arrange — keyboard window mode for moving and resizing windows",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -201,15 +195,21 @@
       }
     },
     {
-      "candidate_id": "c9fd3268cc5de8e2",
-      "url": "https://github.com/oscharko-dev/Keiko/issues/3914",
-      "title": "Epic: Enforce precise type safety and test fidelity across Keiko",
+      "candidate_id": "00e55f4d469c2318",
+      "url": "https://github.com/spoorendonk/cbls/issues/131",
+      "title": "UC-CHPED: execute the serial comparison.csv regeneration run and publish verify counts",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ec1a506e5f011b87",
-      "url": "https://github.com/MarcelRoozekrans/AI.Sentinel/issues/3",
-      "title": "Dependency Dashboard",
+      "candidate_id": "dc6d9730ad004262",
+      "url": "https://github.com/SharonRobinson90464/assertify.io/issues/1",
+      "title": "Clarify the supported runtime versions",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "8465b869cc2ebdf0",
+      "url": "https://github.com/ZcashFoundation/zebra/issues/11334",
+      "title": "fix(ci): run the book link check or remove it",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
