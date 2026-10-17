@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-17T07:05:25.663155+00:00",
+    "generated_at": "2026-10-17T17:22:13.520938+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,27 +23,57 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "180edf09c969304a",
-      "url": "https://github.com/nextellarlabs/nextellar-docs/issues/1070",
-      "title": "docs(hooks): audit use-stellar-balances.mdx against the shipped hook",
+      "candidate_id": "794a8fc60929a58a",
+      "url": "https://github.com/semcod/repatch/issues/62",
+      "title": "Address code smell: Shotgun Surgery: kept",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f00a97925c0dff2c",
-      "url": "https://github.com/JWST-GC/data-qa/issues/297",
-      "title": "GC Treasury — jw10678-o069 (NIRCam)",
+      "candidate_id": "f30d9d4c8a0b8b9b",
+      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2721",
+      "title": "[NAYA] Team coordination feed — live board (successor to #2641)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2543b63e459a8e97",
-      "url": "https://github.com/Supremeai-bd/supremeai-open/issues/486",
-      "title": "feat(open): [ci-guard] High-Precision PR Improvement & Zero-Regression Evaluator (2-Criteria Auto-Merge Engine)",
+      "candidate_id": "0e9faafda63b1bfc",
+      "url": "https://github.com/stellarspend/stellarspend-contracts/issues/1576",
+      "title": "Add `///` doc to `token/src/validation.rs` every `pub fn`",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "eda27bbc54b34098",
-      "url": "https://github.com/Cerune-Lang/Cerune/issues/153",
-      "title": "セキュリティ堅牢化: パーサ深度・ソース読込予算・import・生成C・CI",
+      "candidate_id": "f8b8091a8b0b2ee0",
+      "url": "https://github.com/overnightworks/agent-coordination/issues/47",
+      "title": "aco adopt: fremde PRs (Dependabot, Renovate, ohne aco geöffnete) über den normalen Landungsweg landen",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ad1f9bd2466de9ab",
+      "url": "https://github.com/seveibar/pgstrap/issues/2",
+      "title": "Use pglite so that postgres isn't required when generating types",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "408cfe0aae3e4c06",
+      "url": "https://github.com/jarrodjohnson-gif/emberisle/issues/663",
+      "title": "Build the custom PNG sticker pipeline: drop a PNG, get a sticker",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "d0a1924d82aebdfc",
+      "url": "https://github.com/simetrixch/hostyour-deploy/issues/59",
+      "title": "Plan: packages, so everyone sees which worker owns which files",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "8043bef47accb43c",
+      "url": "https://github.com/PastaHimself/chat-on-steroids-Headless/issues/26",
+      "title": "Audit: 10 reproducible defects in installation, Discord controls, and notifications",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "1102277d0d6240e9",
+      "url": "https://github.com/foomakers/pair/issues/552",
+      "title": "CP12 marketplace on an existing repo + fix stale suite texts (MT-CP806, MT-CP308) before v0.5.0",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -55,57 +85,27 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "8bb13b9dded3e018",
-      "url": "https://github.com/aliezzat4321/hyperliquid-copy-engine/issues/130",
-      "title": "AI TEAM RUNTIME STATUS",
+      "candidate_id": "34a1755dd2754a91",
+      "url": "https://github.com/cbusillo/launchplane/issues/3808",
+      "title": "Bound never-served history validation without hiding incomplete evidence",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "039478cedd2fe0d1",
-      "url": "https://github.com/Sororail/sororail-contracts/issues/214",
-      "title": "Add test for `vesting::create` emitting the Created event",
+      "candidate_id": "f2ee3eb53ea21775",
+      "url": "https://github.com/hanmiyoo10-alt/-/issues/457",
+      "title": "[repo-docs:promotion-bridge]",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d37d42d5bd75f996",
-      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
-      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
+      "candidate_id": "86509617494554c9",
+      "url": "https://github.com/autonomous-ai/lampOS/issues/705",
+      "title": "lampOS builders' queue",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "754c2c9f258f4d0b",
-      "url": "https://github.com/WillBooster/tree-sitter-c/issues/8",
-      "title": "Dependency Dashboard",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ad1f9bd2466de9ab",
-      "url": "https://github.com/seveibar/pgstrap/issues/2",
-      "title": "Use pglite so that postgres isn't required when generating types",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "e6d97dc51094306a",
-      "url": "https://github.com/okou-ai/okou/issues/40864",
-      "title": "bug: remove admitted-run credit balance exemptions",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "e6731d52eb698692",
-      "url": "https://github.com/glebfox/timesheets/issues/1",
-      "title": "Calendar view",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "b5885c90d0513e11",
-      "url": "https://github.com/fo4sf/fo4-to-starfield/issues/32",
-      "title": "Project update (shared post: Claude, Codex, Grok)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "40ecdf6dd8991e95",
-      "url": "https://github.com/playreliquia/remeres-map-editor/issues/42",
-      "title": "Renovate Dashboard 🤖",
+      "candidate_id": "ca2eb56b6c85d593",
+      "url": "https://github.com/aiur-team/aiur/issues/4905",
+      "title": "Flake detector files tickets for runs older than the fix already on main",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -115,15 +115,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "67109c609b4aa9b0",
-      "url": "https://github.com/JWST-GC/data-qa/issues/299",
-      "title": "GC Treasury — jw10678-o070 (NIRCam)",
+      "candidate_id": "40bfe47d745f4d6f",
+      "url": "https://github.com/Luminous-Dynamics/mycelix/issues/4020",
+      "title": "feat: add BootstrapMilestone provenance schema for space-industrial closure",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b81ce6dc57f75a7e",
-      "url": "https://github.com/ejnburrows-rgb/cartilla-de-gretel/issues/877",
-      "title": "JOB BOARD",
+      "candidate_id": "8afe44513e71b522",
+      "url": "https://github.com/LodyAI/Lody/issues/1668",
+      "title": "[Bug] Built-in Codex history import fails with \"Method not found\": _lody/session/history/read (0.105.0+)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "bbf9e0de21b625d8",
+      "url": "https://github.com/Dfunder/stellarAid-web/issues/847",
+      "title": "Add a helpful 404 route with recovery links",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "1dbf7822c57baa02",
+      "url": "https://github.com/StellarFlow-Network/stellarflow-contracts/issues/1209",
+      "title": "🔒 [HIGH] Missing Check for Canceled Signature Nonces in Meta-Transactions",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "0f932bc3daae6fc7",
+      "url": "https://github.com/handarbeit/fabrik-test-alpha/issues/8622",
+      "title": "e2e cruise full pipeline (20261017-171706)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -133,27 +151,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "627659e5d640ac9d",
-      "url": "https://github.com/opencharly/charly/issues/867",
-      "title": "deploy add: a short image name can die as 'deploy-name alias tag: command exited 125' — the overlay prep swallows the resolution error and tags a bare ref",
+      "candidate_id": "a5247d510860c8d7",
+      "url": "https://github.com/sgajbi/lotus-manage/issues/817",
+      "title": "Enroll ordinary Manage Core source reads in enterprise HMAC context",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "af0ff6c17f5467cb",
-      "url": "https://github.com/Sorokit/core/issues/775",
-      "title": "`mockClient.ts` does not support stubbing contract invocation results — testing Soroban flows is cumbersome",
+      "candidate_id": "2ec92579c2a5431a",
+      "url": "https://github.com/Dfunder/stellarAid-web/issues/853",
+      "title": "Fix the `walletBalances` query-key collision between two components",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "06ee73e5df1d510e",
-      "url": "https://github.com/JWST-GC/data-qa/issues/309",
-      "title": "GC Treasury — jw10678-o076 (NIRCam)",
+      "candidate_id": "0f6fdadc791e6308",
+      "url": "https://github.com/projectbluefin/finpilot/issues/465",
+      "title": "Review backlog (docs-currency): PR body screenshot link 404s",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "23136aafc3810034",
-      "url": "https://github.com/dotnet/runtime/issues/131951",
-      "title": "HttpWebRequestTest_Async.SendHttpRequest_BindIPEndPoint_Success failure from too many BindIPEndPointDelegate retries",
+      "candidate_id": "3eb919508e7356de",
+      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/1714",
+      "title": "[NAYA 5] COLD-RETRIEVE-engine — retrieval-to-10-10",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "74a3e1be16e97359",
+      "url": "https://github.com/shgew/togi/issues/633",
+      "title": "Rewrite tools/cover in Rust",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -171,45 +195,21 @@
       }
     },
     {
-      "candidate_id": "078bc4d359a826be",
-      "url": "https://github.com/signature-studio/signature-studio-dev/issues/4700",
-      "title": "[PLG-G2-54] Slayer_Engine.dll: export main の非 0 経路で native が SIGSEGV・wasm が OOB する原因の特定と host オブジェクト 0x8298d8 のモデル化",
+      "candidate_id": "f1937bd88ade4925",
+      "url": "https://github.com/JoshCLWren/comic-pile/issues/1093",
+      "title": "Factory heartbeat registry",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "6a9d20b61c0ceff5",
-      "url": "https://github.com/Miragon/pulse/issues/415",
-      "title": "[Refactor]: Rename this repo and everything it ships to Pulse",
+      "candidate_id": "240720d0db16080f",
+      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/1713",
+      "title": "[NAYA 5] LEARN-engine — gates-wiring-bridge-to-10-10",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "42ce797f3b65493b",
-      "url": "https://github.com/antfu/raycast-multi-translate/issues/7",
-      "title": "Add support for DeepL Api",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "2d6242775cb3438c",
-      "url": "https://github.com/boykopovar/AnyPS5/issues/6582",
-      "title": "PRAGMATA: captured wave64 pixel shader still fails lane 63 with #6180",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "149a5725ed8c279e",
-      "url": "https://github.com/mokume-metal/mokume/issues/2802",
-      "title": "design(media): 映像入力を毎回 CPU の全画素配列へ変換する境界を、複数映像と高fpsの予算で見直す",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "37d8239ae27c279d",
-      "url": "https://github.com/JWST-GC/data-qa/issues/307",
-      "title": "GC Treasury — jw10678-o074 (NIRCam)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "edcf10939b8be9eb",
-      "url": "https://github.com/mgh3326/auto_trader/issues/3",
-      "title": "Dependency Dashboard",
+      "candidate_id": "4cb6a23984594268",
+      "url": "https://github.com/shubhodeep1/coding-workflows/issues/7579",
+      "title": "CI budget: CI job orchestrate-poll took 15m13s of its 20-minute timeout",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
