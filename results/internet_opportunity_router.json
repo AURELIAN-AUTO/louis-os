@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-16T18:14:05.795843+00:00",
+  "generated_at": "2026-10-17T07:05:50.995191+00:00",
   "objective": "adaptive multidomain Internet opportunity discovery and execution",
   "allocation": {
     "exploit": 0.5,
@@ -17,54 +17,46 @@
     "universal_market_cycle.json"
   ],
   "items_seen": 80,
-  "sources_seen": 7,
+  "sources_seen": 8,
   "domains_seen": 7,
   "decision_counts": {
     "execute_now": 0,
-    "prepare_then_gate": 7,
-    "capability_build": 9,
-    "reject": 64
+    "prepare_then_gate": 8,
+    "capability_build": 11,
+    "reject": 61
   },
   "domain_metrics": {
     "b2b_research": {
       "seen": 21,
-      "eligible": 3,
+      "eligible": 4,
       "execute_now": 0,
-      "prepare_then_gate": 3,
+      "prepare_then_gate": 4,
       "capability_build": 0,
-      "reject": 18
+      "reject": 17
     },
     "code_automation": {
       "seen": 22,
       "eligible": 4,
       "execute_now": 0,
       "prepare_then_gate": 4,
-      "capability_build": 6,
-      "reject": 12
+      "capability_build": 7,
+      "reject": 11
     },
     "web_landing_pages": {
-      "seen": 2,
+      "seen": 4,
       "eligible": 0,
       "execute_now": 0,
       "prepare_then_gate": 0,
-      "capability_build": 2,
+      "capability_build": 4,
       "reject": 0
     },
-    "digital_products": {
-      "seen": 6,
-      "eligible": 0,
-      "execute_now": 0,
-      "prepare_then_gate": 0,
-      "capability_build": 1,
-      "reject": 5
-    },
     "writing_documentation": {
-      "seen": 21,
+      "seen": 20,
       "eligible": 0,
       "execute_now": 0,
       "prepare_then_gate": 0,
       "capability_build": 0,
-      "reject": 21
+      "reject": 20
     },
     "translation": {
       "seen": 2,
@@ -81,28 +73,41 @@
       "prepare_then_gate": 0,
       "capability_build": 0,
       "reject": 6
+    },
+    "digital_products": {
+      "seen": 5,
+      "eligible": 0,
+      "execute_now": 0,
+      "prepare_then_gate": 0,
+      "capability_build": 0,
+      "reject": 5
     }
   },
   "source_metrics": {
     "bountybook_agent_jobs": {
-      "seen": 17,
-      "eligible": 7,
+      "seen": 16,
+      "eligible": 6,
       "reject": 1
     },
-    "agentpact_open_needs": {
-      "seen": 17,
-      "eligible": 0,
-      "reject": 17
-    },
-    "algora_public_bounties": {
-      "seen": 17,
-      "eligible": 0,
-      "reject": 17
-    },
     "freelancer_public_simple_jobs": {
+      "seen": 4,
+      "eligible": 2,
+      "reject": 2
+    },
+    "freelancer_public_software_jobs": {
       "seen": 2,
       "eligible": 0,
-      "reject": 2
+      "reject": 0
+    },
+    "agentpact_open_needs": {
+      "seen": 16,
+      "eligible": 0,
+      "reject": 16
+    },
+    "algora_public_bounties": {
+      "seen": 16,
+      "eligible": 0,
+      "reject": 16
     },
     "github_bounties": {
       "seen": 10,
@@ -115,9 +120,9 @@
       "reject": 1
     },
     "usagov_challenges": {
-      "seen": 16,
+      "seen": 15,
       "eligible": 0,
-      "reject": 16
+      "reject": 15
     }
   },
   "selected": {
@@ -182,7 +187,7 @@
       "submit_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/submit",
       "wallet_type": "EVM"
     },
-    "observed_at": "2026-10-16T18:12:39.214362+00:00",
+    "observed_at": "2026-10-17T07:04:43.607479+00:00",
     "opportunity_id": "market-685081cabe16a6b0",
     "payment_evidence": [
       "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -295,7 +300,7 @@
         "submit_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.214362+00:00",
+      "observed_at": "2026-10-17T07:04:43.607479+00:00",
       "opportunity_id": "market-685081cabe16a6b0",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -406,7 +411,7 @@
         "submit_endpoint": "/jobs/87b131ee-7102-4d69-a99d-08cff67e9c1a/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.212227+00:00",
+      "observed_at": "2026-10-17T07:04:43.605894+00:00",
       "opportunity_id": "market-35e48723df7daf2e",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -517,7 +522,7 @@
         "submit_endpoint": "/jobs/fde07b58-6aa8-42ea-852a-ead105819045/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.216421+00:00",
+      "observed_at": "2026-10-17T07:04:43.609137+00:00",
       "opportunity_id": "market-3e18287c7f9f2373",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -628,7 +633,7 @@
         "submit_endpoint": "/jobs/193daf43-6436-4456-a028-dcb3149a2b95/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.213060+00:00",
+      "observed_at": "2026-10-17T07:04:43.606468+00:00",
       "opportunity_id": "market-6ff305afb75cc024",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -739,7 +744,7 @@
         "submit_endpoint": "/jobs/212e5e5c-4b39-406a-a33e-ffc8b7c20398/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.216120+00:00",
+      "observed_at": "2026-10-17T07:04:43.608903+00:00",
       "opportunity_id": "market-83bee863b0c890d8",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -850,7 +855,7 @@
         "submit_endpoint": "/jobs/3994dba9-a6b4-4ef0-bbac-db0455b0faf8/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.215612+00:00",
+      "observed_at": "2026-10-17T07:04:43.608489+00:00",
       "opportunity_id": "market-0a0b7855a3e9298f",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -900,96 +905,174 @@
       }
     },
     {
-      "accessibility": 0.96,
+      "accessibility": 0.86,
       "account_required": true,
-      "canonical_url": "https://www.bountybook.ai/job/c490df55-b112-4357-8be5-a772b7a318a1",
-      "competition": 0.55,
-      "cost": 0.0,
-      "currency": "USDC",
-      "deadline": "",
+      "collector_source_id": "freelancer_public_simple_jobs",
+      "competition": 0.0,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "6 days left",
+      "description": "Phone Outreach for Candidate Onboarding 6 days left I have a list of recently hired candidates who still need to finish their KYC verification before we can activate their profiles. Your task is straightforward: place a quick phone call to each person, follow the brief guidelines I will share, and secure their confirmation that the KYC steps have been completed. You will: • Dial every contact I provide using your own calling setup. • Introduce yourself on my behalf, reference our onboarding guidelines, and politely walk the candidate through the final KYC step. • Note the outcome of each call—completed, pending, or unreachable—in a shared tracker so I have real-time visibility. The guidelines cover the greeting, the KYC instructions, and the compliance wording, so you will not need to create a script from ... Call Center Compliance Customer Service Data Entry Data Management Documentation Human Resources Lead Generation Phone Support $6 - $16 $6 - $16 0 bids Bid now",
+      "evidence": [
+        "https://www.freelancer.com/jobs/data-entry/",
+        "https://www.freelancer.com/projects/customer-service/phone-outreach-for-candidate-onboarding"
+      ],
+      "human_dependency": 0.22,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "active_bids": 0,
+        "budget_currency": "USD",
+        "budget_max": 16.0,
+        "budget_min": 6.0,
+        "collector_source_id": "freelancer_public_simple_jobs",
+        "days_left": 6,
+        "estimated_effort_hours": 8.0,
+        "official_source": true,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/data-entry/",
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_mode": "platform_proposal"
+      },
+      "observed_at": "2026-10-17T07:04:46.382397+00:00",
+      "payment_evidence": [
+        "https://www.freelancer.com/jobs/data-entry/",
+        "Phone Outreach for Candidate Onboarding 6 days left I have a list of recently hired candidates who still need to finish their KYC verification before we can activate their profiles. Your task is straightforward: place a quick phone call to each person, follow the brief guidelines I will share, and secure their confirmation that the KYC steps have been completed. You will: • Dial every contact I provide using your own calling setup. • Introduce yourself on my behalf, reference our onboarding guidelines, and politely walk the candidate through the final KYC step. • Note the outcome of each call—completed, pending, or unreachable—in a shared tracker so I have real-time visibility. The guidelines cover the greeting, the KYC instructions, and the compliance wording, so you will not need to create a script from ... Call Center Compliance Customer Service Data Entry Data Management Documentation Human Resources Lead Generation Phone Support $6 - $16 $6 - $16 0 bids Bid now"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "evidence_research_dossier"
+      ],
+      "reward_amount": 6.0,
+      "reward_verified": true,
+      "risk": 0.2,
+      "security_scope_authorized": true,
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_simple_jobs",
+      "source_url": "https://www.freelancer.com/projects/customer-service/phone-outreach-for-candidate-onboarding",
+      "terms_required": true,
+      "time_to_cash_days": 30,
+      "title": "Phone Outreach for Candidate Onboarding",
+      "opportunity_id": "https://www.freelancer.com/projects/customer-service/phone-outreach-for-candidate-onboarding",
+      "effort_hours": 8.0,
+      "reward_eur": 6.0,
+      "competition_risk": 0.0,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "Freelancer milestone payment; account payout method selected after award",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "simple_mission_source_refresh.json",
+      "upstream_decision": null,
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "b2b_research",
+        "lane": "exploit",
+        "decision": "prepare_then_gate",
+        "score": 0.637,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.86,
+      "account_required": true,
+      "canonical_url": "https://www.freelancer.com/projects/customer-service/phone-outreach-for-candidate-onboarding",
+      "competition": 0.0,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "6 days left",
       "decision": {
         "blockers": [
           "account_required",
           "terms_acceptance_required"
         ],
         "evidence": [
-          "https://api.bountybook.ai/jobs?status=open&limit=100",
-          "https://www.bountybook.ai/job/c490df55-b112-4357-8be5-a772b7a318a1",
-          "budget_usdc=4",
-          "official_open_jobs_require_attached_usdc",
-          "https://www.bountybook.ai/docs",
-          "https://www.bountybook.ai/terms"
+          "https://www.freelancer.com/jobs/data-entry/",
+          "Phone Outreach for Candidate Onboarding 6 days left I have a list of recently hired candidates who still need to finish their KYC verification before we can activate their profiles. Your task is straightforward: place a quick phone call to each person, follow the brief guidelines I will share, and secure their confirmation that the KYC steps have been completed. You will: • Dial every contact I provide using your own calling setup. • Introduce yourself on my behalf, reference our onboarding guidelines, and politely walk the candidate through the final KYC step. • Note the outcome of each call—completed, pending, or unreachable—in a shared tracker so I have real-time visibility. The guidelines cover the greeting, the KYC instructions, and the compliance wording, so you will not need to create a script from ... Call Center Compliance Customer Service Data Entry Data Management Documentation Human Resources Lead Generation Phone Support $6 - $16 $6 - $16 0 bids Bid now",
+          "https://www.freelancer.com/projects/customer-service/phone-outreach-for-candidate-onboarding"
         ],
         "human_action_minimal": "account_required, terms_acceptance_required",
         "missing_capabilities": [],
         "next_action": "prepare_complete_submission_dossier_then_request_minimal_external_authorization",
-        "opportunity_id": "market-3cbde7eb9f7e7d5f",
-        "score": 66.67,
+        "opportunity_id": "market-1f04fece3caca868",
+        "score": 60.74,
         "status": "prepare_then_gate"
       },
-      "description": "Research 5 popular JavaScript testing frameworks. Each entry: name, github_url, github_stars (int), primary_use_case, supports_typescript (bool), supports_browser_testing (bool), snapshot_testing (bool), parallel_execution (bool), best_for, limitations, license. Save as js_testing_frameworks.json.\nResearch 5 popular JavaScript/TypeScript testing frameworks and deliver a structured JSON comparison.\n\n## Deliverable\nA file `js_testing_frameworks.json` with an array of exactly 5 objects.\n\n## Required fields per entry\n```json\n{\n  \"name\": \"Vitest\",\n  \"github_url\": \"https://github.com/...\",\n  \"github_stars\": 14000,\n  \"primary_use_case\": \"Unit and integration testing for Vite projects\",\n  \"supports_typescript\": true,\n  \"supports_browser_testing\": false,\n  \"snapshot_testing\": true,\n  \"parallel_execution\": true,\n  \"best_for\": \"Modern Vite/Vue projects with fast HMR\",\n  \"limitations\": \"Less ecosystem maturity than Jest\",\n  \"license\": \"MIT\"\n}\n```\n\n## Rules\n- Only well-known frameworks with >1000 GitHub stars (e.g. Jest, Vitest, Mocha, Jasmine, Playwright, Cypress, AVA, Tape).\n- github_stars must be integers within 20% of current value.\n- All boolean fields must be true/false (not strings).\n- All string fields non-empty.\n- No duplicate frameworks.",
+      "description": "Phone Outreach for Candidate Onboarding 6 days left I have a list of recently hired candidates who still need to finish their KYC verification before we can activate their profiles. Your task is straightforward: place a quick phone call to each person, follow the brief guidelines I will share, and secure their confirmation that the KYC steps have been completed. You will: • Dial every contact I provide using your own calling setup. • Introduce yourself on my behalf, reference our onboarding guidelines, and politely walk the candidate through the final KYC step. • Note the outcome of each call—completed, pending, or unreachable—in a shared tracker so I have real-time visibility. The guidelines cover the greeting, the KYC instructions, and the compliance wording, so you will not need to create a script from ... Call Center Compliance Customer Service Data Entry Data Management Documentation Human Resources Lead Generation Phone Support $6 - $16 $6 - $16 0 bids Bid now",
       "evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/c490df55-b112-4357-8be5-a772b7a318a1",
-        "https://www.bountybook.ai/docs",
-        "https://www.bountybook.ai/terms"
+        "https://www.freelancer.com/jobs/data-entry/",
+        "https://www.freelancer.com/projects/customer-service/phone-outreach-for-candidate-onboarding",
+        "results/simple_mission_dossiers/market-1f04fece3caca868/proposal.md",
+        "results/simple_mission_dossiers/market-1f04fece3caca868/manifest.json"
       ],
-      "human_dependency": 0.08,
+      "human_dependency": 0.22,
       "identity_or_kyc_required": false,
       "legal_entity_required": false,
       "metadata": {
-        "autonomous_claim_enabled": false,
-        "claim_endpoint": "/jobs/c490df55-b112-4357-8be5-a772b7a318a1/claim",
-        "claim_is_free": true,
-        "days_left": 7,
-        "deadline_verified": false,
-        "estimated_effort_hours": 2.0,
-        "financial_transaction_signing_enabled": false,
-        "job_id": "c490df55-b112-4357-8be5-a772b7a318a1",
+        "active_bids": 0,
+        "budget_currency": "USD",
+        "budget_max": 16.0,
+        "budget_min": 6.0,
+        "days_left": 6,
+        "estimated_effort_hours": 8.0,
+        "human_action_instructions": [
+          "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
+        ],
         "official_source": true,
-        "operator_gate": "build_deliverable_before_claim",
-        "payout_asset": "USDC",
-        "payout_chain": "Base",
-        "platform": "BountyBook",
-        "source_kind": "agent_native_public_api",
-        "spend_authorized": false,
-        "status_verified_open": true,
-        "submission_dossier_prepared": false,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "proposal_manifest_path": "results/simple_mission_dossiers/market-1f04fece3caca868/manifest.json",
+        "proposal_path": "results/simple_mission_dossiers/market-1f04fece3caca868/proposal.md",
+        "proposal_sha256": "94a5061ca9783e2d8070dce98dcdd7f8a3b38621619b0123262ad7e8e861a94b",
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/data-entry/",
+        "submission_dossier_prepared": true,
         "submission_dossier_required": true,
-        "submission_is_free": true,
-        "submission_mode": "bountybook_agent_api",
-        "submit_endpoint": "/jobs/c490df55-b112-4357-8be5-a772b7a318a1/submit",
-        "wallet_type": "EVM"
+        "submission_mode": "platform_proposal"
       },
-      "observed_at": "2026-10-16T18:12:39.216296+00:00",
-      "opportunity_id": "market-3cbde7eb9f7e7d5f",
+      "observed_at": "2026-10-17T07:04:46.382397+00:00",
+      "opportunity_id": "market-1f04fece3caca868",
       "payment_evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/c490df55-b112-4357-8be5-a772b7a318a1",
-        "budget_usdc=4",
-        "official_open_jobs_require_attached_usdc"
+        "https://www.freelancer.com/jobs/data-entry/",
+        "Phone Outreach for Candidate Onboarding 6 days left I have a list of recently hired candidates who still need to finish their KYC verification before we can activate their profiles. Your task is straightforward: place a quick phone call to each person, follow the brief guidelines I will share, and secure their confirmation that the KYC steps have been completed. You will: • Dial every contact I provide using your own calling setup. • Introduce yourself on my behalf, reference our onboarding guidelines, and politely walk the candidate through the final KYC step. • Note the outcome of each call—completed, pending, or unreachable—in a shared tracker so I have real-time visibility. The guidelines cover the greeting, the KYC instructions, and the compliance wording, so you will not need to create a script from ... Call Center Compliance Customer Service Data Entry Data Management Documentation Human Resources Lead Generation Phone Support $6 - $16 $6 - $16 0 bids Bid now"
       ],
       "physical_presence_required": false,
       "required_capabilities": [
         "evidence_research_dossier"
       ],
-      "reward_amount": 4.0,
+      "reward_amount": 6.0,
       "reward_verified": true,
-      "risk": 0.22,
+      "risk": 0.2,
       "security_scope_authorized": true,
-      "source_category": "agent_native_marketplace",
-      "source_id": "bountybook_agent_jobs",
-      "source_url": "https://www.bountybook.ai/job/c490df55-b112-4357-8be5-a772b7a318a1",
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_simple_jobs",
+      "source_url": "https://www.freelancer.com/projects/customer-service/phone-outreach-for-candidate-onboarding",
       "terms_required": true,
-      "time_to_cash_days": 10,
-      "title": "Research and deliver JSON comparison of 5 JavaScript testing frameworks",
-      "effort_hours": 2.0,
-      "reward_eur": 4.0,
-      "competition_risk": 0.55,
+      "time_to_cash_days": 30,
+      "title": "Phone Outreach for Candidate Onboarding",
+      "effort_hours": 8.0,
+      "reward_eur": 6.0,
+      "competition_risk": 0.0,
       "payment_confidence": 0.85,
       "capability_fit": 0.9,
       "human_actions_required": 1,
-      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
+      "payment_path": "Freelancer milestone payment; account payout method selected after award",
       "acceptance_criteria": [
         "deliver the bounded scope described in the verified public listing"
       ],
@@ -1005,7 +1088,118 @@
         "domain": "b2b_research",
         "lane": "exploit",
         "decision": "prepare_then_gate",
-        "score": 1.025,
+        "score": 0.574,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.96,
+      "account_required": true,
+      "canonical_url": "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+      "competition": 0.55,
+      "cost": 0.0,
+      "currency": "USDC",
+      "deadline": "",
+      "decision": {
+        "blockers": [
+          "capability_missing:go_software_delivery"
+        ],
+        "evidence": [
+          "https://api.bountybook.ai/jobs?status=open&limit=100",
+          "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+          "budget_usdc=14",
+          "official_open_jobs_require_attached_usdc",
+          "https://www.bountybook.ai/docs",
+          "https://www.bountybook.ai/terms"
+        ],
+        "human_action_minimal": "none",
+        "missing_capabilities": [
+          "go_software_delivery"
+        ],
+        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
+        "opportunity_id": "market-a3a2d3454ea0c02f",
+        "score": 66.73,
+        "status": "capability_build"
+      },
+      "description": "Implement a generic LRU cache in Go in a package `lru` (file `lru.go`).\n\n## Required API\n\n```go\ntype Cache[K comparable, V any] struct { /* your fields */ }\n\nfunc New[K comparable, V any](capacity int) *Cache[K, V]\nfunc (c *Cache[K, V]) Get(key K) (V, bool)\nfunc (c *Cache[K, V]) Put(key K, value V)\nfunc (c *Cache[K, V]) Delete(key K)\nfunc (c *Cache[K, V]) Len() int\n```\n\n## Required test cases (file `lru_test.go`, must pass with `go test ./...`)\n\n```go\nc := New[string, int](3)\nc.Put(\"a\", 1)\nc.Put(\"b\", 2)\nc.Put(\"c\", 3)\n\nv, ok := c.Get(\"a\"); assert ok && v == 1\nc.Put(\"d\", 4)                        // evicts LRU = \"b\"\n_, ok = c.Get(\"b\"); assert !ok       // evicted\nv, ok = c.Get(\"c\"); assert ok && v == 3\nassert c.Len() == 3\n\nc.Delete(\"a\")\nassert c.Len() == 2\n_, ok = c.Get(\"a\"); assert !ok\n\n// Concurrent safety: 10 goroutines each doing 100 Put+Get\n```\n\n## Constraints\n- Use `sync.Mutex` for thread safety (no channel-based solutions)\n- Use a doubly-linked list + map internally (no `container/list` — implement your own node struct)\n- Go standard library only (no external modules)\n- Submit `lru.go` + `lru_test.go`\n\n## Acceptance criteria\n- `go test ./...` passes all test cases\n- Concurrent test (10 goroutines × 100 ops) passes with `go test -race`\n- Eviction policy: least-recently-used (Get counts as use)",
+      "evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+        "https://www.bountybook.ai/docs",
+        "https://www.bountybook.ai/terms"
+      ],
+      "human_dependency": 0.08,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "autonomous_claim_enabled": false,
+        "claim_endpoint": "/jobs/a99032ec-5542-4232-a7a7-23ed20bdbaf4/claim",
+        "claim_is_free": true,
+        "days_left": 7,
+        "deadline_verified": false,
+        "estimated_effort_hours": 2.0,
+        "financial_transaction_signing_enabled": false,
+        "job_id": "a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+        "official_source": true,
+        "operator_gate": "build_deliverable_before_claim",
+        "payout_asset": "USDC",
+        "payout_chain": "Base",
+        "platform": "BountyBook",
+        "source_kind": "agent_native_public_api",
+        "spend_authorized": false,
+        "status_verified_open": true,
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_is_free": true,
+        "submission_mode": "bountybook_agent_api",
+        "submit_endpoint": "/jobs/a99032ec-5542-4232-a7a7-23ed20bdbaf4/submit",
+        "wallet_type": "EVM"
+      },
+      "observed_at": "2026-10-17T07:04:43.610138+00:00",
+      "opportunity_id": "market-a3a2d3454ea0c02f",
+      "payment_evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+        "budget_usdc=14",
+        "official_open_jobs_require_attached_usdc"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "go_software_delivery"
+      ],
+      "reward_amount": 14.0,
+      "reward_verified": true,
+      "risk": 0.22,
+      "security_scope_authorized": true,
+      "source_category": "agent_native_marketplace",
+      "source_id": "bountybook_agent_jobs",
+      "source_url": "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+      "terms_required": true,
+      "time_to_cash_days": 10,
+      "title": "Build a generic LRU cache in Go with concurrent safety",
+      "effort_hours": 2.0,
+      "reward_eur": 14.0,
+      "competition_risk": 0.55,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "capability_build",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "code_automation",
+        "lane": "experimental",
+        "decision": "capability_build",
+        "score": 0.3,
         "reasons": [],
         "forecast_only_not_pipeline_or_revenue": true
       }
@@ -1073,7 +1267,7 @@
         "submit_endpoint": "/jobs/13e5b137-7f9d-4a6c-affa-215b8dd15657/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.217417+00:00",
+      "observed_at": "2026-10-17T07:04:43.609952+00:00",
       "opportunity_id": "market-f01a30986b5f69df",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1184,7 +1378,7 @@
         "submit_endpoint": "/jobs/fdaccd0e-0eb6-42be-8819-fd61746eebe2/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.217547+00:00",
+      "observed_at": "2026-10-17T07:04:43.610060+00:00",
       "opportunity_id": "market-028a260f83c48f66",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1228,117 +1422,6 @@
         "lane": "experimental",
         "decision": "capability_build",
         "score": 0.2,
-        "reasons": [],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.96,
-      "account_required": true,
-      "canonical_url": "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
-      "competition": 0.55,
-      "cost": 0.0,
-      "currency": "USDC",
-      "deadline": "",
-      "decision": {
-        "blockers": [
-          "capability_missing:go_software_delivery"
-        ],
-        "evidence": [
-          "https://api.bountybook.ai/jobs?status=open&limit=100",
-          "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
-          "budget_usdc=6",
-          "official_open_jobs_require_attached_usdc",
-          "https://www.bountybook.ai/docs",
-          "https://www.bountybook.ai/terms"
-        ],
-        "human_action_minimal": "none",
-        "missing_capabilities": [
-          "go_software_delivery"
-        ],
-        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
-        "opportunity_id": "market-43cfc713818c42b3",
-        "score": 66.69,
-        "status": "capability_build"
-      },
-      "description": "Write urlcheck.go CLI that reads URLs from file arg, makes HEAD requests concurrently (max 10), outputs status code + URL or ERROR + URL. Go stdlib only.\nWrite `urlcheck.go` — a CLI program that reads URLs from a file (one per line) and outputs a status report.\n\n## Usage\n```\ngo run urlcheck.go urls.txt\n```\n\n## Output format (one line per URL)\n```\n200 OK         https://example.com\n404 Not Found  https://example.com/missing\nERROR          https://invalid.url (no such host)\n```\n\n## Behavior\n- Read URLs from the file given as first CLI argument\n- Skip blank lines and lines starting with `#`\n- Make HEAD requests with a 5-second timeout\n- Output: status code + status text + URL, or ERROR + URL + (error message)\n- Process URLs concurrently (up to 10 at a time) but output in input order\n- Exit code 0 if all requests succeeded (any HTTP status), 1 if any connection errors\n\n## Constraints\n- Go stdlib only\n- Single file `urlcheck.go`, package `main`",
-      "evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
-        "https://www.bountybook.ai/docs",
-        "https://www.bountybook.ai/terms"
-      ],
-      "human_dependency": 0.08,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "autonomous_claim_enabled": false,
-        "claim_endpoint": "/jobs/733d4731-7e60-4bb8-9233-ba3771c779d3/claim",
-        "claim_is_free": true,
-        "days_left": 7,
-        "deadline_verified": false,
-        "estimated_effort_hours": 2.0,
-        "financial_transaction_signing_enabled": false,
-        "job_id": "733d4731-7e60-4bb8-9233-ba3771c779d3",
-        "official_source": true,
-        "operator_gate": "build_deliverable_before_claim",
-        "payout_asset": "USDC",
-        "payout_chain": "Base",
-        "platform": "BountyBook",
-        "source_kind": "agent_native_public_api",
-        "spend_authorized": false,
-        "status_verified_open": true,
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_is_free": true,
-        "submission_mode": "bountybook_agent_api",
-        "submit_endpoint": "/jobs/733d4731-7e60-4bb8-9233-ba3771c779d3/submit",
-        "wallet_type": "EVM"
-      },
-      "observed_at": "2026-10-16T18:12:39.212378+00:00",
-      "opportunity_id": "market-43cfc713818c42b3",
-      "payment_evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
-        "budget_usdc=6",
-        "official_open_jobs_require_attached_usdc"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "go_software_delivery"
-      ],
-      "reward_amount": 6.0,
-      "reward_verified": true,
-      "risk": 0.22,
-      "security_scope_authorized": true,
-      "source_category": "agent_native_marketplace",
-      "source_id": "bountybook_agent_jobs",
-      "source_url": "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
-      "terms_required": true,
-      "time_to_cash_days": 10,
-      "title": "Build a CLI program that checks HTTP status codes for URLs in a file",
-      "effort_hours": 2.0,
-      "reward_eur": 6.0,
-      "competition_risk": 0.55,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "capability_build",
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "digital_products",
-        "lane": "adjacent",
-        "decision": "capability_build",
-        "score": 0.18,
         "reasons": [],
         "forecast_only_not_pipeline_or_revenue": true
       }
@@ -1406,7 +1489,7 @@
         "submit_endpoint": "/jobs/d6d3d8f1-dfaa-4a4c-9f65-df670bdfdb26/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.214522+00:00",
+      "observed_at": "2026-10-17T07:04:43.607592+00:00",
       "opportunity_id": "market-94d8490d83fbd824",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1517,7 +1600,7 @@
         "submit_endpoint": "/jobs/552d8068-b164-4917-b3ec-f2438a890192/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.214212+00:00",
+      "observed_at": "2026-10-17T07:04:43.607348+00:00",
       "opportunity_id": "market-46c66d38d5c7a2bc",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1561,6 +1644,159 @@
         "lane": "experimental",
         "decision": "capability_build",
         "score": 0.125,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.86,
+      "account_required": true,
+      "canonical_url": "https://www.freelancer.com/projects/woocommerce/business-wordpress-site",
+      "competition": 0.0,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "6 days left",
+      "decision": {
+        "blockers": [
+          "account_required",
+          "terms_acceptance_required"
+        ],
+        "evidence": [
+          "https://www.freelancer.com/jobs/html/",
+          "Business WordPress Site 6 days left Verified I’m ready to launch a new WordPress-based business website that showcases our products and lets customers buy with ease. The core of the build is a dedicated product section that must include: • a clean, searchable product catalog • a fully functional shopping cart for fast checkout • visible product reviews so visitors see real feedback WooCommerce (or an equally robust plugin) is the natural fit here, but if you have a better tool chain in mind, tell me why and how it improves speed or security. I already have hosting and a fresh WordPress install waiting; your job is to configure everything, choose or tweak a responsive theme so the shop looks polished on mobile and desktop, and make sure the catalog, cart, and review features work smoothly end-to-end. Once f... eCommerce HTML Web Development Website Design Website Development Website Optimization WooCommerce WordPress WordPress Design WordPress Plugin $15 - $25 / hr $15 - $25 / hr 0 bids Bid now",
+          "https://www.freelancer.com/projects/woocommerce/business-wordpress-site"
+        ],
+        "human_action_minimal": "account_required, terms_acceptance_required",
+        "missing_capabilities": [],
+        "next_action": "prepare_complete_submission_dossier_then_request_minimal_external_authorization",
+        "opportunity_id": "market-76e623628960639f",
+        "score": 60.79,
+        "status": "prepare_then_gate"
+      },
+      "description": "Business WordPress Site 6 days left Verified I’m ready to launch a new WordPress-based business website that showcases our products and lets customers buy with ease. The core of the build is a dedicated product section that must include: • a clean, searchable product catalog • a fully functional shopping cart for fast checkout • visible product reviews so visitors see real feedback WooCommerce (or an equally robust plugin) is the natural fit here, but if you have a better tool chain in mind, tell me why and how it improves speed or security. I already have hosting and a fresh WordPress install waiting; your job is to configure everything, choose or tweak a responsive theme so the shop looks polished on mobile and desktop, and make sure the catalog, cart, and review features work smoothly end-to-end. Once f... eCommerce HTML Web Development Website Design Website Development Website Optimization WooCommerce WordPress WordPress Design WordPress Plugin $15 - $25 / hr $15 - $25 / hr 0 bids Bid now",
+      "evidence": [
+        "https://www.freelancer.com/jobs/html/",
+        "https://www.freelancer.com/projects/woocommerce/business-wordpress-site",
+        "results/simple_mission_dossiers/market-76e623628960639f/proposal.md",
+        "results/simple_mission_dossiers/market-76e623628960639f/manifest.json"
+      ],
+      "human_dependency": 0.22,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "active_bids": 0,
+        "budget_currency": "USD",
+        "budget_max": 25.0,
+        "budget_min": 15.0,
+        "days_left": 6,
+        "estimated_effort_hours": 12.0,
+        "human_action_instructions": [
+          "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
+        ],
+        "official_source": true,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "price_guidance_eur": [
+          150,
+          800
+        ],
+        "price_guidance_status": "internal_guidance_only_not_client_quote",
+        "proposal_manifest_path": "results/simple_mission_dossiers/market-76e623628960639f/manifest.json",
+        "proposal_path": "results/simple_mission_dossiers/market-76e623628960639f/proposal.md",
+        "proposal_sha256": "fa4d7a3ba1359b1ed4b323763c682965909eea801c249831c991a1e2836c5313",
+        "software_acceptance_checks": [
+          "semantic HTML contains one h1 and a viewport declaration",
+          "layout remains usable at narrow viewport widths",
+          "all local links and referenced assets resolve",
+          "no external analytics, tracking or credential collection is introduced",
+          "delivery includes source files, validation receipt and deployment instructions"
+        ],
+        "software_boundaries": [
+          "maximum five static pages",
+          "no authentication, payment processing or customer database",
+          "no copied protected design or site clone",
+          "production deployment requires an explicit final gate"
+        ],
+        "software_capability_id": "static_website_delivery",
+        "software_deliverable_family": "small_website_and_landing_page",
+        "software_micro_mission": true,
+        "software_scope_assessment": {
+          "acceptance_checks": [
+            "semantic HTML contains one h1 and a viewport declaration",
+            "layout remains usable at narrow viewport widths",
+            "all local links and referenced assets resolve",
+            "no external analytics, tracking or credential collection is introduced",
+            "delivery includes source files, validation receipt and deployment instructions"
+          ],
+          "accepted": true,
+          "boundaries": [
+            "maximum five static pages",
+            "no authentication, payment processing or customer database",
+            "no copied protected design or site clone",
+            "production deployment requires an explicit final gate"
+          ],
+          "capability_id": "static_website_delivery",
+          "deliverable_family": "small_website_and_landing_page",
+          "estimated_effort_hours": 12.0,
+          "matched": true,
+          "price_guidance_eur": [
+            150,
+            800
+          ],
+          "reason": "bounded_software_micro_mission"
+        },
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/html/",
+        "submission_dossier_prepared": true,
+        "submission_dossier_required": true,
+        "submission_mode": "platform_proposal"
+      },
+      "observed_at": "2026-10-17T07:04:53.372300+00:00",
+      "opportunity_id": "market-76e623628960639f",
+      "payment_evidence": [
+        "https://www.freelancer.com/jobs/html/",
+        "Business WordPress Site 6 days left Verified I’m ready to launch a new WordPress-based business website that showcases our products and lets customers buy with ease. The core of the build is a dedicated product section that must include: • a clean, searchable product catalog • a fully functional shopping cart for fast checkout • visible product reviews so visitors see real feedback WooCommerce (or an equally robust plugin) is the natural fit here, but if you have a better tool chain in mind, tell me why and how it improves speed or security. I already have hosting and a fresh WordPress install waiting; your job is to configure everything, choose or tweak a responsive theme so the shop looks polished on mobile and desktop, and make sure the catalog, cart, and review features work smoothly end-to-end. Once f... eCommerce HTML Web Development Website Design Website Development Website Optimization WooCommerce WordPress WordPress Design WordPress Plugin $15 - $25 / hr $15 - $25 / hr 0 bids Bid now"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "static_website_delivery"
+      ],
+      "reward_amount": 15.0,
+      "reward_verified": true,
+      "risk": 0.2,
+      "security_scope_authorized": true,
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_software_jobs",
+      "source_url": "https://www.freelancer.com/projects/woocommerce/business-wordpress-site",
+      "terms_required": true,
+      "time_to_cash_days": 30,
+      "title": "Business WordPress Site",
+      "effort_hours": 12.0,
+      "reward_eur": 15.0,
+      "competition_risk": 0.0,
+      "payment_confidence": 0.85,
+      "capability_fit": 0.9,
+      "human_actions_required": 1,
+      "payment_path": "Freelancer milestone payment; account payout method selected after award",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "prepare_then_gate",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "web_landing_pages",
+        "lane": "exploit",
+        "decision": "capability_build",
+        "score": 0.113,
         "reasons": [],
         "forecast_only_not_pipeline_or_revenue": true
       }
@@ -1628,7 +1864,7 @@
         "submit_endpoint": "/jobs/05972785-3be7-4b20-be73-acd7484767d3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.216947+00:00",
+      "observed_at": "2026-10-17T07:04:43.609579+00:00",
       "opportunity_id": "market-1fb23eafad516f31",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1739,7 +1975,7 @@
         "submit_endpoint": "/jobs/784345ae-fd58-481e-93cd-c1f6226ffd0d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.215681+00:00",
+      "observed_at": "2026-10-17T07:04:43.608547+00:00",
       "opportunity_id": "market-59e80f1486713142",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1850,7 +2086,7 @@
         "submit_endpoint": "/jobs/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.212886+00:00",
+      "observed_at": "2026-10-17T07:04:43.606325+00:00",
       "opportunity_id": "market-e91dcdf4892d3082",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1961,7 +2197,7 @@
         "submit_endpoint": "/jobs/fca0ae30-6edc-401d-86dc-69c9681f233f/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-16T18:12:39.217143+00:00",
+      "observed_at": "2026-10-17T07:04:43.609739+00:00",
       "opportunity_id": "market-fc390e04e71a092e",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -2005,6 +2241,88 @@
         "lane": "experimental",
         "decision": "capability_build",
         "score": 0.107,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.86,
+      "account_required": true,
+      "collector_source_id": "freelancer_public_software_jobs",
+      "competition": 0.0,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "6 days left",
+      "description": "Business WordPress Site 6 days left Verified I’m ready to launch a new WordPress-based business website that showcases our products and lets customers buy with ease. The core of the build is a dedicated product section that must include: • a clean, searchable product catalog • a fully functional shopping cart for fast checkout • visible product reviews so visitors see real feedback WooCommerce (or an equally robust plugin) is the natural fit here, but if you have a better tool chain in mind, tell me why and how it improves speed or security. I already have hosting and a fresh WordPress install waiting; your job is to configure everything, choose or tweak a responsive theme so the shop looks polished on mobile and desktop, and make sure the catalog, cart, and review features work smoothly end-to-end. Once f... eCommerce HTML Web Development Website Design Website Development Website Optimization WooCommerce WordPress WordPress Design WordPress Plugin $15 - $25 / hr $15 - $25 / hr 0 bids Bid now",
+      "evidence": [
+        "https://www.freelancer.com/jobs/html/",
+        "https://www.freelancer.com/projects/woocommerce/business-wordpress-site"
+      ],
+      "human_dependency": 0.22,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "active_bids": 0,
+        "budget_currency": "USD",
+        "budget_max": 25.0,
+        "budget_min": 15.0,
+        "collector_source_id": "freelancer_public_software_jobs",
+        "days_left": 6,
+        "estimated_effort_hours": 12.0,
+        "official_source": true,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/html/",
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_mode": "platform_proposal"
+      },
+      "observed_at": "2026-10-17T07:04:53.372300+00:00",
+      "payment_evidence": [
+        "https://www.freelancer.com/jobs/html/",
+        "Business WordPress Site 6 days left Verified I’m ready to launch a new WordPress-based business website that showcases our products and lets customers buy with ease. The core of the build is a dedicated product section that must include: • a clean, searchable product catalog • a fully functional shopping cart for fast checkout • visible product reviews so visitors see real feedback WooCommerce (or an equally robust plugin) is the natural fit here, but if you have a better tool chain in mind, tell me why and how it improves speed or security. I already have hosting and a fresh WordPress install waiting; your job is to configure everything, choose or tweak a responsive theme so the shop looks polished on mobile and desktop, and make sure the catalog, cart, and review features work smoothly end-to-end. Once f... eCommerce HTML Web Development Website Design Website Development Website Optimization WooCommerce WordPress WordPress Design WordPress Plugin $15 - $25 / hr $15 - $25 / hr 0 bids Bid now"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "technical_proposal"
+      ],
+      "reward_amount": 15.0,
+      "reward_verified": true,
+      "risk": 0.2,
+      "security_scope_authorized": true,
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_software_jobs",
+      "source_url": "https://www.freelancer.com/projects/woocommerce/business-wordpress-site",
+      "terms_required": true,
+      "time_to_cash_days": 30,
+      "title": "Business WordPress Site",
+      "opportunity_id": "https://www.freelancer.com/projects/woocommerce/business-wordpress-site",
+      "effort_hours": 12.0,
+      "reward_eur": 15.0,
+      "competition_risk": 0.0,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "Freelancer milestone payment; account payout method selected after award",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "simple_mission_source_refresh.json",
+      "upstream_decision": null,
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "web_landing_pages",
+        "lane": "experimental",
+        "decision": "capability_build",
+        "score": 0.062,
         "reasons": [],
         "forecast_only_not_pipeline_or_revenue": true
       }
@@ -2069,7 +2387,7 @@
         "spend_authorized": false,
         "submission_mode": "agentpact_deal_proposal"
       },
-      "observed_at": "2026-10-16T18:12:40.178693+00:00",
+      "observed_at": "2026-10-17T07:04:44.743051+00:00",
       "opportunity_id": "market-892d0a1a48096d70",
       "payment_evidence": [
         "https://api.agentpact.xyz/api/needs",
@@ -2119,280 +2437,11 @@
         ],
         "forecast_only_not_pipeline_or_revenue": true
       }
-    },
-    {
-      "accessibility": 0.9,
-      "account_required": true,
-      "competition": 0.0,
-      "cost": 0.05,
-      "currency": "USD",
-      "deadline": "",
-      "description": "r Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand CA Cal.com, Inc. Bounties Cash rewards for contributors who solve open issues Open 2 Completed 183 $50 font#2 Plans on weights? 5 months ago $100 font#2 Plans on weights? 40 months ago Footer Algora PBC © 2026 Schedule a call US +1 (650) 420-2207 EU +30 (697) 318-4144 Customer stories CodeRabbit ComfyUI Firecrawl Connect OSS Founder Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand llms.txt",
-      "evidence": [
-        "https://algora.io/cal/bounties?status=open",
-        "https://github.com/calcom/font/issues/2"
-      ],
-      "human_dependency": 0.18,
-      "identity_or_kyc_required": true,
-      "legal_entity_required": false,
-      "metadata": {
-        "active_claims": 0,
-        "estimated_effort_hours": 8.0,
-        "official_source": true,
-        "payment_methods": [
-          "Algora platform payout"
-        ],
-        "payout_setup_required": true,
-        "platform": "Algora",
-        "source_kind": "public_bounty_platform"
-      },
-      "observed_at": "2026-10-16T18:12:20.569053+00:00",
-      "payment_evidence": [
-        "https://algora.io/cal/bounties?status=open",
-        "r Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand CA Cal.com, Inc. Bounties Cash rewards for contributors who solve open issues Open 2 Completed 183 $50 font#2 Plans on weights? 5 months ago $100 font#2 Plans on weights? 40 months ago Footer Algora PBC © 2026 Schedule a call US +1 (650) 420-2207 EU +30 (697) 318-4144 Customer stories CodeRabbit ComfyUI Firecrawl Connect OSS Founder Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand llms.txt"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "technical_proposal"
-      ],
-      "reward_amount": 100.0,
-      "reward_verified": true,
-      "risk": 0.18,
-      "security_scope_authorized": true,
-      "source_category": "code_bounty",
-      "source_id": "algora_public_bounties",
-      "source_url": "https://github.com/calcom/font/issues/2",
-      "terms_required": true,
-      "time_to_cash_days": 21,
-      "title": "Plans on weights?",
-      "opportunity_id": "https://github.com/calcom/font/issues/2",
-      "effort_hours": 8.0,
-      "reward_eur": 100.0,
-      "competition_risk": 0.0,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "Algora platform payout",
-      "acceptance_criteria": [],
-      "fresh_open_verified": false,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "small_bounty_source_refresh.json",
-      "upstream_decision": null,
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "writing_documentation",
-        "lane": "experimental",
-        "decision": "reject",
-        "score": 0.0,
-        "reasons": [
-          "status_not_freshly_verified_open",
-          "acceptance_criteria_missing"
-        ],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.86,
-      "account_required": true,
-      "canonical_url": "https://www.freelancer.com/projects/audio-editing/czech-speech-annotation-pilot",
-      "competition": 0.0,
-      "cost": 0.1,
-      "currency": "USD",
-      "deadline": "5 days left",
-      "decision": {
-        "blockers": [
-          "capability_missing:translation_delivery",
-          "capability_requires_validation:translation_delivery",
-          "unverifiable_personal_eligibility"
-        ],
-        "evidence": [
-          "https://www.freelancer.com/jobs/translation/",
-          "Czech Speech Annotation Pilot 5 days left I’m kicking off a pilot to build a high-quality Czech speech corpus and need a meticulous native speaker to help me. Your first task will focus on Czech audio transcription of speeches or presentations, followed by sentence segmentation, speaker identification, precise timestamps, and detailed noise/overlap labelling. Every hour that meets our quality bar is paid at USD 75; once the pilot proves accurate, we’ll expand to a longer-term collaboration. Deliverables for the pilot • Fully transcribed Czech audio (speeches/presentations) in UTF-8 text • Sentence-level time-aligned segments with speaker tags • Noise and overlap markers applied to guidelines I’ll supply • Quick self-check report confirming the annotation passes our QC checklist To mo... Audio Editing Audio Processing English (US) Translator German Translator Language Tutoring Speech Recognition Transcription Translation $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
-          "https://www.freelancer.com/projects/audio-editing/czech-speech-annotation-pilot"
-        ],
-        "human_action_minimal": "none",
-        "missing_capabilities": [],
-        "next_action": "reject_and_continue_discovery",
-        "opportunity_id": "market-66cb38d60604ce92",
-        "score": 60.85,
-        "status": "rejected"
-      },
-      "description": "Czech Speech Annotation Pilot 5 days left I’m kicking off a pilot to build a high-quality Czech speech corpus and need a meticulous native speaker to help me. Your first task will focus on Czech audio transcription of speeches or presentations, followed by sentence segmentation, speaker identification, precise timestamps, and detailed noise/overlap labelling. Every hour that meets our quality bar is paid at USD 75; once the pilot proves accurate, we’ll expand to a longer-term collaboration. Deliverables for the pilot • Fully transcribed Czech audio (speeches/presentations) in UTF-8 text • Sentence-level time-aligned segments with speaker tags • Noise and overlap markers applied to guidelines I’ll supply • Quick self-check report confirming the annotation passes our QC checklist To mo... Audio Editing Audio Processing English (US) Translator German Translator Language Tutoring Speech Recognition Transcription Translation $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
-      "evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "https://www.freelancer.com/projects/audio-editing/czech-speech-annotation-pilot"
-      ],
-      "human_dependency": 0.22,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "active_bids": 0,
-        "budget_currency": "USD",
-        "budget_max": 50.0,
-        "budget_min": 25.0,
-        "capability_gap_allowed": false,
-        "days_left": 5,
-        "estimated_effort_hours": 8.0,
-        "human_action_instructions": [],
-        "official_source": true,
-        "payment_methods": [
-          "Freelancer milestone payment; account payout method selected after award"
-        ],
-        "payout_setup_required": false,
-        "platform": "Freelancer.com",
-        "policy_rejection": "unverifiable_personal_eligibility",
-        "policy_rejection_source": "semantic_policy",
-        "policy_rejection_verified": true,
-        "source_kind": "public_freelance_listing",
-        "source_page": "https://www.freelancer.com/jobs/translation/",
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_mode": "platform_proposal"
-      },
-      "observed_at": "2026-10-16T18:12:49.690827+00:00",
-      "opportunity_id": "market-66cb38d60604ce92",
-      "payment_evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "Czech Speech Annotation Pilot 5 days left I’m kicking off a pilot to build a high-quality Czech speech corpus and need a meticulous native speaker to help me. Your first task will focus on Czech audio transcription of speeches or presentations, followed by sentence segmentation, speaker identification, precise timestamps, and detailed noise/overlap labelling. Every hour that meets our quality bar is paid at USD 75; once the pilot proves accurate, we’ll expand to a longer-term collaboration. Deliverables for the pilot • Fully transcribed Czech audio (speeches/presentations) in UTF-8 text • Sentence-level time-aligned segments with speaker tags • Noise and overlap markers applied to guidelines I’ll supply • Quick self-check report confirming the annotation passes our QC checklist To mo... Audio Editing Audio Processing English (US) Translator German Translator Language Tutoring Speech Recognition Transcription Translation $25 - $50 / hr $25 - $50 / hr 0 bids Bid now"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "translation_delivery"
-      ],
-      "reward_amount": 25.0,
-      "reward_verified": true,
-      "risk": 0.2,
-      "security_scope_authorized": true,
-      "source_category": "freelance_marketplace",
-      "source_id": "freelancer_public_simple_jobs",
-      "source_url": "https://www.freelancer.com/projects/audio-editing/czech-speech-annotation-pilot",
-      "terms_required": true,
-      "time_to_cash_days": 30,
-      "title": "Czech Speech Annotation Pilot",
-      "effort_hours": 8.0,
-      "reward_eur": 25.0,
-      "competition_risk": 0.0,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "Freelancer milestone payment; account payout method selected after award",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "rejected",
-      "upstream_rejected": true,
-      "internet_opportunity_router": {
-        "domain": "translation",
-        "lane": "exploit",
-        "decision": "reject",
-        "score": 0.0,
-        "reasons": [
-          "upstream_rejected",
-          "policy_rejected:unverifiable_personal_eligibility"
-        ],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.95,
-      "account_required": true,
-      "canonical_url": "https://github.com/logos-co/rfp/issues/185",
-      "competition": 0.0,
-      "cost": 0.05,
-      "currency": "USD",
-      "deadline": "",
-      "decision": {
-        "blockers": [
-          "capability_missing:technical_proposal",
-          "capability_requires_validation:technical_proposal"
-        ],
-        "evidence": [
-          "https://github.com/logos-co/rfp/issues/185",
-          "- **Full-stack developer at XRPL Commons.**\n- Member of DeVinci Blockchain, ESILV.\n\n### Project Summary\n\n> **Requested: $70,000** all-in over 10–12 weeks — $56,000 of milestone payouts to\n> us, paid on acceptance, and $14,000 which is the e",
-          "implementation"
-        ],
-        "human_action_minimal": "none",
-        "missing_capabilities": [
-          "technical_proposal"
-        ],
-        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
-        "opportunity_id": "market-0c3f1bc7296f3829",
-        "score": 93.75,
-        "status": "capability_build"
-      },
-      "description": "[PROPOSAL] RFP-016 — Antumbra LBP: Weighted-Pool Launchpad",
-      "evidence": [
-        "https://github.com/logos-co/rfp/issues/185",
-        "- **Full-stack developer at XRPL Commons.**\n- Member of DeVinci Blockchain, ESILV.\n\n### Project Summary\n\n> **Requested: $70,000** all-in over 10–12 weeks — $56,000 of milestone payouts to\n> us, paid on acceptance, and $14,000 which is the e",
-        "implementation"
-      ],
-      "human_dependency": 0.1,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "original_candidate_id": "76efe680864869b4",
-        "source_payload": "monetization_candidates.json"
-      },
-      "observed_at": "2026-08-23T18:34:57Z",
-      "opportunity_id": "market-0c3f1bc7296f3829",
-      "payment_evidence": [
-        "https://github.com/logos-co/rfp/issues/185",
-        "- **Full-stack developer at XRPL Commons.**\n- Member of DeVinci Blockchain, ESILV.\n\n### Project Summary\n\n> **Requested: $70,000** all-in over 10–12 weeks — $56,000 of milestone payouts to\n> us, paid on acceptance, and $14,000 which is the e",
-        "implementation"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "technical_proposal"
-      ],
-      "reward_amount": 70000.0,
-      "reward_verified": true,
-      "risk": 0.2,
-      "security_scope_authorized": true,
-      "source_category": "code_bounty",
-      "source_id": "github_bounties",
-      "source_url": "https://github.com/logos-co/rfp/issues/185",
-      "terms_required": false,
-      "time_to_cash_days": 30,
-      "title": "[PROPOSAL] RFP-016 — Antumbra LBP: Weighted-Pool Launchpad",
-      "effort_hours": 999.0,
-      "reward_eur": 70000.0,
-      "competition_risk": 0.0,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
-      "acceptance_criteria": [],
-      "fresh_open_verified": false,
-      "legal_policy_pass": false,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "capability_build",
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "writing_documentation",
-        "lane": "experimental",
-        "decision": "reject",
-        "score": 0.0,
-        "reasons": [
-          "status_not_freshly_verified_open",
-          "acceptance_criteria_missing",
-          "legal_or_platform_policy_not_verified"
-        ],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
     }
   ],
   "pivot_metrics": {
     "rejected_without_candidate": 0,
-    "source_results_without_eligible": 63,
+    "source_results_without_eligible": 60,
     "proposals_without_reply": 0,
     "replies_without_conversion": 0,
     "verified_payments": 0
