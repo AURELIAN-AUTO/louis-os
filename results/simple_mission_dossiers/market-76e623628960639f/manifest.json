@@ -1,0 +1,20 @@
+{
+  "capabilities": [
+    "static_website_delivery"
+  ],
+  "currency": "USD",
+  "deadline": "6 days left",
+  "estimated_effort_hours": 12.0,
+  "external_receipt": null,
+  "externally_submitted": false,
+  "opportunity_id": "market-76e623628960639f",
+  "platform": "Freelancer.com",
+  "proposal_path": "results/simple_mission_dossiers/market-76e623628960639f/proposal.md",
+  "proposal_sha256": "fa4d7a3ba1359b1ed4b323763c682965909eea801c249831c991a1e2836c5313",
+  "revenue_verified": false,
+  "reward_amount": 15.0,
+  "schema_version": "1.2",
+  "source_id": "freelancer_public_software_jobs",
+  "source_url": "https://www.freelancer.com/projects/woocommerce/business-wordpress-site",
+  "title": "Business WordPress Site"
+}

@@ -2,7 +2,7 @@
   "count": 5,
   "external_actions_authorized": false,
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-16T18:12:56.655076+00:00",
+  "generated_at": "2026-10-17T07:04:55.571419+00:00",
   "plans": [
     {
       "acceptance_tests": [
@@ -161,12 +161,12 @@
       "capability_market_score": 49.14,
       "cluster_id": "cluster-6c3f05a24453ca40",
       "evidence": [
-        "https://www.bountybook.ai/job/733d4731-7e60-4bb8-9233-ba3771c779d3",
+        "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
         "bountybook_agent_jobs"
       ],
       "fixture_opportunity_ids": [
-        "market-43cfc713818c42b3",
-        "market-9e72342cee57cb3c"
+        "market-9e72342cee57cb3c",
+        "market-a3a2d3454ea0c02f"
       ],
       "immediate_next_action": "create_or_update_capability_issue:go_software_delivery",
       "lane": "cash_first",
