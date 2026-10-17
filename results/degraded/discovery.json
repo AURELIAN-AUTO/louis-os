@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-16T18:13:35.996384+00:00",
+    "generated_at": "2026-10-17T07:05:25.663155+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,9 +23,47 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "d2d9eb308ee79b85",
-      "url": "https://github.com/Pi-Defi-world/acbu-smart-contract/issues/996",
-      "title": "W10-I-015 - CI uses deprecated/EOL GitHub Actions",
+      "candidate_id": "180edf09c969304a",
+      "url": "https://github.com/nextellarlabs/nextellar-docs/issues/1070",
+      "title": "docs(hooks): audit use-stellar-balances.mdx against the shipped hook",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "f00a97925c0dff2c",
+      "url": "https://github.com/JWST-GC/data-qa/issues/297",
+      "title": "GC Treasury — jw10678-o069 (NIRCam)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "2543b63e459a8e97",
+      "url": "https://github.com/Supremeai-bd/supremeai-open/issues/486",
+      "title": "feat(open): [ci-guard] High-Precision PR Improvement & Zero-Regression Evaluator (2-Criteria Auto-Merge Engine)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "eda27bbc54b34098",
+      "url": "https://github.com/Cerune-Lang/Cerune/issues/153",
+      "title": "セキュリティ堅牢化: パーサ深度・ソース読込予算・import・生成C・CI",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "b58f9f73497a47aa",
+      "url": "https://github.com/gyroflow/gyroflow/issues/742",
+      "title": "Refactor lens profile handling",
+      "reason": "overcrowded_bounty",
+      "active_attempts": 19,
+      "maximum_allowed": 5
+    },
+    {
+      "candidate_id": "8bb13b9dded3e018",
+      "url": "https://github.com/aliezzat4321/hyperliquid-copy-engine/issues/130",
+      "title": "AI TEAM RUNTIME STATUS",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "039478cedd2fe0d1",
+      "url": "https://github.com/Sororail/sororail-contracts/issues/214",
+      "title": "Add test for `vesting::create` emitting the Created event",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -35,9 +73,9 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8c954ba4170a85b2",
-      "url": "https://github.com/KingInYellows/yellow-plugins/issues/1226",
-      "title": "yellow-core Stop capture: record-aware dialogue window (scan past 1000 lines, passthrough slots, overlapping captures)",
+      "candidate_id": "754c2c9f258f4d0b",
+      "url": "https://github.com/WillBooster/tree-sitter-c/issues/8",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -47,15 +85,15 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a971e9b6c2fac7e3",
-      "url": "https://github.com/orbi-build/orbi/issues/1659",
-      "title": "Identify delivery comments and review rounds without English headings",
+      "candidate_id": "e6d97dc51094306a",
+      "url": "https://github.com/okou-ai/okou/issues/40864",
+      "title": "bug: remove admitted-run credit balance exemptions",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "adaaf7d7f4816f05",
-      "url": "https://github.com/MisterRaindrop/postgresql-github-mirror/issues/1023",
-      "title": "BUG #19765: Wrong result from a chain of LEFT JOINs since v16",
+      "candidate_id": "e6731d52eb698692",
+      "url": "https://github.com/glebfox/timesheets/issues/1",
+      "title": "Calendar view",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -65,47 +103,9 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9b25552cabf839d9",
-      "url": "https://github.com/cozyGarage/BookiE/issues/1032",
-      "title": "Measure and bound retained streamed-result resources across pins, export and teardown",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "f7c462f4574781b9",
-      "url": "https://github.com/diegoami/goal2/issues/156",
-      "title": "T69 follow-up: clarify spacing in desktop startup guide",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "b58f9f73497a47aa",
-      "url": "https://github.com/gyroflow/gyroflow/issues/742",
-      "title": "Refactor lens profile handling",
-      "reason": "overcrowded_bounty",
-      "active_attempts": 18,
-      "maximum_allowed": 5
-    },
-    {
-      "candidate_id": "457fc1a3db3b653e",
-      "url": "https://github.com/spoorendonk/cbls/issues/204",
-      "title": "CVRP: execute the CVRPLIB X campaign (smoke, dev, full) and publish gaps to BKS",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "a71f3bb6002b3735",
-      "url": "https://github.com/hjrdave/StarScriptMapMaker/issues/236",
-      "title": "Pop tabs out into separate windows so multiple maps can be open side by side",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "6ae82ad0e95d86f3",
-      "url": "https://github.com/markgoodbody-bit/COM/issues/840",
-      "title": "YAC next encounter — one usable read-and-return release path",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "cb32c4e87b4871c3",
-      "url": "https://github.com/phuongnse/axis/issues/456",
-      "title": "Scenario record actions check their expected outcome",
+      "candidate_id": "40ecdf6dd8991e95",
+      "url": "https://github.com/playreliquia/remeres-map-editor/issues/42",
+      "title": "Renovate Dashboard 🤖",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -115,33 +115,15 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2d62225ca4dac59b",
-      "url": "https://github.com/valtteriluomapareto/photo-export/issues/116",
-      "title": "Move PhotoKit enumerations off main thread to eliminate startup beachball",
+      "candidate_id": "67109c609b4aa9b0",
+      "url": "https://github.com/JWST-GC/data-qa/issues/299",
+      "title": "GC Treasury — jw10678-o070 (NIRCam)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "fad0a9e23b7abcb4",
-      "url": "https://github.com/hjrdave/StarScriptMapMaker/issues/235",
-      "title": "Multi-select layers with the mouse, context menu (copy, cut, group), and copy/paste between tabs",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "611a0654bb56a268",
-      "url": "https://github.com/d6g8k5htny-coder/main/issues/419",
-      "title": "Agent Message Board (continued from #307): successor coordination board to #307",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "275dec553b2e3141",
-      "url": "https://github.com/rgleason/weather_routing_pi/issues/690",
-      "title": "WR 1.15.45.9 (current release) opencpn crashes when calculation of a weather route is started",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "c90ab4b3cd279117",
-      "url": "https://github.com/koshian/cayenchat/issues/437",
-      "title": "macOS・Windows・Linuxのスリープ復帰後にIRC接続を検証し、失われた接続を自動復旧する",
+      "candidate_id": "b81ce6dc57f75a7e",
+      "url": "https://github.com/ejnburrows-rgb/cartilla-de-gretel/issues/877",
+      "title": "JOB BOARD",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -151,33 +133,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "95a580bd52a89d21",
-      "url": "https://github.com/DanielCWeng/predictions-cup/issues/201",
-      "title": "ALPHA-RECOVERY: inventory recycling, executable reversal, election-night event engine",
+      "candidate_id": "627659e5d640ac9d",
+      "url": "https://github.com/opencharly/charly/issues/867",
+      "title": "deploy add: a short image name can die as 'deploy-name alias tag: command exited 125' — the overlay prep swallows the resolution error and tags a bare ref",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "92191d397a02cc6b",
-      "url": "https://github.com/Blake11/PenBridge/issues/156",
-      "title": "P5-C1: Mac Settings window, region overlay and settings store",
+      "candidate_id": "af0ff6c17f5467cb",
+      "url": "https://github.com/Sorokit/core/issues/775",
+      "title": "`mockClient.ts` does not support stubbing contract invocation results — testing Soroban flows is cumbersome",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "3740ba5147140943",
-      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2641",
-      "title": "[NAYA] Team coordination feed — live board (successor to #2537)",
+      "candidate_id": "06ee73e5df1d510e",
+      "url": "https://github.com/JWST-GC/data-qa/issues/309",
+      "title": "GC Treasury — jw10678-o076 (NIRCam)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "7da2eb3ad9da2fef",
-      "url": "https://github.com/wegamekinglc/calc-flow/issues/406",
-      "title": "perf: stream join and ASOF second-stage acceleration plan (after #363)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "e19cf77d77497b9d",
-      "url": "https://github.com/omacom/omarchy-plugin-marketplace/issues/11763",
-      "title": "[Plugin]: Arrange — keyboard window mode for moving and resizing windows",
+      "candidate_id": "23136aafc3810034",
+      "url": "https://github.com/dotnet/runtime/issues/131951",
+      "title": "HttpWebRequestTest_Async.SendHttpRequest_BindIPEndPoint_Success failure from too many BindIPEndPointDelegate retries",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -195,21 +171,45 @@
       }
     },
     {
-      "candidate_id": "00e55f4d469c2318",
-      "url": "https://github.com/spoorendonk/cbls/issues/131",
-      "title": "UC-CHPED: execute the serial comparison.csv regeneration run and publish verify counts",
+      "candidate_id": "078bc4d359a826be",
+      "url": "https://github.com/signature-studio/signature-studio-dev/issues/4700",
+      "title": "[PLG-G2-54] Slayer_Engine.dll: export main の非 0 経路で native が SIGSEGV・wasm が OOB する原因の特定と host オブジェクト 0x8298d8 のモデル化",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "dc6d9730ad004262",
-      "url": "https://github.com/SharonRobinson90464/assertify.io/issues/1",
-      "title": "Clarify the supported runtime versions",
+      "candidate_id": "6a9d20b61c0ceff5",
+      "url": "https://github.com/Miragon/pulse/issues/415",
+      "title": "[Refactor]: Rename this repo and everything it ships to Pulse",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8465b869cc2ebdf0",
-      "url": "https://github.com/ZcashFoundation/zebra/issues/11334",
-      "title": "fix(ci): run the book link check or remove it",
+      "candidate_id": "42ce797f3b65493b",
+      "url": "https://github.com/antfu/raycast-multi-translate/issues/7",
+      "title": "Add support for DeepL Api",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "2d6242775cb3438c",
+      "url": "https://github.com/boykopovar/AnyPS5/issues/6582",
+      "title": "PRAGMATA: captured wave64 pixel shader still fails lane 63 with #6180",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "149a5725ed8c279e",
+      "url": "https://github.com/mokume-metal/mokume/issues/2802",
+      "title": "design(media): 映像入力を毎回 CPU の全画素配列へ変換する境界を、複数映像と高fpsの予算で見直す",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "37d8239ae27c279d",
+      "url": "https://github.com/JWST-GC/data-qa/issues/307",
+      "title": "GC Treasury — jw10678-o074 (NIRCam)",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "edcf10939b8be9eb",
+      "url": "https://github.com/mgh3326/auto_trader/issues/3",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
