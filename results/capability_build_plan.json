@@ -2,7 +2,7 @@
   "count": 5,
   "external_actions_authorized": false,
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-17T07:04:55.571419+00:00",
+  "generated_at": "2026-10-17T17:21:38.708733+00:00",
   "plans": [
     {
       "acceptance_tests": [
@@ -61,12 +61,12 @@
       "fixture_opportunity_ids": [
         "market-0ce5602d3d3c389c",
         "market-1fb23eafad516f31",
-        "market-4fbdd3d92c33846b"
+        "market-2cffba087e9be944"
       ],
       "immediate_next_action": "create_or_update_capability_issue:javascript_automation_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `javascript_automation_delivery` as a reusable `javascript_automation_delivery` delivery capability for 10 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 10,
+      "objective": "Implement and validate `javascript_automation_delivery` as a reusable `javascript_automation_delivery` delivery capability for 11 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 11,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 2,
       "required_interface": {
@@ -158,20 +158,19 @@
       ],
       "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
       "capability_id": "go_software_delivery",
-      "capability_market_score": 49.14,
+      "capability_market_score": 46.01,
       "cluster_id": "cluster-6c3f05a24453ca40",
       "evidence": [
-        "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+        "https://www.bountybook.ai/job/25e871ca-fb8d-4974-8cc6-258d352c1a55",
         "bountybook_agent_jobs"
       ],
       "fixture_opportunity_ids": [
-        "market-9e72342cee57cb3c",
-        "market-a3a2d3454ea0c02f"
+        "market-9e72342cee57cb3c"
       ],
       "immediate_next_action": "create_or_update_capability_issue:go_software_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `go_software_delivery` as a reusable `go_software_delivery` delivery capability for 2 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 2,
+      "objective": "Implement and validate `go_software_delivery` as a reusable `go_software_delivery` delivery capability for 1 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 1,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 5,
       "required_interface": {

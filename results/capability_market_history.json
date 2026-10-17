@@ -4,14 +4,6 @@
     {
       "cash_first_cluster_count": 3,
       "cluster_count": 9,
-      "generated_at": "2026-08-14T15:10:38.620876+00:00",
-      "qualified_opportunity_count": 89,
-      "top_capability": "python_automation_delivery",
-      "top_score": 71.64
-    },
-    {
-      "cash_first_cluster_count": 3,
-      "cluster_count": 9,
       "generated_at": "2026-08-14T18:10:25.744358+00:00",
       "qualified_opportunity_count": 89,
       "top_capability": "python_automation_delivery",
@@ -1342,6 +1334,14 @@
       "cluster_count": 14,
       "generated_at": "2026-10-17T07:04:55.571419+00:00",
       "qualified_opportunity_count": 116,
+      "top_capability": "python_automation_delivery",
+      "top_score": 71.64
+    },
+    {
+      "cash_first_cluster_count": 7,
+      "cluster_count": 12,
+      "generated_at": "2026-10-17T17:21:38.708733+00:00",
+      "qualified_opportunity_count": 114,
       "top_capability": "python_automation_delivery",
       "top_score": 71.64
     }

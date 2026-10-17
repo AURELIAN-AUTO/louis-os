@@ -265,9 +265,9 @@
     "cash_first": 5,
     "human_action_ready": 0,
     "rejected": 53,
-    "strategic": 71
+    "strategic": 69
   },
-  "generated_at": "2026-10-17T07:04:55.248417+00:00",
+  "generated_at": "2026-10-17T17:21:38.451229+00:00",
   "human_action_ready": [],
   "policy": {
     "agent_native_minimum_reward": 5.0,
@@ -513,55 +513,6 @@
       "urgency": "normal"
     },
     {
-      "cash_priority_score": 63.31,
-      "currency": "USDC",
-      "deadline": "",
-      "decision_status": "capability_build",
-      "estimated_effort_hours": 2.0,
-      "estimated_hourly_value": 7.0,
-      "evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
-        "budget_usdc=14",
-        "official_open_jobs_require_attached_usdc",
-        "https://www.bountybook.ai/docs",
-        "https://www.bountybook.ai/terms"
-      ],
-      "human_actions": [],
-      "human_gate_required": false,
-      "lane": "strategic",
-      "notification_fingerprint": "30daae1a3862c00db3d2",
-      "opportunity_id": "market-a3a2d3454ea0c02f",
-      "payment_methods": [
-        "payer-supported lawful method to be confirmed"
-      ],
-      "prepared_artifacts": [],
-      "rationale": [
-        "estimated_effort_hours=2",
-        "page_count=unknown",
-        "time_to_cash_days=10",
-        "competition=0.55",
-        "cost=0.00",
-        "accessibility=0.96",
-        "economics_viable=true",
-        "minimum_hourly_value=8",
-        "agent_native_microjob=true",
-        "agent_native_minimum_reward=5",
-        "execution_ready=false",
-        "scope_exception_applied=false",
-        "hours and page volume are scoring inputs, not standalone rejection gates",
-        "headline prize size is not used as the primary ranking signal"
-      ],
-      "ready_for_human_action": false,
-      "reward_amount": 14.0,
-      "risk_summary": "risk=0.22; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
-      "scope_exception_applied": false,
-      "source_url": "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
-      "time_to_cash_days": 10,
-      "title": "Build a generic LRU cache in Go with concurrent safety",
-      "urgency": "normal"
-    },
-    {
       "cash_priority_score": 63.21,
       "currency": "USDC",
       "deadline": "",
@@ -755,6 +706,55 @@
       "source_url": "https://www.bountybook.ai/job/05972785-3be7-4b20-be73-acd7484767d3",
       "time_to_cash_days": 10,
       "title": "Build a rate_limiter.js module that exports a RateLimiter class",
+      "urgency": "normal"
+    },
+    {
+      "cash_priority_score": 62.86,
+      "currency": "USDC",
+      "deadline": "",
+      "decision_status": "capability_build",
+      "estimated_effort_hours": 2.0,
+      "estimated_hourly_value": 2.5,
+      "evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/734626a0-26b5-478b-b9cf-fb575aea8adc",
+        "budget_usdc=5",
+        "official_open_jobs_require_attached_usdc",
+        "https://www.bountybook.ai/docs",
+        "https://www.bountybook.ai/terms"
+      ],
+      "human_actions": [],
+      "human_gate_required": false,
+      "lane": "strategic",
+      "notification_fingerprint": "423a343d9ed51741bf37",
+      "opportunity_id": "market-2cffba087e9be944",
+      "payment_methods": [
+        "payer-supported lawful method to be confirmed"
+      ],
+      "prepared_artifacts": [],
+      "rationale": [
+        "estimated_effort_hours=2",
+        "page_count=unknown",
+        "time_to_cash_days=10",
+        "competition=0.55",
+        "cost=0.00",
+        "accessibility=0.96",
+        "economics_viable=true",
+        "minimum_hourly_value=8",
+        "agent_native_microjob=true",
+        "agent_native_minimum_reward=5",
+        "execution_ready=false",
+        "scope_exception_applied=false",
+        "hours and page volume are scoring inputs, not standalone rejection gates",
+        "headline prize size is not used as the primary ranking signal"
+      ],
+      "ready_for_human_action": false,
+      "reward_amount": 5.0,
+      "risk_summary": "risk=0.22; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
+      "scope_exception_applied": false,
+      "source_url": "https://www.bountybook.ai/job/734626a0-26b5-478b-b9cf-fb575aea8adc",
+      "time_to_cash_days": 10,
+      "title": "Build a generic EventBus class in TypeScript with event registration, removal, a",
       "urgency": "normal"
     },
     {
@@ -2974,112 +2974,6 @@
       "source_url": "https://github.com/NSPG13/agent-bounties/issues/337",
       "time_to_cash_days": 30,
       "title": "[QUARANTINED — DO NOT CLAIM] Seed a paid distribution tooling child bounty",
-      "urgency": "normal"
-    },
-    {
-      "cash_priority_score": 55.63,
-      "currency": "USD",
-      "deadline": "6 days left",
-      "decision_status": "prepare_then_gate",
-      "estimated_effort_hours": 8.0,
-      "estimated_hourly_value": 0.75,
-      "evidence": [
-        "https://www.freelancer.com/jobs/data-entry/",
-        "Phone Outreach for Candidate Onboarding 6 days left I have a list of recently hired candidates who still need to finish their KYC verification before we can activate their profiles. Your task is straightforward: place a quick phone call to each person, follow the brief guidelines I will share, and secure their confirmation that the KYC steps have been completed. You will: • Dial every contact I provide using your own calling setup. • Introduce yourself on my behalf, reference our onboarding guidelines, and politely walk the candidate through the final KYC step. • Note the outcome of each call—completed, pending, or unreachable—in a shared tracker so I have real-time visibility. The guidelines cover the greeting, the KYC instructions, and the compliance wording, so you will not need to create a script from ... Call Center Compliance Customer Service Data Entry Data Management Documentation Human Resources Lead Generation Phone Support $6 - $16 $6 - $16 0 bids Bid now",
-        "https://www.freelancer.com/projects/customer-service/phone-outreach-for-candidate-onboarding",
-        "results/simple_mission_dossiers/market-1f04fece3caca868/proposal.md",
-        "results/simple_mission_dossiers/market-1f04fece3caca868/manifest.json"
-      ],
-      "human_actions": [
-        "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
-      ],
-      "human_gate_required": true,
-      "lane": "strategic",
-      "notification_fingerprint": "7b5702724350cbe8b543",
-      "opportunity_id": "market-1f04fece3caca868",
-      "payment_methods": [
-        "Freelancer milestone payment; account payout method selected after award"
-      ],
-      "prepared_artifacts": [
-        "results/simple_mission_dossiers/market-1f04fece3caca868/proposal.md",
-        "results/simple_mission_dossiers/market-1f04fece3caca868/manifest.json"
-      ],
-      "rationale": [
-        "estimated_effort_hours=8",
-        "page_count=unknown",
-        "time_to_cash_days=30",
-        "competition=0.00",
-        "cost=0.10",
-        "accessibility=0.86",
-        "economics_viable=false",
-        "minimum_hourly_value=8",
-        "agent_native_microjob=false",
-        "agent_native_minimum_reward=5",
-        "execution_ready=true",
-        "scope_exception_applied=false",
-        "hours and page volume are scoring inputs, not standalone rejection gates",
-        "headline prize size is not used as the primary ranking signal"
-      ],
-      "ready_for_human_action": false,
-      "reward_amount": 6.0,
-      "risk_summary": "risk=0.20; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
-      "scope_exception_applied": false,
-      "source_url": "https://www.freelancer.com/projects/customer-service/phone-outreach-for-candidate-onboarding",
-      "time_to_cash_days": 30,
-      "title": "Phone Outreach for Candidate Onboarding",
-      "urgency": "normal"
-    },
-    {
-      "cash_priority_score": 53.18,
-      "currency": "USD",
-      "deadline": "6 days left",
-      "decision_status": "prepare_then_gate",
-      "estimated_effort_hours": 12.0,
-      "estimated_hourly_value": 1.25,
-      "evidence": [
-        "https://www.freelancer.com/jobs/html/",
-        "Business WordPress Site 6 days left Verified I’m ready to launch a new WordPress-based business website that showcases our products and lets customers buy with ease. The core of the build is a dedicated product section that must include: • a clean, searchable product catalog • a fully functional shopping cart for fast checkout • visible product reviews so visitors see real feedback WooCommerce (or an equally robust plugin) is the natural fit here, but if you have a better tool chain in mind, tell me why and how it improves speed or security. I already have hosting and a fresh WordPress install waiting; your job is to configure everything, choose or tweak a responsive theme so the shop looks polished on mobile and desktop, and make sure the catalog, cart, and review features work smoothly end-to-end. Once f... eCommerce HTML Web Development Website Design Website Development Website Optimization WooCommerce WordPress WordPress Design WordPress Plugin $15 - $25 / hr $15 - $25 / hr 0 bids Bid now",
-        "https://www.freelancer.com/projects/woocommerce/business-wordpress-site",
-        "results/simple_mission_dossiers/market-76e623628960639f/proposal.md",
-        "results/simple_mission_dossiers/market-76e623628960639f/manifest.json"
-      ],
-      "human_actions": [
-        "Authorize use of a truthful Freelancer.com account and review/accept the platform terms so Louis OS can submit the already prepared proposal or quote. Do not complete KYC or configure payout unless the platform explicitly requests it later."
-      ],
-      "human_gate_required": true,
-      "lane": "strategic",
-      "notification_fingerprint": "2146b08000f21ea563be",
-      "opportunity_id": "market-76e623628960639f",
-      "payment_methods": [
-        "Freelancer milestone payment; account payout method selected after award"
-      ],
-      "prepared_artifacts": [
-        "results/simple_mission_dossiers/market-76e623628960639f/proposal.md",
-        "results/simple_mission_dossiers/market-76e623628960639f/manifest.json"
-      ],
-      "rationale": [
-        "estimated_effort_hours=12",
-        "page_count=unknown",
-        "time_to_cash_days=30",
-        "competition=0.00",
-        "cost=0.10",
-        "accessibility=0.86",
-        "economics_viable=false",
-        "minimum_hourly_value=8",
-        "agent_native_microjob=false",
-        "agent_native_minimum_reward=5",
-        "execution_ready=true",
-        "scope_exception_applied=false",
-        "hours and page volume are scoring inputs, not standalone rejection gates",
-        "headline prize size is not used as the primary ranking signal"
-      ],
-      "ready_for_human_action": false,
-      "reward_amount": 15.0,
-      "risk_summary": "risk=0.20; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
-      "scope_exception_applied": false,
-      "source_url": "https://www.freelancer.com/projects/woocommerce/business-wordpress-site",
-      "time_to_cash_days": 30,
-      "title": "Business WordPress Site",
       "urgency": "normal"
     },
     {
