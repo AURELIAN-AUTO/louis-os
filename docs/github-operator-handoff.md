@@ -145,3 +145,31 @@ soumission future, revoir le contenu factuel/historique du livrable (ses tests
 actuels ne prouvent que schéma/routage/intégrité), revalider l'annonce et les
 droits réellement accessibles ; ne pas créer ni connecter de wallet. Les
 pivots de sources et le diagnostic des 404 restent non résolus dans ce correctif.
+
+### Vérification d'intégration du raccordement — 19 octobre 2026
+
+- PR #483 fusionnée : https://github.com/liubaining-louis/louis-os/pull/483 ;
+  commit `788601c619ea3f02124a206148be1d85e8d25ee7`.
+- Avant fusion : CI `39173948071` réussie au SHA exact
+  `af947031b3569aa247be4e8e76648183a6e6a423`, Python 3.11/3.12,
+  842 tests. Deux check-runs verts, branche sans contrôles supplémentaires requis.
+- Runs réels après fusion réussis : runtime sans VM `39174070676` et routeur
+  `39174070783`. Logs du routeur lus ; rafraîchissement et persistance du briefing
+  réussis. Déploiement GCP non exécuté (garde mode sans VM).
+- `results/degraded/operator-briefing.json` à 22:52:26 UTC le 18/10 :
+  `prepared_market_mission.candidate_id=market-685081cabe16a6b0`, hash vérifiés,
+  `market_handoff_errors=[]`, `next_action=review_prepared_market_mission`,
+  `submission_authorized=false`. Les trois registres absents sont exposés.
+- Effet mesuré : un dossier existant visible par le pilote au lieu de zéro.
+  Aucun nouveau dossier ni mission payé : soumissions/acceptations/paiements du
+  cycle = 0/0/0 ; intervention humaine dans le cycle = 0. Blocage externe déjà
+  signalé depuis environ 5 h 37 à la vérification, sans nouvelle demande envoyée.
+- Aucune dépense nouvelle engagée. Coût monétaire marginal Actions inconnu ;
+  les autres coûts historiques restent inconnus, donc aucun bénéfice calculé.
+
+Prochaine action : reprendre ce dossier sans le reconstruire ni renvoyer une
+notification identique. Contrôler sa qualité factuelle (dont la date historique
+`generated_at=2025-12-31`, qui ne prouve pas une génération en 2025) avant toute
+soumission, et attendre l'autorisation/accès existants effectifs. Si ce blocage
+persiste, poursuivre une autre voie admissible sans affaiblir la politique. Ne
+pas réactiver GCP et ne pas tenter de récupérer les fonds d'un autre contributeur.
