@@ -66,3 +66,26 @@ Migration locale reportée par le propriétaire : mini Lenovo d'environ 2016,
 Pentium, 16 Go de RAM, SSD, actuellement Windows ; Linux envisagé. Ne pas
 supposer ce PC installé ou accessible. Ne pas réactiver la facturation GCP.
 Les API d'IA éventuelles restent des coûts distincts. Charbon exclu de Louis OS.
+
+### Première amélioration intégrée et vérifiée — 18 octobre 2026
+
+- PR #481 fusionnée : https://github.com/liubaining-louis/louis-os/pull/481 ;
+  commit `bfeb4001a4d023c1b4375986bc86b7782ded923f`.
+- CI `39139588292` réussie au SHA de PR
+  `e0f2f356483593ff026afdcf4988b738721f5eae`, Python 3.11 et 3.12 ;
+  826 tests, dont 16 tests ciblés de rapprochement/probe. La suite complète
+  locale n'est pas une preuve : le contrôle automatique l'a bloquée sur un
+  ancien test contactant les métadonnées cloud. Ne pas contourner ce blocage.
+- Run réel `39139750902` : tests, persistance et artifact réussis ; le contrôle
+  final échoue maintenant explicitement pour les cinq HTTP 404. C'est la
+  détection attendue du défaut fournisseur, pas une régression des tests.
+- `results/external_outcome_health.json` à 15:16:48 UTC : état `degraded`,
+  1 source sur 6 lue avec succès ; wallet RTC lu fraîchement, aucun cache.
+  Aucune transition économique détectée, aucun nouveau revenu affirmé.
+- Artifact `external-outcome-probe-39139750902-1` disponible dans ce run.
+  Les états de santé ne génèrent un commit qu'à une transition significative.
+
+Prochaine intervention : priorité 2 ci-dessus, raccorder sélection, dossier
+et exécution pour une seule mission admissible et actuellement revalidée ;
+examiner la cause des 404 en parallèle sans réinterpréter l'historique en
+paiements nouveaux. Reprendre les PR ouvertes avant de créer un doublon.
