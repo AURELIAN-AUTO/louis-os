@@ -89,3 +89,28 @@ Prochaine intervention : priorité 2 ci-dessus, raccorder sélection, dossier
 et exécution pour une seule mission admissible et actuellement revalidée ;
 examiner la cause des 404 en parallèle sans réinterpréter l'historique en
 paiements nouveaux. Reprendre les PR ouvertes avant de créer un doublon.
+
+### Livrable sélectionné préparé — PR #482, 18 octobre 2026
+
+- `main` épinglé à `5aa32a87ebf4ccc03ec2a1f5210f45b13ce2f3b6` ; aucun
+  `AGENTS.md` présent. Politiques de production et runtime dégradé inchangés.
+- Mission BountyBook `d47a42b6-8203-4bc7-8bbf-c22ef912c232` relue sur l'API
+  officielle à 17:08 UTC : ouverte, non réclamée, récompense annoncée 7 USDC.
+- PR #482 : https://github.com/liubaining-louis/louis-os/pull/482 ; SHA courant
+  `c27d3b05307eee9b214a72ee7321b6659ac178a3` avant cette passation.
+- Livrable `cicd_comparison.json` complet et manifeste ajoutés ; SHA-256 du
+  livrable `5da3d4b0eb34b560b04dfc6005a55dde5a4cf1d72a9b438a631a6b69b649be8c`.
+  L'enregistrement exact relie le candidat canonique au pilote sans promouvoir
+  une autre mission ni contourner les garde-fous.
+- 52 tests ciblés réussis. La découverte locale complète a exécuté 809 tests
+  mais reste non probante : neuf imports échouent faute de dépendances optionnelles
+  (`google`, `eth_account`) et un ancien test heartbeat VM échoue. La CI GitHub au
+  SHA exact reste donc obligatoire avant fusion.
+- Coût connu : 0 EUR. Coûts d'accès plateforme et de paiement : inconnus.
+  Soumission, acceptation et paiement vérifiés : 0.
+
+Prochaine action : attendre la CI de #482, corriger tout échec sur la même PR,
+puis fusionner seulement si tous les contrôles requis sont verts. Après fusion,
+vérifier le cycle Universal market et le routeur ; l'action humaine minimale
+sera alors la revue des conditions BountyBook et l'autorisation d'utiliser une
+identité BountyBook légitime existante, sans création/financement de wallet.
