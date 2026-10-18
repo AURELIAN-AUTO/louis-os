@@ -2,7 +2,7 @@
   "annualization_status": "insufficient_history",
   "counted_as_pipeline": false,
   "counted_as_revenue": false,
-  "generated_at": "2026-10-17T17:21:38.708733+00:00",
+  "generated_at": "2026-10-18T07:19:51.736545+00:00",
   "schema_version": "1.0",
   "simulations": [
     {
@@ -85,11 +85,11 @@
       "counted_as_revenue": false,
       "scenarios_by_currency": {
         "USDC": {
-          "base_expected_value": 3.0,
-          "conservative_expected_value": 1.25,
-          "median_verified_reward": 5.0,
-          "observed_opportunity_count": 5,
-          "upside_expected_value": 6.25
+          "base_expected_value": 2.16,
+          "conservative_expected_value": 0.9,
+          "median_verified_reward": 4.5,
+          "observed_opportunity_count": 4,
+          "upside_expected_value": 4.5
         }
       },
       "scope": "currently observed qualified opportunities; not annualized",
@@ -121,11 +121,11 @@
       "counted_as_revenue": false,
       "scenarios_by_currency": {
         "USDC": {
-          "base_expected_value": 0.42,
-          "conservative_expected_value": 0.18,
-          "median_verified_reward": 3.5,
-          "observed_opportunity_count": 1,
-          "upside_expected_value": 0.88
+          "base_expected_value": 1.14,
+          "conservative_expected_value": 0.48,
+          "median_verified_reward": 4.75,
+          "observed_opportunity_count": 2,
+          "upside_expected_value": 2.38
         }
       },
       "scope": "currently observed qualified opportunities; not annualized",
