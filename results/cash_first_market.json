@@ -266,10 +266,10 @@
   "counts": {
     "cash_first": 5,
     "human_action_ready": 1,
-    "rejected": 54,
+    "rejected": 53,
     "strategic": 69
   },
-  "generated_at": "2026-10-18T17:15:05.913414+00:00",
+  "generated_at": "2026-10-18T17:27:10.003351+00:00",
   "human_action_ready": [
     {
       "cash_priority_score": 62.96,
@@ -567,6 +567,55 @@
       "source_url": "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/9",
       "time_to_cash_days": 30,
       "title": "[PAID BOUNTY - $750] Audio Note Recording",
+      "urgency": "normal"
+    },
+    {
+      "cash_priority_score": 63.31,
+      "currency": "USDC",
+      "deadline": "",
+      "decision_status": "capability_build",
+      "estimated_effort_hours": 2.0,
+      "estimated_hourly_value": 7.0,
+      "evidence": [
+        "https://api.bountybook.ai/jobs?status=open&limit=100",
+        "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+        "budget_usdc=14",
+        "official_open_jobs_require_attached_usdc",
+        "https://www.bountybook.ai/docs",
+        "https://www.bountybook.ai/terms"
+      ],
+      "human_actions": [],
+      "human_gate_required": false,
+      "lane": "strategic",
+      "notification_fingerprint": "30daae1a3862c00db3d2",
+      "opportunity_id": "market-a3a2d3454ea0c02f",
+      "payment_methods": [
+        "payer-supported lawful method to be confirmed"
+      ],
+      "prepared_artifacts": [],
+      "rationale": [
+        "estimated_effort_hours=2",
+        "page_count=unknown",
+        "time_to_cash_days=10",
+        "competition=0.55",
+        "cost=0.00",
+        "accessibility=0.96",
+        "economics_viable=true",
+        "minimum_hourly_value=8",
+        "agent_native_microjob=true",
+        "agent_native_minimum_reward=5",
+        "execution_ready=false",
+        "scope_exception_applied=false",
+        "hours and page volume are scoring inputs, not standalone rejection gates",
+        "headline prize size is not used as the primary ranking signal"
+      ],
+      "ready_for_human_action": false,
+      "reward_amount": 14.0,
+      "risk_summary": "risk=0.22; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
+      "scope_exception_applied": false,
+      "source_url": "https://www.bountybook.ai/job/a99032ec-5542-4232-a7a7-23ed20bdbaf4",
+      "time_to_cash_days": 10,
+      "title": "Build a generic LRU cache in Go with concurrent safety",
       "urgency": "normal"
     },
     {
@@ -2446,58 +2495,6 @@
       "source_url": "https://www.bountybook.ai/job/974811c4-7d74-4f41-abd0-ff1495927e0a",
       "time_to_cash_days": 10,
       "title": "Build parse_query.js function to parse URL query strings into objects",
-      "urgency": "normal"
-    },
-    {
-      "cash_priority_score": 62.71,
-      "currency": "USDC",
-      "deadline": "",
-      "decision_status": "prepare_then_gate",
-      "estimated_effort_hours": 2.0,
-      "estimated_hourly_value": 1.0,
-      "evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/740fd768-1dcb-410c-a7ad-c64ac8be50af",
-        "budget_usdc=2",
-        "official_open_jobs_require_attached_usdc",
-        "https://www.bountybook.ai/docs",
-        "https://www.bountybook.ai/terms"
-      ],
-      "human_actions": [
-        "Authorize or use an existing lawful account for the platform.",
-        "Review and accept the platform or opportunity terms."
-      ],
-      "human_gate_required": true,
-      "lane": "strategic",
-      "notification_fingerprint": "1ac47fa950fd88e173bc",
-      "opportunity_id": "market-7109bf6cce6bc7d3",
-      "payment_methods": [
-        "payer-supported lawful method to be confirmed"
-      ],
-      "prepared_artifacts": [],
-      "rationale": [
-        "estimated_effort_hours=2",
-        "page_count=unknown",
-        "time_to_cash_days=10",
-        "competition=0.55",
-        "cost=0.00",
-        "accessibility=0.96",
-        "economics_viable=false",
-        "minimum_hourly_value=8",
-        "agent_native_microjob=false",
-        "agent_native_minimum_reward=5",
-        "execution_ready=true",
-        "scope_exception_applied=false",
-        "hours and page volume are scoring inputs, not standalone rejection gates",
-        "headline prize size is not used as the primary ranking signal"
-      ],
-      "ready_for_human_action": false,
-      "reward_amount": 2.0,
-      "risk_summary": "risk=0.22; platform account and terms gate only; KYC, payout and contract actions remain deferred until explicitly required",
-      "scope_exception_applied": false,
-      "source_url": "https://www.bountybook.ai/job/740fd768-1dcb-410c-a7ad-c64ac8be50af",
-      "time_to_cash_days": 10,
-      "title": "Build a dict flattening function in flatten.py",
       "urgency": "normal"
     },
     {
