@@ -240,7 +240,8 @@ def wallet_settlement_view(
 
 
 def apply_summary_to_ledger(
-    ledger: Mapping[str, Any], summary: Mapping[str, Any], *, checked_at: str
+    ledger: Mapping[str, Any], summary: Mapping[str, Any], *, checked_at: str,
+    wallet_observation_complete: bool = True,
 ) -> dict[str, Any]:
     """Apply verified transitions without ever manufacturing EUR revenue."""
 
@@ -265,6 +266,25 @@ def apply_summary_to_ledger(
         or result["payout_queued_rtc"] + result["payout_paid_rtc"]
     )
 
+    if wallet_observation_complete:
+        _apply_wallet_observation(result, summary, checked_at=checked_at, queued=queued, paid=paid)
+
+    # Explicit truth boundary: acceptance, a queue and a token balance are not
+    # an independently verified EUR conversion.
+    result["revenue_confirmed_eur"] = float(ledger.get("revenue_confirmed_eur") or 0.0)
+    result["revenue_received"] = float(ledger.get("revenue_received") or 0.0)
+    result["rtc_to_eur_counting_policy"] = (
+        "Do not count RTC as EUR revenue without a verified liquid conversion path and receipt."
+    )
+    result["last_external_outcome_reconciliation"] = checked_at
+    result["updated_at"] = checked_at
+    return result
+
+
+def _apply_wallet_observation(
+    result: dict[str, Any], summary: Mapping[str, Any], *, checked_at: str, queued: int, paid: int
+) -> None:
+    """Only fresh complete wallet reads may advance wallet-derived fields."""
     settlement = wallet_settlement_view(result, summary)
     total_balance = float(settlement["wallet_balance_rtc_total"])
     baseline = float(settlement["wallet_baseline_rtc"])
@@ -298,14 +318,3 @@ def apply_summary_to_ledger(
         result["next_action"] = (
             "Monitor the authoritative RTC wallet until the accepted payout changes the balance; keep EUR revenue at zero."
         )
-
-    # Explicit truth boundary: acceptance, a queue and a token balance are not
-    # an independently verified EUR conversion.
-    result["revenue_confirmed_eur"] = float(ledger.get("revenue_confirmed_eur") or 0.0)
-    result["revenue_received"] = float(ledger.get("revenue_received") or 0.0)
-    result["rtc_to_eur_counting_policy"] = (
-        "Do not count RTC as EUR revenue without a verified liquid conversion path and receipt."
-    )
-    result["last_external_outcome_reconciliation"] = checked_at
-    result["updated_at"] = checked_at
-    return result

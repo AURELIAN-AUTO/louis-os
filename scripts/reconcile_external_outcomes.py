@@ -5,10 +5,12 @@ from __future__ import annotations
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 import json
+import math
 from pathlib import Path
 import sys
 from typing import Any
 from urllib.parse import quote
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,6 +28,7 @@ RESULTS = ROOT / "results"
 RECEIPTS_PATH = RESULTS / "external_action_receipts.json"
 LEDGER_PATH = RESULTS / "monetization.json"
 STATE_PATH = RESULTS / "external_outcome_reconciliation.json"
+HEALTH_PATH = RESULTS / "external_outcome_health.json"
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -58,13 +61,33 @@ def _balance(payload: Any) -> float | None:
     if not isinstance(payload, dict):
         return None
     for key in ("amount_rtc", "balance_rtc", "balance", "amount"):
-        if payload.get(key) is None:
+        if payload.get(key) is None or isinstance(payload[key], bool):
             continue
         try:
-            return float(payload[key])
+            value = float(payload[key])
+            if math.isfinite(value) and value >= 0:
+                return value
         except (TypeError, ValueError):
             continue
     return None
+
+
+def _error_code(exc: Exception) -> str:
+    # Do not put response bodies, request headers or arbitrary exception text
+    # in persisted diagnostics. The source and error class identify the fault.
+    if isinstance(exc, HTTPError):
+        return f"HTTP_{exc.code}"
+    return type(exc).__name__
+
+
+def _health_fingerprint(health: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "status": health.get("status"),
+        "sources": {
+            key: {field: row.get(field) for field in ("status", "error")}
+            for key, row in health.get("sources", {}).items()
+        },
+    }
 
 
 def main() -> int:
@@ -74,6 +97,19 @@ def main() -> int:
     comments_by_target: dict[str, list[dict[str, Any]]] = {}
     balances: dict[str, float] = {}
     errors: list[str] = []
+    previous_health = load_json(HEALTH_PATH, {})
+    sources: dict[str, dict[str, Any]] = {}
+
+    def record_source(key: str, *, error: str | None = None) -> None:
+        previous = previous_health.get("sources", {}).get(key, {})
+        sources[key] = {
+            "status": "error" if error else "ok",
+            "error": error,
+            "checked_at": checked_at,
+            "last_success_at": previous.get("last_success_at") if error else checked_at,
+        }
+        if error:
+            errors.append(f"{key}:{error}")
 
     targets = sorted(
         {
@@ -92,11 +128,13 @@ def main() -> int:
             target = pending_comments[future]
             try:
                 payload = future.result()
-                comments_by_target[target] = (
-                    [item for item in payload if isinstance(item, dict)] if isinstance(payload, list) else []
-                )
+                if not isinstance(payload, list) or any(not isinstance(item, dict) for item in payload):
+                    record_source(f"comments:{target}", error="INVALID_COMMENTS_PAYLOAD")
+                    continue
+                comments_by_target[target] = payload
+                record_source(f"comments:{target}")
             except Exception as exc:
-                errors.append(f"comments:{target}:{type(exc).__name__}:{exc}"[:500])
+                record_source(f"comments:{target}", error=_error_code(exc))
 
     wallets = sorted(
         {
@@ -119,10 +157,15 @@ def main() -> int:
                 value = _balance(future.result())
                 if value is not None:
                     balances[wallet] = value
+                    record_source(f"wallet:{wallet}")
+                else:
+                    record_source(f"wallet:{wallet}", error="INVALID_WALLET_BALANCE")
             except Exception as exc:
-                errors.append(f"wallet:{wallet}:{type(exc).__name__}:{exc}"[:500])
+                record_source(f"wallet:{wallet}", error=_error_code(exc))
 
     errors.sort()
+    fresh_wallets = sorted(balances)
+    wallet_observation_complete = bool(wallets) and fresh_wallets == wallets
 
     # A transient wallet outage must not look like an economic transition.  If
     # the probe fails, retain the last authoritative balance until a new value
@@ -132,11 +175,15 @@ def main() -> int:
         previous_state.get("semantic") if isinstance(previous_state.get("semantic"), dict) else {}
     )
     previous_balances = previous_semantic.get("wallet_balances_rtc")
+    cached_wallets: list[str] = []
     if isinstance(previous_balances, dict):
         for wallet, value in previous_balances.items():
             if wallet not in balances:
                 try:
-                    balances[str(wallet)] = float(value)
+                    cached = _balance({"balance": value})
+                    if cached is not None:
+                        balances[str(wallet)] = cached
+                        cached_wallets.append(str(wallet))
                 except (TypeError, ValueError):
                     pass
 
@@ -148,12 +195,26 @@ def main() -> int:
     )
     summary.update(wallet_settlement_view(ledger, summary))
     semantic = dict(summary)
-    changed = semantic != previous_state.get("semantic")
+    updated_ledger = apply_summary_to_ledger(
+        ledger, summary, checked_at=checked_at,
+        wallet_observation_complete=wallet_observation_complete,
+    )
+    # Recovery can verify the same balance that was previously cached. Do not
+    # lose that transition just because the aggregate numbers did not change.
+    wallet_transition = wallet_observation_complete and any(
+        updated_ledger.get(key) != ledger.get(key)
+        for key in (
+            "rustchain_wallet_balance_rtc", "last_external_wallet_balance_rtc",
+            "revenue_received_rtc", "payouts_received_verified", "crypto_payment_verified",
+            "rustchain_aggregate_wallet_settlement_verified",
+        )
+    )
+    changed = semantic != previous_state.get("semantic") or wallet_transition
 
     if changed:
         reconciled_receipts["updated_at"] = checked_at
         save_json(RECEIPTS_PATH, reconciled_receipts)
-        save_json(LEDGER_PATH, apply_summary_to_ledger(ledger, summary, checked_at=checked_at))
+        save_json(LEDGER_PATH, updated_ledger)
         save_json(
             STATE_PATH,
             {
@@ -167,9 +228,29 @@ def main() -> int:
             },
         )
 
-    output = {"changed": changed, **summary, "errors": errors, "checked_at": checked_at}
+    health = {
+        "schema_version": "1.0",
+        "status": "degraded" if errors else "healthy" if sources else "no_sources",
+        "checked_at": checked_at,
+        "sources": dict(sorted(sources.items())),
+        "sources_expected": len(sources),
+        "sources_successful": sum(row["status"] == "ok" for row in sources.values()),
+        "errors": errors,
+        "fresh_wallets": fresh_wallets,
+        "cached_wallets": sorted(cached_wallets),
+        "wallet_evidence_fresh": wallet_observation_complete,
+    }
+    health_changed = _health_fingerprint(health) != _health_fingerprint(previous_health)
+    # Persist probe health independently of an economic transition. Stable
+    # failures do not produce repeated commits; each run keeps a fresh artifact.
+    save_json(HEALTH_PATH, health)
+    output = {
+        "changed": changed, **summary, "errors": errors, "checked_at": checked_at,
+        "health_changed": health_changed, "health": health,
+        "wallet_evidence_fresh": wallet_observation_complete,
+    }
     print(json.dumps(output, ensure_ascii=False))
-    return 0
+    return 0 if health["status"] == "healthy" else 2
 
 
 if __name__ == "__main__":

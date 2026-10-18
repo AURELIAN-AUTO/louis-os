@@ -36,3 +36,33 @@ paquets du runtime dégradé attendent ce pilote ; ils ne sont pas envoyés par 
 Pour la prochaine passation, inscrire la tâche traitée, le SHA/PR/run, les preuves
 obtenues, ce qui reste incertain et la prochaine action. Ne jamais marquer une
 fusion, une livraison ou un paiement comme terminé avant sa vérification.
+
+## Mandat renouvelé le 18 octobre 2026
+
+Le propriétaire demande des ajustements continus pour rentabiliser Louis OS.
+La tâche ChatGPT existante « Rentabiliser Louis OS » a été réactivée avec un
+cycle borné toutes les six heures, sans modifier la fréquence des workflows.
+Chaque reprise doit vérifier les accès et les preuves actuelles ; ce calendrier
+ne garantit ni l'accès aux plateformes ni un travail ChatGPT permanent.
+
+Priorités concrètes, dans cet ordre :
+
+1. Rendre les erreurs de rapprochement visibles. Les cinq discussions RustChain
+   renvoient HTTP 404 au contrôle du 18 octobre, alors que le job reste vert.
+   Le correctif doit conserver une santé horodatée indépendamment du revenu,
+   distinguer solde fraîchement lu et cache, préserver les reçus historiques,
+   signaler l'échec après persistance et éviter les commits/commentaires répétés
+   lorsque rien de significatif ne change. Vérifier la CI puis un run réel.
+2. Relier une sélection du routeur au dossier et au pilote d'exécution. Le
+   18 octobre, sept opportunités sont à préparer mais aucun paquet n'est
+   disponible dans le briefing. La comparaison CI/CD à 7 USDC est sélectionnée
+   depuis au moins le 11 octobre. Ne pas prétendre que ce raccordement est fait.
+3. Appliquer réellement les pivots et réconcilier les travaux déjà soumis.
+   Mesurer missions distinctes, livraisons, reçus, acceptations, paiements,
+   coûts connus/inconnus et temps bloqué. Les scans et commits ne sont pas
+   des résultats économiques ; aucun revenu ni rentabilité n'est garanti.
+
+Migration locale reportée par le propriétaire : mini Lenovo d'environ 2016,
+Pentium, 16 Go de RAM, SSD, actuellement Windows ; Linux envisagé. Ne pas
+supposer ce PC installé ou accessible. Ne pas réactiver la facturation GCP.
+Les API d'IA éventuelles restent des coûts distincts. Charbon exclu de Louis OS.
