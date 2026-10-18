@@ -38,6 +38,14 @@ Avant de traiter une cible, vérifier les runs actifs et les reçus existants.
 2. Lire `results/degraded/operator-briefing.json`, `status.json`, `intents.json`
    et les reçus présents. Le briefing est un instantané daté, pas un verrou ni
    une autorisation. Une absence de fichier doit être signalée comme inconnue.
+   Le champ `prepared_market_mission` expose séparément le dossier canonique du
+   routeur, ses fichiers et leurs hash. Il ne constitue jamais un `ready.json`
+   GitHub ni une permission de réclamer/soumettre. Les preuves de sélection et
+   d'observation ont au maximum 24 h ; `market_handoff_errors` conserve les
+   incohérences, fichiers altérés ou tentatives à réconcilier. Les registres de
+   reçus absents sont indiqués. Les hash valident l'intégrité, pas le contenu
+   factuel, l'éligibilité courante, l'acceptation ni le paiement. Revalider les
+   sources et le livrable avant toute action externe autorisée.
 3. Examiner les PR et runs en cours. Réconcilier les tentatives incertaines avant
    de répéter une action. Choisir une seule tâche utile au plan de relance.
 4. Pour une modification Louis OS : branche issue du `main` courant, correctif

@@ -25,6 +25,7 @@ from atlas.autonomous_submission import GitHubClient, submit_patch, validate_pat
 from atlas.capability_first_payable_scout import discover_capability_first_registry
 from atlas.capability_patch_builder import build_capability_patch_from_candidates
 from atlas.production_policy import evaluate_candidate, load_policy, preflight
+from scripts.operator_market_handoff import market_handoff
 
 STATE = ROOT / "results" / "degraded"
 CONFIG = ROOT / "config" / "degraded_runtime.json"
@@ -281,6 +282,11 @@ def operator_briefing(state=STATE, root=ROOT):
                and ready.get("run_id") == status.get("run_id")
                and bool(candidate.get("id")))
     reserved = any(x.get("candidate_id") == candidate.get("id") for x in intents)
+    market = {"mission": None, "errors": []}
+    if (cfg.get("enabled") is True
+            and submission_driver(cfg) == "connected_github_operator"
+            and preflight(load_policy(root / "config/production_policy.json")).allowed):
+        market = market_handoff(root, load_policy(root / "config/production_policy.json"))
     return {
         "schema_version": "1.0", "generated_at": now(),
         "submission_driver": submission_driver(cfg),
@@ -292,9 +298,13 @@ def operator_briefing(state=STATE, root=ROOT):
         "package_path": "results/degraded/ready.json" if current else None,
         "package_available_for_review": bool(current and not reserved),
         "submission_authorized": False,
+        "prepared_market_mission": market["mission"],
+        "market_handoff_errors": market["errors"],
         "reconciliation_required": [x for x in intents if x.get("status") != "submitted"],
         "next_action": ("revalidate_package_and_reserve_candidate" if current and not reserved
                         else "reconcile_intents" if intents and any(x.get("status") != "submitted" for x in intents)
+                        else "review_prepared_market_mission" if market["mission"]
+                        else "repair_market_handoff_evidence" if market["errors"]
                         else "review_tracking_issue_and_wait_for_qualified_candidate"),
         "runbook": "docs/github-operator-mode.md",
         "handoff": "docs/github-operator-handoff.md",
@@ -316,6 +326,9 @@ def report(state=STATE, root=ROOT):
              f"- Suite : {data.get('next_action')}", "",
              f"- Pilote des soumissions : {briefing['submission_driver']}",
              f"- Paquet disponible pour revue : {briefing['package_available_for_review']}",
+             f"- Dossier marché préparé pour revue : {(briefing['prepared_market_mission'] or {}).get('candidate_id', 'aucun')}",
+             f"- Erreurs du relais marché : {briefing['market_handoff_errors']}",
+             f"- Suite du pilote : {briefing['next_action']}",
              "- Relais conversationnel : results/degraded/operator-briefing.json ; docs/github-operator-handoff.md",
              "- Le pilote connecté agit pendant une conversation active ; aucun réveil automatique.", "",
              "État durable : results/degraded/. Les services et wallets restés sur la VM sont indisponibles.",

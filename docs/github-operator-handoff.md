@@ -114,3 +114,34 @@ puis fusionner seulement si tous les contrôles requis sont verts. Après fusion
 vérifier le cycle Universal market et le routeur ; l'action humaine minimale
 sera alors la revue des conditions BountyBook et l'autorisation d'utiliser une
 identité BountyBook légitime existante, sans création/financement de wallet.
+
+### Reprise du 19 octobre 2026 — raccordement du briefing préparé
+
+- `get_repo` réellement appelé ; `main` épinglé à
+  `9ca4cf0990e772cf6d16533a6c46d637f9cefac0`. Aucun `AGENTS.md` dans l'arbre.
+  Les PR ouvertes ont été examinées : aucune ne traite ce raccordement. #479
+  contient seulement un pseudo-script de facturation non applicable ; non repris.
+- Défaut reproduit : routeur daté du 18/10 17:28:21 UTC avec le livrable CI/CD
+  enregistré, mais briefing du même cycle à 17:27:51 avec candidat/paquet nuls.
+  Cause : le briefing ne lisait que `ready.json`, limité aux patchs GitHub.
+- Correctif borné : exposer un champ séparé `prepared_market_mission`, vérifier
+  candidat canonique, politique, fraîcheur (24 h y compris observation source),
+  rejet persistant, tentatives/reçus, chemins contenus et hash de chaque fichier.
+  Les erreurs et registres absents restent visibles. Le routeur rafraîchit et
+  persiste le briefing après son propre calcul, sans changer ses déclencheurs.
+- 52 tests ciblés réussis ; gouvernance inchangée : trois workflows planifiés,
+  sept runs/jour. Pas de dépense nouvelle engagée ; coût marginal Actions et temps
+  machine inconnus. Temps de préparation pilote : environ 10 minutes.
+- Aucun envoi, acceptation ou paiement nouveau. L'autorisation BountyBook du
+  28/08 vise seulement `19a16071` et ne couvre pas la mission CI/CD `d47a42b6`.
+  Ne pas redemander cette autorisation déjà notifiée tant que rien ne change.
+- Dernier rapprochement réel : run `39165795603`, 18/10 20:59 UTC, erreur visible
+  pour cinq HTTP 404 et lecture wallet réussie ; aucune transition économique.
+  Ne pas transformer la santé dégradée ni le solde historique en nouveau revenu.
+
+Prochaine action : vérifier CI au SHA exact, puis seulement intégrer ce correctif
+autorisé. Contrôler le run réel du routeur et le briefing persisté. Avant toute
+soumission future, revoir le contenu factuel/historique du livrable (ses tests
+actuels ne prouvent que schéma/routage/intégrité), revalider l'annonce et les
+droits réellement accessibles ; ne pas créer ni connecter de wallet. Les
+pivots de sources et le diagnostic des 404 restent non résolus dans ce correctif.
