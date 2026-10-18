@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-18T17:27:49.832500+00:00",
+    "generated_at": "2026-10-18T22:52:24.370171+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,27 +23,27 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "7e449af08d7a8bb4",
-      "url": "https://github.com/clov3r-cc/auto-run-ac/issues/65",
-      "title": "Dependency Dashboard",
+      "candidate_id": "ef383bbebc48a41c",
+      "url": "https://github.com/SoroLabs/soroscope/issues/1318",
+      "title": "fix(contracts/governance): vote weight overflows on large balance * multiplier",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d37d42d5bd75f996",
-      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
-      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
+      "candidate_id": "91d7a8efd6d3344a",
+      "url": "https://github.com/JWST-GC/data-qa/issues/250",
+      "title": "GC Treasury — jw10678-o042 (NIRCam)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "40ab93bebab97aab",
-      "url": "https://github.com/Feyisara2108/stellargive/issues/1056",
-      "title": "Platform stats fetch every campaign on each home page load",
+      "candidate_id": "5f3a8c91455932c6",
+      "url": "https://github.com/mux-labs/mux-contracts/issues/968",
+      "title": "bindings: add a vitest suite asserting the generated clients expose every entrypoint listed in docs/entrypoint-matrix.md",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "675a3643a413293c",
-      "url": "https://github.com/KelianS/vyzio/issues/301",
-      "title": "fix(frigate): stop a powered-off camera from flooding the logs",
+      "candidate_id": "6af42664be80dff9",
+      "url": "https://github.com/My-Prosthetic/My-Prosthetic-App/issues/35",
+      "title": "US: Przegląd dokumentacji prawnej (O nas i Regulaminy)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -53,27 +53,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "aadd1826a407cb41",
-      "url": "https://github.com/JoshCLWren/comic-pile/issues/3484",
-      "title": "Map series: no bulk map across series from the Queue menu",
+      "candidate_id": "e563f8b60996bd95",
+      "url": "https://github.com/akiojin/gwt/issues/3165",
+      "title": "SPEC: Issue auto-improve monitor",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0abd61599bbcd102",
-      "url": "https://github.com/OpenAEC-Foundation/open-pdf-studio/issues/611",
-      "title": "[Bug] Scale region is drawn with a hard-coded 10% fill, so the Opacity property looks like it does nothing",
+      "candidate_id": "b17a8fd9ba00b7c7",
+      "url": "https://github.com/xgodev/boost/issues/109",
+      "title": "feat(k8s): make writing a Kubernetes controller easy with boost",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "61315f37f7461e10",
-      "url": "https://github.com/kartalbas/coder-shop/issues/58",
-      "title": "All Swiss languages plus Spanish: German, French, Italian, Romansh, Spanish",
+      "candidate_id": "b932244716121dc2",
+      "url": "https://github.com/lopatnov/mise/issues/145",
+      "title": "API hardening follow-ups (low severity): savedBy exposed on public recipes, admin appUrl accepts any string",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "cdab66a652f9f07d",
-      "url": "https://github.com/gyanart/gyanart/issues/39",
-      "title": "SEO Phase 1 — Search performance analysis checklist",
+      "candidate_id": "6697bf8470fdeee8",
+      "url": "https://github.com/SoroLabs/soroscope/issues/1152",
+      "title": "fix(web): settings page saves invalid RPC URLs without validation",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "b30fb2aa3ddf51a3",
+      "url": "https://github.com/akiojin/gwt/issues/5390",
+      "title": "SPEC: 作業停滞の撲滅 — GUI 負荷とバックエンドの待ち・timeout を性能問題として扱う（停滞 family の owner）",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -85,33 +91,21 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "f2d577149740eb7a",
-      "url": "https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/issues/315",
-      "title": "merchant has no stored agent identity",
+      "candidate_id": "c1788d51c98398b9",
+      "url": "https://github.com/pl0n3r/Factory/issues/1387",
+      "title": "docs(legal): carpeta revision-juridica/ con los documentos que valida el abogado",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f019ae5bbf34d402",
-      "url": "https://github.com/may-journal/fitness-runner/issues/480",
-      "title": "[Plan] Requirements match tests by ID, without co-change pairing",
+      "candidate_id": "86509617494554c9",
+      "url": "https://github.com/autonomous-ai/lampOS/issues/705",
+      "title": "lampOS builders' queue",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "758ec57548f0a090",
-      "url": "https://github.com/GBOGEB/CODEX/issues/977",
-      "title": "MissionControl execution promotion: authenticated crew dispatch for ABACUS first merge",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "0c2cda48a7db728a",
-      "url": "https://github.com/stellarspend/stellarspend-contracts/issues/1552",
-      "title": "Add real test for `wallet-status::initialize`",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "0c8cec33436d2e6a",
-      "url": "https://github.com/kehuydietlatoi/harness_orchestrator/issues/118",
-      "title": "Put a Board interface in front of src/github for the autopilot loop",
+      "candidate_id": "3aba373f9ab08553",
+      "url": "https://github.com/Sludging/idleon-efficiency/issues/470",
+      "title": "Menagerie Part 2: six side-jelly account panels",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -121,33 +115,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f78245dd2643573d",
-      "url": "https://github.com/AeroLinkDEV/requirements-management-tool/issues/587",
-      "title": "CI rolling regression tracker",
+      "candidate_id": "e37fb64af929fc09",
+      "url": "https://github.com/jkitchin/discopt/issues/1775",
+      "title": "Tracking: GDP capability & performance parity with Pyomo.GDP",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "dfae9283fac34fcb",
-      "url": "https://github.com/anitajordan22244-afk/zentrixpay/issues/40",
-      "title": "Anchor API prices on-chain in the registry contract",
+      "candidate_id": "05a119d00cf8246c",
+      "url": "https://github.com/Stellar-Clear/clearledger-contracts/issues/124",
+      "title": "Harden deployment secret handling and redact signing material from logs",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b81ce6dc57f75a7e",
-      "url": "https://github.com/ejnburrows-rgb/cartilla-de-gretel/issues/877",
-      "title": "JOB BOARD",
+      "candidate_id": "758ec57548f0a090",
+      "url": "https://github.com/GBOGEB/CODEX/issues/977",
+      "title": "MissionControl execution promotion: authenticated crew dispatch for ABACUS first merge",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "089814790e415559",
-      "url": "https://github.com/Gharib89/skills/issues/854",
-      "title": "Measure local-gate rows and cut its runtime under the 10-minute foreground limit",
+      "candidate_id": "907f13bfc0782ada",
+      "url": "https://github.com/Arx-Game/arxii/issues/4464",
+      "title": "Seven foreign keys are SET_NULL but a check constraint requires them, so deleting their target crashes",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "34b84f602735f8ac",
-      "url": "https://github.com/yusufadeagbo/zksoroban/issues/28",
-      "title": "Contract: charge a configurable XLM fee per verification using Soroban token interface",
+      "candidate_id": "2c80fbf3ac1f612f",
+      "url": "https://github.com/renangd-cloud/agendify/issues/18",
+      "title": "[T0.8.3] Adicionar gitleaks nos pull requests para detectar segredos",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -157,33 +151,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "65f7631cb6177433",
-      "url": "https://github.com/north-foster-farm/north-foster-farm/issues/267",
-      "title": "Final development launch blockers (everything before the code freeze)",
+      "candidate_id": "66c61d87acab84fe",
+      "url": "https://github.com/ClankerWorldOrg/ClankerWorld/issues/2478",
+      "title": "Flaky: AReturnedLauncherDoesNotKeepTheGamesLogOpenAcrossRepeatedPlay",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "eac7ffbe817383c5",
-      "url": "https://github.com/Etdev2/Fish_Log_Book/issues/171",
-      "title": "Quillback rockfish shows as keepable in the species vocabulary, the rockfish catalog and (likely) NorCal, while the CA rules rows say \"No Retention at Any Time\"",
+      "candidate_id": "cfacc84cdf518be2",
+      "url": "https://github.com/WHEELBACK/COMEBACKHERE-contracts/issues/778",
+      "title": "Add settlement-workflow event snapshot tests",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "742ac70037f5e846",
-      "url": "https://github.com/GBOGEB/ABACUS/issues/1885",
-      "title": "🚨 Dashboard health check failure — 2026-10-13",
+      "candidate_id": "d0a1924d82aebdfc",
+      "url": "https://github.com/simetrixch/hostyour-deploy/issues/59",
+      "title": "Plan: packages, so everyone sees which worker owns which files",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "285a28bfe3d5800b",
-      "url": "https://github.com/mattias800/prosper/issues/5039",
-      "title": "ci: restore recompiler contract tests on Linux, Windows and macOS",
+      "candidate_id": "bb13549ea3e7826b",
+      "url": "https://github.com/Uuriko/project-room/issues/3299",
+      "title": "Agent coordination log — Jill (Muse) ⇄ Codex ⇄ other fleets",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "41e5089e4cad1aea",
-      "url": "https://github.com/mbaiagent/nanocode/issues/28",
-      "title": "[DX] 缺少 pytest 收集配置与测试模块同名冲突（test_security）",
+      "candidate_id": "d45fcec8e932eec1",
+      "url": "https://github.com/atolis-hq/wake/issues/962",
+      "title": "Delegated delivery 03: agent delegation tools and delivery-wide controls",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -201,15 +195,21 @@
       }
     },
     {
-      "candidate_id": "e9894d248020f6da",
-      "url": "https://github.com/mattwwarren/claude-workspace/issues/2629",
-      "title": "bug(opencode): synthesize_opencode_result reports opencode_no_output when the sentinel parses but fails validation",
+      "candidate_id": "bf9274640bb55790",
+      "url": "https://github.com/alb641/ProxiBin/issues/38",
+      "title": "Verify Database Tables and Relationships CHECKLIST BEFORE PREET/ANGULAR",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2acd8d597cbc011b",
-      "url": "https://github.com/omacom/omarchy-plugin-marketplace/issues/12107",
-      "title": "[Plugin]: Prices",
+      "candidate_id": "1602c4971e6241b8",
+      "url": "https://github.com/blevinn/aginctus/issues/342",
+      "title": "Repository quality debt: fail-closed configuration, current-state docs, and maintainability",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "3e206138684a51c5",
+      "url": "https://github.com/mux-labs/mux-contracts/issues/967",
+      "title": "examples: wallet-registry-invoke.ts does not verify the round-trip address after registerWallet",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
