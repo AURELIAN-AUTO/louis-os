@@ -1,0 +1,116 @@
+{
+  "generated_at": "2025-12-31",
+  "platforms": [
+    {
+      "name": "GitHub Actions",
+      "open_source": false,
+      "self_hosted_runner": true,
+      "free_tier_minutes": 2000,
+      "free_tier_notes": "GitHub Free includes 2,000 minutes per month for private repositories; standard GitHub-hosted runners are free and unlimited for public repositories.",
+      "config_format": "YAML",
+      "config_file": ".github/workflows/*.yml",
+      "parallel_jobs": true,
+      "matrix_builds": true,
+      "docker_support": true,
+      "secret_management": "GitHub Actions secrets and environment secrets are encrypted; self-hosted runners require additional operational controls.",
+      "marketplace": "GitHub Actions Marketplace",
+      "best_for": "Repositories hosted on GitHub that benefit from native pull-request checks and a large action ecosystem.",
+      "limitations": "Strong coupling to GitHub; larger hosted runners and private-repository usage beyond the included quota are billable.",
+      "pricing_summary": "Free standard hosted-runner usage for public repositories; 2,000 included minutes per month on GitHub Free for private repositories, then usage-based billing.",
+      "sources": [
+        "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+        "https://docs.github.com/en/actions/how-tos/write-workflows/choose-where-workflows-run/choose-the-runner-for-a-job",
+        "https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax"
+      ]
+    },
+    {
+      "name": "GitLab CI/CD",
+      "open_source": true,
+      "self_hosted_runner": true,
+      "free_tier_minutes": 400,
+      "free_tier_notes": "GitLab.com Free namespaces receive 400 compute minutes per month; self-managed runners use the operator's own infrastructure.",
+      "config_format": "YAML",
+      "config_file": ".gitlab-ci.yml",
+      "parallel_jobs": true,
+      "matrix_builds": true,
+      "docker_support": true,
+      "secret_management": "Masked and protected CI/CD variables, file variables, and external secrets integrations.",
+      "marketplace": "GitLab CI/CD Catalog and integrations",
+      "best_for": "Teams wanting an integrated source-control, CI/CD, registry, security, and deployment platform with a self-managed option.",
+      "limitations": "The integrated feature set can be operationally heavy; GitLab.com compute quotas and runner cost factors require monitoring.",
+      "pricing_summary": "GitLab.com Free includes 400 compute minutes per month; paid tiers add quota, while self-managed runner capacity is customer-funded.",
+      "sources": [
+        "https://docs.gitlab.com/ci/pipelines/compute_minutes/",
+        "https://docs.gitlab.com/ci/yaml/",
+        "https://docs.gitlab.com/runner/"
+      ]
+    },
+    {
+      "name": "CircleCI",
+      "open_source": false,
+      "self_hosted_runner": true,
+      "free_tier_minutes": 6000,
+      "free_tier_notes": "The Free plan advertises up to 6,000 build minutes on a small Docker resource class and 30,000 credits per month; actual minutes vary with resource credit rates.",
+      "config_format": "YAML",
+      "config_file": ".circleci/config.yml",
+      "parallel_jobs": true,
+      "matrix_builds": true,
+      "docker_support": true,
+      "secret_management": "Project environment variables and reusable contexts with access restrictions.",
+      "marketplace": "CircleCI Orb Registry",
+      "best_for": "Cloud-first teams needing mature test parallelism, matrix jobs, reusable orbs, and several hosted execution environments.",
+      "limitations": "Credit-based billing makes minute comparisons resource-dependent; the Free plan limits active users and included storage/network transfer.",
+      "pricing_summary": "Free plan with 30,000 monthly credits and up to 6,000 small-Docker build minutes; paid usage is credit based.",
+      "sources": [
+        "https://circleci.com/pricing/",
+        "https://circleci.com/docs/guides/plans-pricing/credits/",
+        "https://circleci.com/docs/guides/orchestrate/using-matrix-jobs/"
+      ]
+    },
+    {
+      "name": "Jenkins",
+      "open_source": true,
+      "self_hosted_runner": true,
+      "free_tier_minutes": -1,
+      "free_tier_notes": "Jenkins is free open-source self-hosted software with no vendor minute quota; usable capacity is limited by the infrastructure and agents supplied by the operator.",
+      "config_format": "Groovy Declarative or Scripted Pipeline",
+      "config_file": "Jenkinsfile",
+      "parallel_jobs": true,
+      "matrix_builds": true,
+      "docker_support": true,
+      "secret_management": "Jenkins Credentials store, Credentials Binding plugin, and compatible external secret providers.",
+      "marketplace": "Jenkins Plugin Index",
+      "best_for": "Organizations needing maximum on-premises control, extensive plugin coverage, and highly customized heterogeneous build farms.",
+      "limitations": "The operator owns controller security, upgrades, backups, plugin compatibility, capacity planning, and infrastructure cost.",
+      "pricing_summary": "No Jenkins software license or minute charge; hosting, administration, support, and build-agent infrastructure remain customer costs.",
+      "sources": [
+        "https://www.jenkins.io/doc/book/pipeline/syntax/",
+        "https://www.jenkins.io/doc/book/pipeline/docker/",
+        "https://www.jenkins.io/doc/book/using/using-credentials/"
+      ]
+    },
+    {
+      "name": "Drone CI",
+      "open_source": true,
+      "self_hosted_runner": true,
+      "free_tier_minutes": -1,
+      "free_tier_notes": "Drone Community Edition is open-source and self-hosted with no hosted minute quota; effective capacity and cost depend on operator-managed runners.",
+      "config_format": "YAML",
+      "config_file": ".drone.yml",
+      "parallel_jobs": true,
+      "matrix_builds": true,
+      "docker_support": true,
+      "secret_management": "Repository and organization secrets, runner-level secrets, and external secret extensions such as Vault.",
+      "marketplace": "Drone Plugins Marketplace",
+      "best_for": "Container-native self-hosted pipelines where small configuration files and isolated Docker execution are priorities.",
+      "limitations": "Community and enterprise feature boundaries must be checked; matrix behavior and generated configuration can vary by Drone version.",
+      "pricing_summary": "Community Edition is self-hosted open-source software without a minute quota; infrastructure and any enterprise subscription are separate costs.",
+      "sources": [
+        "https://docs.drone.io/",
+        "https://docs.drone.io/config/pipeline/multi-platform/",
+        "https://docs.drone.io/runner/docker/overview/",
+        "https://docs.drone.io/extensions/secret/"
+      ]
+    }
+  ]
+}
