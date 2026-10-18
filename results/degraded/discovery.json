@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-18T07:20:28.106286+00:00",
+    "generated_at": "2026-10-18T17:15:40.322548+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,57 +23,63 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "03c3c6f0c3e2508a",
-      "url": "https://github.com/benomite/brigade/issues/531",
-      "title": "Épique — brigade parle anglais : l'app, les commandes de la box, le code et la doc (le dialogue avec les agents reste en français)",
+      "candidate_id": "3e5eca76e9696417",
+      "url": "https://github.com/14stack/gh_aw_code_factory_sandbox/issues/107",
+      "title": "Add the CLI title command",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f30d9d4c8a0b8b9b",
-      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/2721",
-      "title": "[NAYA] Team coordination feed — live board (successor to #2641)",
+      "candidate_id": "d37d42d5bd75f996",
+      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
+      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2fc1ecd591b730cf",
-      "url": "https://github.com/dgmolla/fitsy/issues/443",
-      "title": "Synchronize calorie and macro edits and tune recommended meal protein allocation",
+      "candidate_id": "fbf4c0375872c693",
+      "url": "https://github.com/senamakel/openhuman/issues/193",
+      "title": "[tinyagents-slim] bug: spawn-tool allowlists name a phantom `spawn_agent` and miss the async spawn tool",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a140117fe172e700",
-      "url": "https://github.com/SFenton/ha-sfenton-react-dash/issues/328",
-      "title": "Fix out-of-date solo-trip-settings activating layout check",
+      "candidate_id": "584d695bd451cda0",
+      "url": "https://github.com/senamakel/openhuman/issues/195",
+      "title": "[tinyagents-slim] bug: `security_for_tool_context` is written twice and its test shadows the production copy",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ad1f9bd2466de9ab",
-      "url": "https://github.com/seveibar/pgstrap/issues/2",
-      "title": "Use pglite so that postgres isn't required when generating types",
+      "candidate_id": "8a91b52298804678",
+      "url": "https://github.com/drizzle-team/drizzle-orm/issues/1603",
+      "title": "[BUG]: Nested Partial Select returns null on left join if first column value is null",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8bb13b9dded3e018",
-      "url": "https://github.com/aliezzat4321/hyperliquid-copy-engine/issues/130",
-      "title": "AI TEAM RUNTIME STATUS",
+      "candidate_id": "ed519bc394e5716f",
+      "url": "https://github.com/gnome-extensions-hive/just-perfection/issues/1",
+      "title": "🐝 Hive Advisory Report",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "bd0a6182c4e3d8e7",
-      "url": "https://github.com/JWST-GC/data-qa/issues/245",
-      "title": "GC Treasury — jw10678-o040 (NIRCam)",
+      "candidate_id": "1ae143c987512dd1",
+      "url": "https://github.com/ghost-fvtt/foundry-publish/issues/3",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "e9a61336ba9e4111",
-      "url": "https://github.com/StellarYield/StellarYield-Contracts/issues/1268",
-      "title": "Add funding velocity metric",
+      "candidate_id": "7610b905caaa31a5",
+      "url": "https://github.com/marcusrbrown/sparkle/issues/1666",
+      "title": "Daily Maintenance Report",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a2a390df464f3c6a",
-      "url": "https://github.com/StellarYield/StellarYield-Contracts/issues/1267",
-      "title": "Add withdrawal-to-deposit ratio metric",
+      "candidate_id": "e732407a86cee456",
+      "url": "https://github.com/Baatiku/Masanawa/issues/88",
+      "title": "WS2 live chat/call recovery: tested provider failures and voice reply wiring",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "46fa3506d470e836",
+      "url": "https://github.com/Oztechan/AdTrack/issues/47",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -85,33 +91,63 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "f1937bd88ade4925",
-      "url": "https://github.com/JoshCLWren/comic-pile/issues/1093",
-      "title": "Factory heartbeat registry",
+      "candidate_id": "f4e53ec7d7b0a411",
+      "url": "https://github.com/rjwalters/kicad-tools/issues/7239",
+      "title": "Include THT parts in JLCPCB assembly output (operator decision; JLCPCB now offers THT PCBA)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "28b06124aac1c0e6",
-      "url": "https://github.com/mazodimobinhost-creator/cat-client/issues/2",
-      "title": "[CI-LOG] Android build failure 352945e",
+      "candidate_id": "6250566111415536",
+      "url": "https://github.com/Jersyfi/taktus/issues/517",
+      "title": "TAKTUS_TENANTS is removed, and the integration tests keep apart without it",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b5885c90d0513e11",
-      "url": "https://github.com/fo4sf/fo4-to-starfield/issues/32",
-      "title": "Project update (shared post: Claude, Codex, Grok)",
+      "candidate_id": "6da21fb0127ab51d",
+      "url": "https://github.com/GBOGEB/ABACUS/issues/1929",
+      "title": "BD–LDAB joined root-cause census: exact-SHA evidence, debugger lineage and comparable burndown",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1096640c0367044b",
-      "url": "https://github.com/sgajbi/lotus-core/issues/1141",
-      "title": "Align trade-date position analytics flows with settlement-ledger chronology",
+      "candidate_id": "1b84f631015b658e",
+      "url": "https://github.com/nick-socci/front-office/issues/159",
+      "title": "Break a tied playoff matchup as ESPN does",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8822cd4dd54d2d63",
-      "url": "https://github.com/michaellambgelo/personal-twitch-overlay/issues/19",
-      "title": "dev-only: undici DoS via orphaned RetryHandler response body (worker)",
+      "candidate_id": "21d3b3fffba621f9",
+      "url": "https://github.com/bounan/Bounan.Ongoing/issues/20",
+      "title": "Dependency Dashboard",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ad1f9bd2466de9ab",
+      "url": "https://github.com/seveibar/pgstrap/issues/2",
+      "title": "Use pglite so that postgres isn't required when generating types",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "d8e4ec30cdb2eb63",
+      "url": "https://github.com/ChaiWithJai/liquidity-studio/issues/52",
+      "title": "Enforce editor org-brand identity and private asset boundaries",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "8ddce738ac1b4a15",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/issues/323",
+      "title": "RETALLY unified first-customer launch gate and final acceptance ledger",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "43998e839832865a",
+      "url": "https://github.com/Blue-Kollar/Blue-Collar/issues/1659",
+      "title": "[Testing] Add unit tests for insurance service",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "ce34f289e1cac9be",
+      "url": "https://github.com/bdynamicpt/plinth/issues/2",
+      "title": "Foundations: the real tokens in three tiers, with an Agroglobal override as the example",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -121,63 +157,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "23b58490c0a14391",
-      "url": "https://github.com/jsboige/CoursIA/issues/19908",
-      "title": "[Epic Origami #19898 — Pli 2] Sensibilite 2026 : ajout additif au lac sensitivity_lean + carnet ANALYSE-06 (FR/_en)",
+      "candidate_id": "09152003099dc0c3",
+      "url": "https://github.com/openclaw/openclaw/issues/130061",
+      "title": "[Bug]: GPT-5.6 Responses lacks explicit cache breakpoints",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d37d42d5bd75f996",
-      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
-      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
+      "candidate_id": "a4618173c6dc0c28",
+      "url": "https://github.com/maxgraw/verteiler/issues/4",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "bb13549ea3e7826b",
-      "url": "https://github.com/Uuriko/project-room/issues/3299",
-      "title": "Agent coordination log — Jill (Muse) ⇄ Codex ⇄ other fleets",
+      "candidate_id": "8ff43c0753a1d78a",
+      "url": "https://github.com/nocturney/velvetos-core/issues/612",
+      "title": "Office 2.0 P0 — integration acceleration: continuous agents + parallel PRs + quality/memory",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ee67a74859abb176",
-      "url": "https://github.com/rahulsiiitm/scout-engine/issues/30",
-      "title": "[Score 7.8/10] Certa.ai — Frontend Engineer Intern (Conversion) — Remote",
+      "candidate_id": "a5e7747b3f8095c9",
+      "url": "https://github.com/quadseven/mod-overseer/issues/73",
+      "title": "wow: the leader's quest log is 24 of 25 full, and only one quest in it is complete",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8a91b52298804678",
-      "url": "https://github.com/drizzle-team/drizzle-orm/issues/1603",
-      "title": "[BUG]: Nested Partial Select returns null on left join if first column value is null",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "b6988d237c63feba",
-      "url": "https://github.com/bobby/suss/issues/264",
-      "title": "[M4-17] Preserve captured namespace and declaration child identity across macro calls",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "3b51843f82b07a27",
-      "url": "https://github.com/signature-studio/signature-studio-dev/issues/6379",
-      "title": "[LD-302] liftdiff: change 784520 return type i128 to float through machine_sig, IR and irtool wrapper (child of #6367)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "924cde590c99ae31",
-      "url": "https://github.com/JWST-GC/data-qa/issues/252",
-      "title": "GC Treasury — jw10678-o043 (NIRCam)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "46d8f4ac5f6424ee",
-      "url": "https://github.com/division-sh/swarm/issues/2577",
-      "title": "[channels] Implement and qualify in-process WhatsApp (#2338, 2/2)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "ea23ee8656dc6693",
-      "url": "https://github.com/SFenton/ha-sfenton-react-dash/issues/306",
-      "title": "Automated layout failure on 9e16a7f28667",
+      "candidate_id": "215a958215dd7ae2",
+      "url": "https://github.com/khmer-cosmos/kcos-governance-engine/issues/3",
+      "title": "KCOS SSOT Inventory — Active Findings",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -195,21 +201,15 @@
       }
     },
     {
-      "candidate_id": "a6590200898ad155",
-      "url": "https://github.com/Suncrest-Labs/nester/issues/1533",
-      "title": "chore(repo): require a second reviewer on money-path code",
+      "candidate_id": "093fc2076c2c8578",
+      "url": "https://github.com/adamtopaz/acl_geom/issues/21",
+      "title": "M4b integration: prove the curve-action classification and scheme/function-field bridge (Lemma 8.4)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "bd759518ca2e42c0",
-      "url": "https://github.com/aiur-team/aiur/issues/3360",
-      "title": "MP-R2-C2-T09: Aiur.Events facade migration batch B (orchestration)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "8539bf8e682d9965",
-      "url": "https://github.com/mcpHQ/awesome-mcp-servers/issues/312",
-      "title": "Broken links detected",
+      "candidate_id": "a95f255563322329",
+      "url": "https://github.com/mehm8128/vite-react-template/issues/3",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
