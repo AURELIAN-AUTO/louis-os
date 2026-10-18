@@ -1,7 +1,7 @@
 {
   "capability_gaps_created": 0,
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-18T07:19:51.351188+00:00",
+  "generated_at": "2026-10-18T17:15:05.913414+00:00",
   "human_actions_created": 0,
   "items": [
     {
@@ -15,13 +15,20 @@
       "reason": "unverifiable_personal_eligibility",
       "source_url": "https://www.freelancer.com/projects/audio-editing/czech-speech-annotation-pilot",
       "title": "Czech Speech Annotation Pilot"
+    },
+    {
+      "opportunity_id": "market-f083673657004503",
+      "reason": "hourly_rate_below_cash_first_floor",
+      "source_url": "https://www.freelancer.com/projects/ai-video-editing/brand-commerce-website-build",
+      "title": "Brand E-Commerce Website Build"
     }
   ],
   "reason_counts": {
+    "hourly_rate_below_cash_first_floor": 1,
     "provider_verification_failure_retry_paused": 1,
     "unverifiable_personal_eligibility": 1
   },
-  "rejected_count": 2,
+  "rejected_count": 3,
   "revenue_verified_eur": 0.0,
   "schema_version": "1.1"
 }
