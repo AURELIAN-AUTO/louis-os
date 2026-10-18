@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-17T17:22:13.520938+00:00",
+    "generated_at": "2026-10-18T07:20:28.106286+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,9 +23,9 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "794a8fc60929a58a",
-      "url": "https://github.com/semcod/repatch/issues/62",
-      "title": "Address code smell: Shotgun Surgery: kept",
+      "candidate_id": "03c3c6f0c3e2508a",
+      "url": "https://github.com/benomite/brigade/issues/531",
+      "title": "Épique — brigade parle anglais : l'app, les commandes de la box, le code et la doc (le dialogue avec les agents reste en français)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -35,15 +35,15 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0e9faafda63b1bfc",
-      "url": "https://github.com/stellarspend/stellarspend-contracts/issues/1576",
-      "title": "Add `///` doc to `token/src/validation.rs` every `pub fn`",
+      "candidate_id": "2fc1ecd591b730cf",
+      "url": "https://github.com/dgmolla/fitsy/issues/443",
+      "title": "Synchronize calorie and macro edits and tune recommended meal protein allocation",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f8b8091a8b0b2ee0",
-      "url": "https://github.com/overnightworks/agent-coordination/issues/47",
-      "title": "aco adopt: fremde PRs (Dependabot, Renovate, ohne aco geöffnete) über den normalen Landungsweg landen",
+      "candidate_id": "a140117fe172e700",
+      "url": "https://github.com/SFenton/ha-sfenton-react-dash/issues/328",
+      "title": "Fix out-of-date solo-trip-settings activating layout check",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -53,27 +53,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "408cfe0aae3e4c06",
-      "url": "https://github.com/jarrodjohnson-gif/emberisle/issues/663",
-      "title": "Build the custom PNG sticker pipeline: drop a PNG, get a sticker",
+      "candidate_id": "8bb13b9dded3e018",
+      "url": "https://github.com/aliezzat4321/hyperliquid-copy-engine/issues/130",
+      "title": "AI TEAM RUNTIME STATUS",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "d0a1924d82aebdfc",
-      "url": "https://github.com/simetrixch/hostyour-deploy/issues/59",
-      "title": "Plan: packages, so everyone sees which worker owns which files",
+      "candidate_id": "bd0a6182c4e3d8e7",
+      "url": "https://github.com/JWST-GC/data-qa/issues/245",
+      "title": "GC Treasury — jw10678-o040 (NIRCam)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8043bef47accb43c",
-      "url": "https://github.com/PastaHimself/chat-on-steroids-Headless/issues/26",
-      "title": "Audit: 10 reproducible defects in installation, Discord controls, and notifications",
+      "candidate_id": "e9a61336ba9e4111",
+      "url": "https://github.com/StellarYield/StellarYield-Contracts/issues/1268",
+      "title": "Add funding velocity metric",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1102277d0d6240e9",
-      "url": "https://github.com/foomakers/pair/issues/552",
-      "title": "CP12 marketplace on an existing repo + fix stale suite texts (MT-CP806, MT-CP308) before v0.5.0",
+      "candidate_id": "a2a390df464f3c6a",
+      "url": "https://github.com/StellarYield/StellarYield-Contracts/issues/1267",
+      "title": "Add withdrawal-to-deposit ratio metric",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -85,27 +85,33 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "34a1755dd2754a91",
-      "url": "https://github.com/cbusillo/launchplane/issues/3808",
-      "title": "Bound never-served history validation without hiding incomplete evidence",
+      "candidate_id": "f1937bd88ade4925",
+      "url": "https://github.com/JoshCLWren/comic-pile/issues/1093",
+      "title": "Factory heartbeat registry",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "f2ee3eb53ea21775",
-      "url": "https://github.com/hanmiyoo10-alt/-/issues/457",
-      "title": "[repo-docs:promotion-bridge]",
+      "candidate_id": "28b06124aac1c0e6",
+      "url": "https://github.com/mazodimobinhost-creator/cat-client/issues/2",
+      "title": "[CI-LOG] Android build failure 352945e",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "86509617494554c9",
-      "url": "https://github.com/autonomous-ai/lampOS/issues/705",
-      "title": "lampOS builders' queue",
+      "candidate_id": "b5885c90d0513e11",
+      "url": "https://github.com/fo4sf/fo4-to-starfield/issues/32",
+      "title": "Project update (shared post: Claude, Codex, Grok)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "ca2eb56b6c85d593",
-      "url": "https://github.com/aiur-team/aiur/issues/4905",
-      "title": "Flake detector files tickets for runs older than the fix already on main",
+      "candidate_id": "1096640c0367044b",
+      "url": "https://github.com/sgajbi/lotus-core/issues/1141",
+      "title": "Align trade-date position analytics flows with settlement-ledger chronology",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "8822cd4dd54d2d63",
+      "url": "https://github.com/michaellambgelo/personal-twitch-overlay/issues/19",
+      "title": "dev-only: undici DoS via orphaned RetryHandler response body (worker)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -115,33 +121,27 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "40bfe47d745f4d6f",
-      "url": "https://github.com/Luminous-Dynamics/mycelix/issues/4020",
-      "title": "feat: add BootstrapMilestone provenance schema for space-industrial closure",
+      "candidate_id": "23b58490c0a14391",
+      "url": "https://github.com/jsboige/CoursIA/issues/19908",
+      "title": "[Epic Origami #19898 — Pli 2] Sensibilite 2026 : ajout additif au lac sensitivity_lean + carnet ANALYSE-06 (FR/_en)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8afe44513e71b522",
-      "url": "https://github.com/LodyAI/Lody/issues/1668",
-      "title": "[Bug] Built-in Codex history import fails with \"Method not found\": _lody/session/history/read (0.105.0+)",
+      "candidate_id": "d37d42d5bd75f996",
+      "url": "https://github.com/liubaining-louis/louis-os/issues/141",
+      "title": "Autonomous tested patch submission, capability recovery and maintainer loop",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "bbf9e0de21b625d8",
-      "url": "https://github.com/Dfunder/stellarAid-web/issues/847",
-      "title": "Add a helpful 404 route with recovery links",
+      "candidate_id": "bb13549ea3e7826b",
+      "url": "https://github.com/Uuriko/project-room/issues/3299",
+      "title": "Agent coordination log — Jill (Muse) ⇄ Codex ⇄ other fleets",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1dbf7822c57baa02",
-      "url": "https://github.com/StellarFlow-Network/stellarflow-contracts/issues/1209",
-      "title": "🔒 [HIGH] Missing Check for Canceled Signature Nonces in Meta-Transactions",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "0f932bc3daae6fc7",
-      "url": "https://github.com/handarbeit/fabrik-test-alpha/issues/8622",
-      "title": "e2e cruise full pipeline (20261017-171706)",
+      "candidate_id": "ee67a74859abb176",
+      "url": "https://github.com/rahulsiiitm/scout-engine/issues/30",
+      "title": "[Score 7.8/10] Certa.ai — Frontend Engineer Intern (Conversion) — Remote",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -151,33 +151,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "a5247d510860c8d7",
-      "url": "https://github.com/sgajbi/lotus-manage/issues/817",
-      "title": "Enroll ordinary Manage Core source reads in enterprise HMAC context",
+      "candidate_id": "b6988d237c63feba",
+      "url": "https://github.com/bobby/suss/issues/264",
+      "title": "[M4-17] Preserve captured namespace and declaration child identity across macro calls",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "2ec92579c2a5431a",
-      "url": "https://github.com/Dfunder/stellarAid-web/issues/853",
-      "title": "Fix the `walletBalances` query-key collision between two components",
+      "candidate_id": "3b51843f82b07a27",
+      "url": "https://github.com/signature-studio/signature-studio-dev/issues/6379",
+      "title": "[LD-302] liftdiff: change 784520 return type i128 to float through machine_sig, IR and irtool wrapper (child of #6367)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "0f6fdadc791e6308",
-      "url": "https://github.com/projectbluefin/finpilot/issues/465",
-      "title": "Review backlog (docs-currency): PR body screenshot link 404s",
+      "candidate_id": "924cde590c99ae31",
+      "url": "https://github.com/JWST-GC/data-qa/issues/252",
+      "title": "GC Treasury — jw10678-o043 (NIRCam)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "3eb919508e7356de",
-      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/1714",
-      "title": "[NAYA 5] COLD-RETRIEVE-engine — retrieval-to-10-10",
+      "candidate_id": "46d8f4ac5f6424ee",
+      "url": "https://github.com/division-sh/swarm/issues/2577",
+      "title": "[channels] Implement and qualify in-process WhatsApp (#2338, 2/2)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "74a3e1be16e97359",
-      "url": "https://github.com/shgew/togi/issues/633",
-      "title": "Rewrite tools/cover in Rust",
+      "candidate_id": "ea23ee8656dc6693",
+      "url": "https://github.com/SFenton/ha-sfenton-react-dash/issues/306",
+      "title": "Automated layout failure on 9e16a7f28667",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -195,21 +195,21 @@
       }
     },
     {
-      "candidate_id": "f1937bd88ade4925",
-      "url": "https://github.com/JoshCLWren/comic-pile/issues/1093",
-      "title": "Factory heartbeat registry",
+      "candidate_id": "a6590200898ad155",
+      "url": "https://github.com/Suncrest-Labs/nester/issues/1533",
+      "title": "chore(repo): require a second reviewer on money-path code",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "240720d0db16080f",
-      "url": "https://github.com/SoulSchoolAcademy/NayaPOWER/issues/1713",
-      "title": "[NAYA 5] LEARN-engine — gates-wiring-bridge-to-10-10",
+      "candidate_id": "bd759518ca2e42c0",
+      "url": "https://github.com/aiur-team/aiur/issues/3360",
+      "title": "MP-R2-C2-T09: Aiur.Events facade migration batch B (orchestration)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "4cb6a23984594268",
-      "url": "https://github.com/shubhodeep1/coding-workflows/issues/7579",
-      "title": "CI budget: CI job orchestrate-poll took 15m13s of its 20-minute timeout",
+      "candidate_id": "8539bf8e682d9965",
+      "url": "https://github.com/mcpHQ/awesome-mcp-servers/issues/312",
+      "title": "Broken links detected",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
