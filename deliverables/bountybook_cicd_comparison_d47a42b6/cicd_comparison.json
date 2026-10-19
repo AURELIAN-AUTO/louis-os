@@ -1,5 +1,9 @@
 {
-  "generated_at": "2025-12-31",
+  "generated_at": "2026-10-19",
+  "requested_reference_period": "2024-2025",
+  "evidence_checked_at": "2026-10-19",
+  "historical_verification_status": "partial",
+  "verification_note": "Prepared in 2026 for a listing requesting 2024-2025 information. Official documentation supports the capabilities and indicative allowances below; current pages are not archived proof of every historical price. Historical pricing uncertainty is explicitly marked check official pricing. No platform acceptance or payment is implied.",
   "platforms": [
     {
       "name": "GitHub Actions",
@@ -16,7 +20,7 @@
       "marketplace": "GitHub Actions Marketplace",
       "best_for": "Repositories hosted on GitHub that benefit from native pull-request checks and a large action ecosystem.",
       "limitations": "Strong coupling to GitHub; larger hosted runners and private-repository usage beyond the included quota are billable.",
-      "pricing_summary": "Free standard hosted-runner usage for public repositories; 2,000 included minutes per month on GitHub Free for private repositories, then usage-based billing.",
+      "pricing_summary": "Free standard hosted-runner usage for public repositories; 2,000 included minutes per month on GitHub Free for private repositories. For historical 2024-2025 terms or overage rates, check official pricing.",
       "sources": [
         "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
         "https://docs.github.com/en/actions/how-tos/write-workflows/choose-where-workflows-run/choose-the-runner-for-a-job",
@@ -26,6 +30,7 @@
     {
       "name": "GitLab CI/CD",
       "open_source": true,
+      "open_source_notes": "The boolean refers to GitLab Community Edition under the MIT license, not every Enterprise Edition feature or the GitLab.com hosted service.",
       "self_hosted_runner": true,
       "free_tier_minutes": 400,
       "free_tier_notes": "GitLab.com Free namespaces receive 400 compute minutes per month; self-managed runners use the operator's own infrastructure.",
@@ -38,11 +43,12 @@
       "marketplace": "GitLab CI/CD Catalog and integrations",
       "best_for": "Teams wanting an integrated source-control, CI/CD, registry, security, and deployment platform with a self-managed option.",
       "limitations": "The integrated feature set can be operationally heavy; GitLab.com compute quotas and runner cost factors require monitoring.",
-      "pricing_summary": "GitLab.com Free includes 400 compute minutes per month; paid tiers add quota, while self-managed runner capacity is customer-funded.",
+      "pricing_summary": "The reviewed official documentation lists 400 monthly compute minutes on GitLab.com Free; self-managed capacity is customer-funded. For historical 2024-2025 terms, check official pricing.",
       "sources": [
         "https://docs.gitlab.com/ci/pipelines/compute_minutes/",
         "https://docs.gitlab.com/ci/yaml/",
-        "https://docs.gitlab.com/runner/"
+        "https://docs.gitlab.com/runner/",
+        "https://docs.gitlab.com/development/licensing/"
       ]
     },
     {
@@ -50,7 +56,7 @@
       "open_source": false,
       "self_hosted_runner": true,
       "free_tier_minutes": 6000,
-      "free_tier_notes": "The Free plan advertises up to 6,000 build minutes on a small Docker resource class and 30,000 credits per month; actual minutes vary with resource credit rates.",
+      "free_tier_notes": "Up to 6,000 monthly build minutes is advertised in an official article updated May 8, 2025. The reviewed pricing page lists 30,000 credits per month; effective minutes depend on resource credit rates, so 6,000 is not a universal allowance for every executor.",
       "config_format": "YAML",
       "config_file": ".circleci/config.yml",
       "parallel_jobs": true,
@@ -60,11 +66,12 @@
       "marketplace": "CircleCI Orb Registry",
       "best_for": "Cloud-first teams needing mature test parallelism, matrix jobs, reusable orbs, and several hosted execution environments.",
       "limitations": "Credit-based billing makes minute comparisons resource-dependent; the Free plan limits active users and included storage/network transfer.",
-      "pricing_summary": "Free plan with 30,000 monthly credits and up to 6,000 small-Docker build minutes; paid usage is credit based.",
+      "pricing_summary": "Official 2025 material advertises up to 6,000 free monthly build minutes; reviewed pricing uses credits rather than a universal minute quota. For exact historical credit rates and limits, check official pricing.",
       "sources": [
         "https://circleci.com/pricing/",
         "https://circleci.com/docs/guides/plans-pricing/credits/",
-        "https://circleci.com/docs/guides/orchestrate/using-matrix-jobs/"
+        "https://circleci.com/docs/guides/orchestrate/using-matrix-jobs/",
+        "https://circleci.com/blog/deploy-spring-boot-aws-elastic-beanstalk/"
       ]
     },
     {
@@ -92,6 +99,7 @@
     {
       "name": "Drone CI",
       "open_source": true,
+      "open_source_notes": "The boolean refers to Drone Community Edition; Enterprise Edition includes proprietary code and must be assessed separately.",
       "self_hosted_runner": true,
       "free_tier_minutes": -1,
       "free_tier_notes": "Drone Community Edition is open-source and self-hosted with no hosted minute quota; effective capacity and cost depend on operator-managed runners.",
@@ -99,6 +107,7 @@
       "config_file": ".drone.yml",
       "parallel_jobs": true,
       "matrix_builds": true,
+      "matrix_builds_notes": "Matrix-like combinations can be generated as multiple pipelines with Starlark or Jsonnet. This does not assert that modern Drone YAML has the native matrix keyword documented for legacy Drone 0.8; Starlark support must be enabled by the server administrator.",
       "docker_support": true,
       "secret_management": "Repository and organization secrets, runner-level secrets, and external secret extensions such as Vault.",
       "marketplace": "Drone Plugins Marketplace",
@@ -109,7 +118,9 @@
         "https://docs.drone.io/",
         "https://docs.drone.io/config/pipeline/multi-platform/",
         "https://docs.drone.io/runner/docker/overview/",
-        "https://docs.drone.io/extensions/secret/"
+        "https://docs.drone.io/extensions/secret/",
+        "https://docs.drone.io/starlark/overview/",
+        "https://0-8-0.docs.drone.io/matrix-builds/"
       ]
     }
   ]

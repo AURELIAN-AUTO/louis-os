@@ -173,3 +173,35 @@ notification identique. Contrôler sa qualité factuelle (dont la date historiqu
 soumission, et attendre l'autorisation/accès existants effectifs. Si ce blocage
 persiste, poursuivre une autre voie admissible sans affaiblir la politique. Ne
 pas réactiver GCP et ne pas tenter de récupérer les fonds d'un autre contributeur.
+
+### Revue factuelle du dossier existant — 19 octobre 2026
+
+- `get_repo` appelé ; `main` épinglé à
+  `c20e23aa7df37aabc53d359ae38152a044ce73b1`. Aucun `AGENTS.md` applicable.
+  Les PR ouvertes ne contiennent pas de revue de ce livrable : nouveau correctif
+  borné, sans reprendre les PR de facturation, ni changer la politique.
+- Erreur reproduite : `generated_at=2025-12-31` dans un fichier réellement créé
+  le 18/10/2026. La date de révision est maintenant `2026-10-19` ; période
+  demandée 2024-2025 séparée. La vérification historique reste explicitement
+  partielle, avec `check official pricing` pour les prix non archivés.
+- Sources officielles relues. Article CircleCI daté du 08/05/2025 trouvé pour
+  les 6 000 minutes annoncées. Précisions ajoutées : minutes/ressources et crédits
+  CircleCI ; éditions communautaires GitLab/Drone ; matrices Drone générées via
+  Starlark/Jsonnet, distinctes du mot-clé natif de la version 0.8.
+- `FACTUAL_REVIEW.md` conserve les preuves et limites ; il est hash-épinglé avec
+  le JSON et le manifeste. 53 tests ciblés réussis, dont trois nouveaux contrôles
+  de traçabilité/date/incertitude. Aucun envoi externe et aucune autorité ajoutée.
+- Taskmarket : run `39185751484` du 19/10 01:31 UTC, logs lus : erreur Compute
+  Engine exigeant une facturation active avant exécution. Aucun état actuel de
+  réclamation/wallet déductible. Ne pas relancer ni réactiver la facturation.
+- Mesures : un dossier existant révisé, aucune nouvelle mission distincte ;
+  soumissions/acceptations/paiements nouveaux = 0/0/0 ; intervention humaine = 0.
+  Aucun achat engagé ; coût Actions marginal et coûts historiques inconnus.
+  L'attente d'autorisation CI/CD dure environ 11 h 30 au début de ce cycle.
+
+Prochaine action : CI au SHA exact puis fusion si tous les contrôles requis sont
+verts ; vérifier le cycle marché et les hash publiés. Le dossier doit ensuite
+rester en attente de l'accès/autorisation effective déjà signalée, sans révision
+répétée ni nouvelle notification identique. Passer à une autre voie admissible
+au prochain cycle si aucun événement externe ne permet sa soumission. Les
+404 RustChain et le pivot de sources restent distincts et non réparés ici.
