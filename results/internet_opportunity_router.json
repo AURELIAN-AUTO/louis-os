@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-19T04:50:55.952997+00:00",
+  "generated_at": "2026-10-19T07:57:58.647100+00:00",
   "objective": "adaptive multidomain Internet opportunity discovery and execution",
   "allocation": {
     "exploit": 0.5,
@@ -22,24 +22,24 @@
   "decision_counts": {
     "execute_now": 0,
     "prepare_then_gate": 8,
-    "capability_build": 8,
-    "reject": 64
+    "capability_build": 9,
+    "reject": 63
   },
   "domain_metrics": {
     "code_automation": {
-      "seen": 23,
+      "seen": 22,
       "eligible": 5,
       "execute_now": 0,
       "prepare_then_gate": 5,
-      "capability_build": 6,
+      "capability_build": 5,
       "reject": 12
     },
     "b2b_research": {
-      "seen": 21,
+      "seen": 23,
       "eligible": 3,
       "execute_now": 0,
       "prepare_then_gate": 3,
-      "capability_build": 0,
+      "capability_build": 2,
       "reject": 18
     },
     "web_landing_pages": {
@@ -51,20 +51,12 @@
       "reject": 0
     },
     "writing_documentation": {
-      "seen": 21,
+      "seen": 20,
       "eligible": 0,
       "execute_now": 0,
       "prepare_then_gate": 0,
       "capability_build": 0,
-      "reject": 21
-    },
-    "translation": {
-      "seen": 2,
-      "eligible": 0,
-      "execute_now": 0,
-      "prepare_then_gate": 0,
-      "capability_build": 0,
-      "reject": 2
+      "reject": 20
     },
     "open_source_bounties": {
       "seen": 6,
@@ -81,13 +73,26 @@
       "prepare_then_gate": 0,
       "capability_build": 0,
       "reject": 5
+    },
+    "translation": {
+      "seen": 2,
+      "eligible": 0,
+      "execute_now": 0,
+      "prepare_then_gate": 0,
+      "capability_build": 0,
+      "reject": 2
     }
   },
   "source_metrics": {
     "bountybook_agent_jobs": {
-      "seen": 17,
+      "seen": 16,
       "eligible": 8,
       "reject": 1
+    },
+    "freelancer_public_simple_jobs": {
+      "seen": 4,
+      "eligible": 0,
+      "reject": 2
     },
     "agentpact_open_needs": {
       "seen": 17,
@@ -95,14 +100,9 @@
       "reject": 17
     },
     "algora_public_bounties": {
-      "seen": 17,
+      "seen": 16,
       "eligible": 0,
-      "reject": 17
-    },
-    "freelancer_public_simple_jobs": {
-      "seen": 2,
-      "eligible": 0,
-      "reject": 2
+      "reject": 16
     },
     "github_bounties": {
       "seen": 10,
@@ -194,7 +194,7 @@
       "submit_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/submit",
       "wallet_type": "EVM"
     },
-    "observed_at": "2026-10-19T04:49:42.917360+00:00",
+    "observed_at": "2026-10-19T07:56:27.893721+00:00",
     "opportunity_id": "market-685081cabe16a6b0",
     "payment_evidence": [
       "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -308,7 +308,7 @@
         "submit_endpoint": "/jobs/bcef57a8-6a9e-43a5-9e45-458d595f86c3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.919272+00:00",
+      "observed_at": "2026-10-19T07:56:27.897040+00:00",
       "opportunity_id": "market-26b456dd609d3e3a",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -430,7 +430,7 @@
         "submit_endpoint": "/jobs/d47a42b6-8203-4bc7-8bbf-c22ef912c232/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.917360+00:00",
+      "observed_at": "2026-10-19T07:56:27.893721+00:00",
       "opportunity_id": "market-685081cabe16a6b0",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -541,7 +541,7 @@
         "submit_endpoint": "/jobs/8f560445-8479-416e-ab33-53281da4bec8/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.919447+00:00",
+      "observed_at": "2026-10-19T07:56:27.897342+00:00",
       "opportunity_id": "market-cb3c9850695767ca",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -652,7 +652,7 @@
         "submit_endpoint": "/jobs/6043441c-41cc-40d0-9edc-fed586699cc8/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.919483+00:00",
+      "observed_at": "2026-10-19T07:56:27.897402+00:00",
       "opportunity_id": "market-96d03b7f06d7722a",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -763,7 +763,7 @@
         "submit_endpoint": "/jobs/87b131ee-7102-4d69-a99d-08cff67e9c1a/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.916078+00:00",
+      "observed_at": "2026-10-19T07:56:27.891514+00:00",
       "opportunity_id": "market-35e48723df7daf2e",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -874,7 +874,7 @@
         "submit_endpoint": "/jobs/fde07b58-6aa8-42ea-852a-ead105819045/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.918562+00:00",
+      "observed_at": "2026-10-19T07:56:27.895766+00:00",
       "opportunity_id": "market-3e18287c7f9f2373",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -985,7 +985,7 @@
         "submit_endpoint": "/jobs/193daf43-6436-4456-a028-dcb3149a2b95/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.916620+00:00",
+      "observed_at": "2026-10-19T07:56:27.892445+00:00",
       "opportunity_id": "market-6ff305afb75cc024",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1096,7 +1096,7 @@
         "submit_endpoint": "/jobs/212e5e5c-4b39-406a-a33e-ffc8b7c20398/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.918388+00:00",
+      "observed_at": "2026-10-19T07:56:27.895462+00:00",
       "opportunity_id": "market-83bee863b0c890d8",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1141,6 +1141,188 @@
         "lane": "exploit",
         "decision": "prepare_then_gate",
         "score": 1.281,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.86,
+      "account_required": true,
+      "canonical_url": "https://www.freelancer.com/projects/content-audit/social-media-content-accuracy-audit",
+      "competition": 0.0,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "6 days left",
+      "decision": {
+        "blockers": [
+          "capability_missing:technical_proposal",
+          "capability_requires_validation:technical_proposal"
+        ],
+        "evidence": [
+          "https://www.freelancer.com/jobs/research-writing/",
+          "Social Media Content Accuracy Audit 6 days left Verified Hi I will share the details with the shortlisted candidates. Thanks Article Writing Compliance Auditing Content Audit Content Moderation Report Writing Research Writing SEO Social Media Copy Social Media Management Social Media Marketing $250 - $750 $250 - $750 0 bids Bid now",
+          "https://www.freelancer.com/projects/content-audit/social-media-content-accuracy-audit"
+        ],
+        "human_action_minimal": "none",
+        "missing_capabilities": [
+          "technical_proposal"
+        ],
+        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
+        "opportunity_id": "market-037ddd5dd34a0566",
+        "score": 62.2,
+        "status": "capability_build"
+      },
+      "description": "Social Media Content Accuracy Audit 6 days left Verified Hi I will share the details with the shortlisted candidates. Thanks Article Writing Compliance Auditing Content Audit Content Moderation Report Writing Research Writing SEO Social Media Copy Social Media Management Social Media Marketing $250 - $750 $250 - $750 0 bids Bid now",
+      "evidence": [
+        "https://www.freelancer.com/jobs/research-writing/",
+        "https://www.freelancer.com/projects/content-audit/social-media-content-accuracy-audit"
+      ],
+      "human_dependency": 0.22,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "active_bids": 0,
+        "budget_currency": "USD",
+        "budget_max": 750.0,
+        "budget_min": 250.0,
+        "days_left": 6,
+        "estimated_effort_hours": 12.0,
+        "official_source": true,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/research-writing/",
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_mode": "platform_proposal"
+      },
+      "observed_at": "2026-10-19T07:56:34.062942+00:00",
+      "opportunity_id": "market-037ddd5dd34a0566",
+      "payment_evidence": [
+        "https://www.freelancer.com/jobs/research-writing/",
+        "Social Media Content Accuracy Audit 6 days left Verified Hi I will share the details with the shortlisted candidates. Thanks Article Writing Compliance Auditing Content Audit Content Moderation Report Writing Research Writing SEO Social Media Copy Social Media Management Social Media Marketing $250 - $750 $250 - $750 0 bids Bid now"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "technical_proposal"
+      ],
+      "reward_amount": 250.0,
+      "reward_verified": true,
+      "risk": 0.2,
+      "security_scope_authorized": true,
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_simple_jobs",
+      "source_url": "https://www.freelancer.com/projects/content-audit/social-media-content-accuracy-audit",
+      "terms_required": true,
+      "time_to_cash_days": 30,
+      "title": "Social Media Content Accuracy Audit",
+      "effort_hours": 12.0,
+      "reward_eur": 250.0,
+      "competition_risk": 0.0,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "Freelancer milestone payment; account payout method selected after award",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "universal_market_opportunities.json",
+      "upstream_decision": "capability_build",
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "b2b_research",
+        "lane": "exploit",
+        "decision": "capability_build",
+        "score": 2.083,
+        "reasons": [],
+        "forecast_only_not_pipeline_or_revenue": true
+      }
+    },
+    {
+      "accessibility": 0.86,
+      "account_required": true,
+      "collector_source_id": "freelancer_public_simple_jobs",
+      "competition": 0.0,
+      "cost": 0.1,
+      "currency": "USD",
+      "deadline": "6 days left",
+      "description": "Social Media Content Accuracy Audit 6 days left Verified Hi I will share the details with the shortlisted candidates. Thanks Article Writing Compliance Auditing Content Audit Content Moderation Report Writing Research Writing SEO Social Media Copy Social Media Management Social Media Marketing $250 - $750 $250 - $750 0 bids Bid now",
+      "evidence": [
+        "https://www.freelancer.com/jobs/research-writing/",
+        "https://www.freelancer.com/projects/content-audit/social-media-content-accuracy-audit"
+      ],
+      "human_dependency": 0.22,
+      "identity_or_kyc_required": false,
+      "legal_entity_required": false,
+      "metadata": {
+        "active_bids": 0,
+        "budget_currency": "USD",
+        "budget_max": 750.0,
+        "budget_min": 250.0,
+        "collector_source_id": "freelancer_public_simple_jobs",
+        "days_left": 6,
+        "estimated_effort_hours": 12.0,
+        "official_source": true,
+        "payment_methods": [
+          "Freelancer milestone payment; account payout method selected after award"
+        ],
+        "payout_setup_required": false,
+        "platform": "Freelancer.com",
+        "source_kind": "public_freelance_listing",
+        "source_page": "https://www.freelancer.com/jobs/research-writing/",
+        "submission_dossier_prepared": false,
+        "submission_dossier_required": true,
+        "submission_mode": "platform_proposal"
+      },
+      "observed_at": "2026-10-19T07:56:34.062942+00:00",
+      "payment_evidence": [
+        "https://www.freelancer.com/jobs/research-writing/",
+        "Social Media Content Accuracy Audit 6 days left Verified Hi I will share the details with the shortlisted candidates. Thanks Article Writing Compliance Auditing Content Audit Content Moderation Report Writing Research Writing SEO Social Media Copy Social Media Management Social Media Marketing $250 - $750 $250 - $750 0 bids Bid now"
+      ],
+      "physical_presence_required": false,
+      "required_capabilities": [
+        "technical_proposal"
+      ],
+      "reward_amount": 250.0,
+      "reward_verified": true,
+      "risk": 0.2,
+      "security_scope_authorized": true,
+      "source_category": "freelance_marketplace",
+      "source_id": "freelancer_public_simple_jobs",
+      "source_url": "https://www.freelancer.com/projects/content-audit/social-media-content-accuracy-audit",
+      "terms_required": true,
+      "time_to_cash_days": 30,
+      "title": "Social Media Content Accuracy Audit",
+      "opportunity_id": "https://www.freelancer.com/projects/content-audit/social-media-content-accuracy-audit",
+      "effort_hours": 12.0,
+      "reward_eur": 250.0,
+      "competition_risk": 0.0,
+      "payment_confidence": 0.85,
+      "human_actions_required": 1,
+      "payment_path": "Freelancer milestone payment; account payout method selected after award",
+      "acceptance_criteria": [
+        "deliver the bounded scope described in the verified public listing"
+      ],
+      "fresh_open_verified": true,
+      "legal_policy_pass": true,
+      "market_signal_verified": true,
+      "personal_eligibility_required": false,
+      "active_competing_claim": false,
+      "source_file": "simple_mission_source_refresh.json",
+      "upstream_decision": null,
+      "upstream_rejected": false,
+      "internet_opportunity_router": {
+        "domain": "b2b_research",
+        "lane": "exploit",
+        "decision": "capability_build",
+        "score": 2.083,
         "reasons": [],
         "forecast_only_not_pipeline_or_revenue": true
       }
@@ -1208,7 +1390,7 @@
         "submit_endpoint": "/jobs/a99032ec-5542-4232-a7a7-23ed20bdbaf4/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.919175+00:00",
+      "observed_at": "2026-10-19T07:56:27.896874+00:00",
       "opportunity_id": "market-a3a2d3454ea0c02f",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1319,7 +1501,7 @@
         "submit_endpoint": "/jobs/fdaccd0e-0eb6-42be-8819-fd61746eebe2/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.919119+00:00",
+      "observed_at": "2026-10-19T07:56:27.896775+00:00",
       "opportunity_id": "market-028a260f83c48f66",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1430,7 +1612,7 @@
         "submit_endpoint": "/jobs/d6d3d8f1-dfaa-4a4c-9f65-df670bdfdb26/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.917467+00:00",
+      "observed_at": "2026-10-19T07:56:27.893872+00:00",
       "opportunity_id": "market-94d8490d83fbd824",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1541,7 +1723,7 @@
         "submit_endpoint": "/jobs/552d8068-b164-4917-b3ec-f2438a890192/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.917267+00:00",
+      "observed_at": "2026-10-19T07:56:27.893552+00:00",
       "opportunity_id": "market-46c66d38d5c7a2bc",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1652,7 +1834,7 @@
         "submit_endpoint": "/jobs/05972785-3be7-4b20-be73-acd7484767d3/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.918861+00:00",
+      "observed_at": "2026-10-19T07:56:27.896285+00:00",
       "opportunity_id": "market-1fb23eafad516f31",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1763,7 +1945,7 @@
         "submit_endpoint": "/jobs/784345ae-fd58-481e-93cd-c1f6226ffd0d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.918137+00:00",
+      "observed_at": "2026-10-19T07:56:27.895021+00:00",
       "opportunity_id": "market-59e80f1486713142",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1874,7 +2056,7 @@
         "submit_endpoint": "/jobs/a55bd7d2-b6a0-4bfc-80b5-f788d0ff312d/submit",
         "wallet_type": "EVM"
       },
-      "observed_at": "2026-10-19T04:49:42.916403+00:00",
+      "observed_at": "2026-10-19T07:56:27.892071+00:00",
       "opportunity_id": "market-e91dcdf4892d3082",
       "payment_evidence": [
         "https://api.bountybook.ai/jobs?status=open&limit=100",
@@ -1896,117 +2078,6 @@
       "terms_required": true,
       "time_to_cash_days": 10,
       "title": "Build TypedEmitter class with typed event handling in event_emitter.ts",
-      "effort_hours": 2.0,
-      "reward_eur": 5.0,
-      "competition_risk": 0.55,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "verified public reward evidence; payout terms require platform confirmation",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "capability_build",
-      "upstream_rejected": false,
-      "internet_opportunity_router": {
-        "domain": "code_automation",
-        "lane": "experimental",
-        "decision": "capability_build",
-        "score": 0.107,
-        "reasons": [],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.96,
-      "account_required": true,
-      "canonical_url": "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
-      "competition": 0.55,
-      "cost": 0.0,
-      "currency": "USDC",
-      "deadline": "",
-      "decision": {
-        "blockers": [
-          "capability_missing:javascript_automation_delivery"
-        ],
-        "evidence": [
-          "https://api.bountybook.ai/jobs?status=open&limit=100",
-          "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
-          "budget_usdc=5",
-          "official_open_jobs_require_attached_usdc",
-          "https://www.bountybook.ai/docs",
-          "https://www.bountybook.ai/terms"
-        ],
-        "human_action_minimal": "none",
-        "missing_capabilities": [
-          "javascript_automation_delivery"
-        ],
-        "next_action": "create_bounded_capability_spec_test_promote_and_retry",
-        "opportunity_id": "market-fc390e04e71a092e",
-        "score": 66.68,
-        "status": "capability_build"
-      },
-      "description": "Write retry.js exporting retry(fn, options). Options: maxAttempts, baseDelayMs, factor, jitter. Exponential backoff between attempts. Returns first success, throws last error after all attempts. module.exports = { retry }.\nWrite `retry.js` that exports a `retry(fn, options)` function.\n\n## API\n```js\nconst result = await retry(asyncFn, {\n  maxAttempts: 3,     // total attempts (default: 3)\n  baseDelayMs: 100,   // initial delay in ms (default: 100)\n  factor: 2,          // backoff multiplier (default: 2)\n  jitter: false       // add random jitter (default: false)\n});\n```\n\n## Behavior\n- Calls `asyncFn()` up to `maxAttempts` times.\n- On failure, waits `baseDelayMs * factor^(attempt-1)` before retrying.\n  - attempt 1 fails → wait `100ms`, retry attempt 2\n  - attempt 2 fails → wait `200ms`, retry attempt 3\n  - attempt 3 fails → throw the last error\n- If `jitter: true`, multiply delay by a random factor in [0.5, 1.5].\n- Returns the first successful result immediately.\n- `module.exports = { retry };`\n\n## Deliverable\nSingle file `retry.js`.",
-      "evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
-        "https://www.bountybook.ai/docs",
-        "https://www.bountybook.ai/terms"
-      ],
-      "human_dependency": 0.08,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "autonomous_claim_enabled": false,
-        "claim_endpoint": "/jobs/fca0ae30-6edc-401d-86dc-69c9681f233f/claim",
-        "claim_is_free": true,
-        "days_left": 7,
-        "deadline_verified": false,
-        "estimated_effort_hours": 2.0,
-        "financial_transaction_signing_enabled": false,
-        "job_id": "fca0ae30-6edc-401d-86dc-69c9681f233f",
-        "official_source": true,
-        "operator_gate": "build_deliverable_before_claim",
-        "payout_asset": "USDC",
-        "payout_chain": "Base",
-        "platform": "BountyBook",
-        "source_kind": "agent_native_public_api",
-        "spend_authorized": false,
-        "status_verified_open": true,
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_is_free": true,
-        "submission_mode": "bountybook_agent_api",
-        "submit_endpoint": "/jobs/fca0ae30-6edc-401d-86dc-69c9681f233f/submit",
-        "wallet_type": "EVM"
-      },
-      "observed_at": "2026-10-19T04:49:42.918972+00:00",
-      "opportunity_id": "market-fc390e04e71a092e",
-      "payment_evidence": [
-        "https://api.bountybook.ai/jobs?status=open&limit=100",
-        "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
-        "budget_usdc=5",
-        "official_open_jobs_require_attached_usdc"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "javascript_automation_delivery"
-      ],
-      "reward_amount": 5.0,
-      "reward_verified": true,
-      "risk": 0.22,
-      "security_scope_authorized": true,
-      "source_category": "agent_native_marketplace",
-      "source_id": "bountybook_agent_jobs",
-      "source_url": "https://www.bountybook.ai/job/fca0ae30-6edc-401d-86dc-69c9681f233f",
-      "terms_required": true,
-      "time_to_cash_days": 10,
-      "title": "Build retry.js with exponential backoff and jitter support",
       "effort_hours": 2.0,
       "reward_eur": 5.0,
       "competition_risk": 0.55,
@@ -2093,7 +2164,7 @@
         "spend_authorized": false,
         "submission_mode": "agentpact_deal_proposal"
       },
-      "observed_at": "2026-10-19T04:49:43.864555+00:00",
+      "observed_at": "2026-10-19T07:56:28.766332+00:00",
       "opportunity_id": "market-892d0a1a48096d70",
       "payment_evidence": [
         "https://api.agentpact.xyz/api/needs",
@@ -2170,7 +2241,7 @@
         "platform": "Algora",
         "source_kind": "public_bounty_platform"
       },
-      "observed_at": "2026-10-19T04:49:24.648140+00:00",
+      "observed_at": "2026-10-19T07:56:14.743646+00:00",
       "payment_evidence": [
         "https://algora.io/cal/bounties?status=open",
         "r Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand CA Cal.com, Inc. Bounties Cash rewards for contributors who solve open issues Open 2 Completed 183 $50 font#2 Plans on weights? 5 months ago $100 font#2 Plans on weights? 40 months ago Footer Algora PBC © 2026 Schedule a call US +1 (650) 420-2207 EU +30 (697) 318-4144 Customer stories CodeRabbit ComfyUI Firecrawl Connect OSS Founder Podcast GitHub X (Twitter) LinkedIn Company Privacy Terms of Service Brand llms.txt"
@@ -2213,113 +2284,6 @@
         "reasons": [
           "status_not_freshly_verified_open",
           "acceptance_criteria_missing"
-        ],
-        "forecast_only_not_pipeline_or_revenue": true
-      }
-    },
-    {
-      "accessibility": 0.86,
-      "account_required": true,
-      "canonical_url": "https://www.freelancer.com/projects/audio-editing/czech-speech-annotation-pilot",
-      "competition": 0.0,
-      "cost": 0.1,
-      "currency": "USD",
-      "deadline": "3 days left",
-      "decision": {
-        "blockers": [
-          "capability_missing:translation_delivery",
-          "capability_requires_validation:translation_delivery",
-          "unverifiable_personal_eligibility"
-        ],
-        "evidence": [
-          "https://www.freelancer.com/jobs/translation/",
-          "Czech Speech Annotation Pilot 3 days left I’m kicking off a pilot to build a high-quality Czech speech corpus and need a meticulous native speaker to help me. Your first task will focus on Czech audio transcription of speeches or presentations, followed by sentence segmentation, speaker identification, precise timestamps, and detailed noise/overlap labelling. Every hour that meets our quality bar is paid at USD 75; once the pilot proves accurate, we’ll expand to a longer-term collaboration. Deliverables for the pilot • Fully transcribed Czech audio (speeches/presentations) in UTF-8 text • Sentence-level time-aligned segments with speaker tags • Noise and overlap markers applied to guidelines I’ll supply • Quick self-check report confirming the annotation passes our QC checklist To mo... Audio Editing Audio Processing English (US) Translator German Translator Language Tutoring Speech Recognition Transcription Translation $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
-          "https://www.freelancer.com/projects/audio-editing/czech-speech-annotation-pilot"
-        ],
-        "human_action_minimal": "none",
-        "missing_capabilities": [],
-        "next_action": "reject_and_continue_discovery",
-        "opportunity_id": "market-66cb38d60604ce92",
-        "score": 60.85,
-        "status": "rejected"
-      },
-      "description": "Czech Speech Annotation Pilot 3 days left I’m kicking off a pilot to build a high-quality Czech speech corpus and need a meticulous native speaker to help me. Your first task will focus on Czech audio transcription of speeches or presentations, followed by sentence segmentation, speaker identification, precise timestamps, and detailed noise/overlap labelling. Every hour that meets our quality bar is paid at USD 75; once the pilot proves accurate, we’ll expand to a longer-term collaboration. Deliverables for the pilot • Fully transcribed Czech audio (speeches/presentations) in UTF-8 text • Sentence-level time-aligned segments with speaker tags • Noise and overlap markers applied to guidelines I’ll supply • Quick self-check report confirming the annotation passes our QC checklist To mo... Audio Editing Audio Processing English (US) Translator German Translator Language Tutoring Speech Recognition Transcription Translation $25 - $50 / hr $25 - $50 / hr 0 bids Bid now",
-      "evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "https://www.freelancer.com/projects/audio-editing/czech-speech-annotation-pilot"
-      ],
-      "human_dependency": 0.22,
-      "identity_or_kyc_required": false,
-      "legal_entity_required": false,
-      "metadata": {
-        "active_bids": 0,
-        "budget_currency": "USD",
-        "budget_max": 50.0,
-        "budget_min": 25.0,
-        "capability_gap_allowed": false,
-        "days_left": 3,
-        "estimated_effort_hours": 8.0,
-        "human_action_instructions": [],
-        "official_source": true,
-        "payment_methods": [
-          "Freelancer milestone payment; account payout method selected after award"
-        ],
-        "payout_setup_required": false,
-        "platform": "Freelancer.com",
-        "policy_rejection": "unverifiable_personal_eligibility",
-        "policy_rejection_source": "semantic_policy",
-        "policy_rejection_verified": true,
-        "source_kind": "public_freelance_listing",
-        "source_page": "https://www.freelancer.com/jobs/translation/",
-        "submission_dossier_prepared": false,
-        "submission_dossier_required": true,
-        "submission_mode": "platform_proposal"
-      },
-      "observed_at": "2026-10-19T04:49:49.094812+00:00",
-      "opportunity_id": "market-66cb38d60604ce92",
-      "payment_evidence": [
-        "https://www.freelancer.com/jobs/translation/",
-        "Czech Speech Annotation Pilot 3 days left I’m kicking off a pilot to build a high-quality Czech speech corpus and need a meticulous native speaker to help me. Your first task will focus on Czech audio transcription of speeches or presentations, followed by sentence segmentation, speaker identification, precise timestamps, and detailed noise/overlap labelling. Every hour that meets our quality bar is paid at USD 75; once the pilot proves accurate, we’ll expand to a longer-term collaboration. Deliverables for the pilot • Fully transcribed Czech audio (speeches/presentations) in UTF-8 text • Sentence-level time-aligned segments with speaker tags • Noise and overlap markers applied to guidelines I’ll supply • Quick self-check report confirming the annotation passes our QC checklist To mo... Audio Editing Audio Processing English (US) Translator German Translator Language Tutoring Speech Recognition Transcription Translation $25 - $50 / hr $25 - $50 / hr 0 bids Bid now"
-      ],
-      "physical_presence_required": false,
-      "required_capabilities": [
-        "translation_delivery"
-      ],
-      "reward_amount": 25.0,
-      "reward_verified": true,
-      "risk": 0.2,
-      "security_scope_authorized": true,
-      "source_category": "freelance_marketplace",
-      "source_id": "freelancer_public_simple_jobs",
-      "source_url": "https://www.freelancer.com/projects/audio-editing/czech-speech-annotation-pilot",
-      "terms_required": true,
-      "time_to_cash_days": 30,
-      "title": "Czech Speech Annotation Pilot",
-      "effort_hours": 8.0,
-      "reward_eur": 25.0,
-      "competition_risk": 0.0,
-      "payment_confidence": 0.85,
-      "human_actions_required": 1,
-      "payment_path": "Freelancer milestone payment; account payout method selected after award",
-      "acceptance_criteria": [
-        "deliver the bounded scope described in the verified public listing"
-      ],
-      "fresh_open_verified": true,
-      "legal_policy_pass": true,
-      "market_signal_verified": true,
-      "personal_eligibility_required": false,
-      "active_competing_claim": false,
-      "source_file": "universal_market_opportunities.json",
-      "upstream_decision": "rejected",
-      "upstream_rejected": true,
-      "internet_opportunity_router": {
-        "domain": "translation",
-        "lane": "exploit",
-        "decision": "reject",
-        "score": 0.0,
-        "reasons": [
-          "upstream_rejected",
-          "policy_rejected:unverifiable_personal_eligibility"
         ],
         "forecast_only_not_pipeline_or_revenue": true
       }
@@ -2416,7 +2380,7 @@
   ],
   "pivot_metrics": {
     "rejected_without_candidate": 0,
-    "source_results_without_eligible": 63,
+    "source_results_without_eligible": 64,
     "proposals_without_reply": 0,
     "replies_without_conversion": 0,
     "verified_payments": 0
