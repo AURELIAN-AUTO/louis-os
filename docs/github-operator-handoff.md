@@ -205,3 +205,27 @@ rester en attente de l'accès/autorisation effective déjà signalée, sans rév
 répétée ni nouvelle notification identique. Passer à une autre voie admissible
 au prochain cycle si aucun événement externe ne permet sa soumission. Les
 404 RustChain et le pivot de sources restent distincts et non réparés ici.
+
+### Revue factuelle intégrée et vérifiée — 19 octobre 2026, 04:51 UTC
+
+- PR #484 fusionnée : https://github.com/liubaining-louis/louis-os/pull/484 ;
+  commit `28709689fda883ef58390eb12c40080f05e038a1`.
+- CI avant fusion `39201215598` réussie au SHA exact
+  `5278934defea6b939850dd1aa99ba492ec09a676`, Python 3.11/3.12,
+  845 tests. CI main `39201340680` également réussie après fusion.
+- Cycle marché réel `39201340685` et routeur `39201497992` réussis. État
+  persisté `3bb8d348eb3250fd0c0cfe91c1634625d220c259` : briefing à 04:50:56,
+  trois artefacts exposés, `market_handoff_errors=[]`, autorisation false.
+- JSON révisé hash `d535054f5070a3b7e7aff664dfc23527a41bbed9a57590d572a403cae0952440` ;
+  date réelle 2026-10-19, période 2024-2025 séparée, audit historique partiel.
+- Le cycle marché a conservé `new_count=0` et `notification_required=false` :
+  pas de redemande d'autorisation identique. Une révision d'un dossier existant,
+  zéro nouvelle mission, zéro soumission/acceptation/paiement, zéro intervention
+  humaine. Temps pilote de ce passage : environ huit minutes. Aucun achat ni
+  coût nouveau autorisé ; coût marginal Actions et coût total non établis.
+
+Décision : revue bornée terminée avec limites explicites. Ne pas continuer à
+polir ou reconstruire cette comparaison tant qu'il n'existe pas une autorisation
+et un accès effectifs. Prochain cycle : réconcilier un changement externe s'il
+existe ; sinon traiter une autre voie admissible ou la cause des 404/pivots.
+L'annonce n'a pas été soumise ; ni acceptation ni paiement ne sont revendiqués.
