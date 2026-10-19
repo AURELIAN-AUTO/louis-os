@@ -1,7 +1,7 @@
 {
   "registry": {
     "schema_version": 7,
-    "generated_at": "2026-10-19T07:57:22.621170+00:00",
+    "generated_at": "2026-10-19T10:48:54.766184+00:00",
     "count": 0,
     "authenticity_verified": 0,
     "authenticity_blocked": 30,
@@ -23,9 +23,9 @@
   "qualified": 0,
   "rejected": [
     {
-      "candidate_id": "88a8f67cf93ee268",
-      "url": "https://github.com/MHusted01/shortcutlens/issues/20",
-      "title": "feat: edit app shortcuts",
+      "candidate_id": "45c11aa99bbaecfb",
+      "url": "https://github.com/Willy-nz/Tohyee/issues/329",
+      "title": "Analytics: value label doesn't update when the value's column changes",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -35,14 +35,14 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "10ba356744baa200",
-      "url": "https://github.com/RoyMatus/Swypetris/issues/320",
-      "title": "Balance block-drop and line-clear sounds slightly below music",
+      "candidate_id": "073059dae32dd0f1",
+      "url": "https://github.com/Sorokit/ui/issues/856",
+      "title": "ContractInteractionDebugger — setHistory called in useEffect with eslint-disable comment",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "7fcfc85f368b574f",
-      "url": "https://github.com/agentydragon/ducktape/issues/976",
+      "candidate_id": "46e553642066380b",
+      "url": "https://github.com/EduMIPS64/edumips64/issues/619",
       "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
@@ -53,33 +53,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "992dc7d1dbeac60a",
-      "url": "https://github.com/kubestellar/console/issues/22495",
-      "title": "🐝 Hive Advisory Report",
+      "candidate_id": "0ca3de0c0926cb0b",
+      "url": "https://github.com/objectstack-ai/objectstack/issues/21118",
+      "title": "[PM seat] domain:services · seat 2 — 🟢 os-warren",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9829d752467c29b3",
-      "url": "https://github.com/jwmcglynn/donner/issues/11",
-      "title": "Dependency Dashboard",
+      "candidate_id": "431ab1d9429dec7e",
+      "url": "https://github.com/mem0ai/mem0/issues/7677",
+      "title": "`import mem0` always imports qdrant_client (~58% of import time) via the `MemoryConfig()` default argument of `Memory.__init__`",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b81ce6dc57f75a7e",
-      "url": "https://github.com/ejnburrows-rgb/cartilla-de-gretel/issues/877",
-      "title": "JOB BOARD",
+      "candidate_id": "947e60c5ae709c9e",
+      "url": "https://github.com/9t2cbcj8vc-del/iberigo/issues/197",
+      "title": "[Monitor] Official link health",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "686c4fe2732135e6",
-      "url": "https://github.com/learn-ukrainian/learn-ukrainian.github.io/issues/10663",
-      "title": "[9737][infra] P1: run the same tests once per tree: workers validate through the pre-push gate, fix receipt reuse leak, weekly test-waste report",
+      "candidate_id": "8c66d1313ea9c505",
+      "url": "https://github.com/kaiachain/kaia/issues/990",
+      "title": "QA for v3.0.0",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9591f0937d497341",
-      "url": "https://github.com/ad1rie1/Mika-IA-Companion/issues/637",
-      "title": "[AI][bugs] Relecture de nuit tronquée ou rendue en texte : toutes les lectures de la nuit sont effacées sans rien en garder",
+      "candidate_id": "db5cdc7fdf738462",
+      "url": "https://github.com/OPCFoundation/UA-.NETStandard/issues/4842",
+      "title": "Refresh server benchmarks and performance tuning guidance for 2.0.2+",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -89,33 +89,21 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "52f9e6a3b0a037fb",
-      "url": "https://github.com/MomoRC-tech/MoFlight-App-framework/issues/2",
-      "title": "[Feature] PoC 02: Vereinsflieger.de live own-flight access and import",
+      "candidate_id": "819afaba0e300068",
+      "url": "https://github.com/opencharly/docs/issues/162",
+      "title": "the deploy workflow's content-regeneration step hangs, and it deadlocks the validator's auto-merge arming",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9c931686b5bc715d",
-      "url": "https://github.com/EranOfek/AstroPack/issues/1355",
-      "title": "findTransients: PSF-orientation step crashes when the binarized PSF has several (or no) regions",
+      "candidate_id": "70c739a7401385d8",
+      "url": "https://github.com/programminghistorian/ph-submissions/issues/607",
+      "title": "Building Interactive Environments for 3D Models with three.js (Parts 1 & 2)",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "3463220686bb02f4",
-      "url": "https://github.com/JWST-GC/data-qa/issues/182",
-      "title": "GC Treasury — jw10678-o127 (NIRCam)",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "b491c522312e6194",
-      "url": "https://github.com/CosmicCuddle/Mod-Naxxramas-Core/issues/28",
-      "title": "MASTER DEVELOPMENT CHECKLIST — Complete history, active stages, future plans",
-      "reason": "verified_payment_adapter_evidence_missing"
-    },
-    {
-      "candidate_id": "4a479120f8e0df18",
-      "url": "https://github.com/AbysmalBiscuit/project-flow/issues/50",
-      "title": "feat: count PR asks and unlinked PRs as needs you",
+      "candidate_id": "cb61c17984c8479d",
+      "url": "https://github.com/mad201802/QuestXtract/issues/159",
+      "title": "Run CI on Linux only",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -127,33 +115,33 @@
       "maximum_allowed": 5
     },
     {
-      "candidate_id": "c1788d51c98398b9",
-      "url": "https://github.com/pl0n3r/Factory/issues/1387",
-      "title": "docs(legal): carpeta revision-juridica/ con los documentos que valida el abogado",
+      "candidate_id": "82a3b91656bcace8",
+      "url": "https://github.com/objectstack-ai/objectstack/issues/18883",
+      "title": "[PM seat] domain:spec · seat 3 — 🟢 baozhoutao · session_01D6F9axfoPzR7t8G1J7Ytzz",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c244bde416592764",
-      "url": "https://github.com/Akanimoh12/Stellar-iPredict/issues/626",
-      "title": "Document the caching strategy and its consistency guarantees",
+      "candidate_id": "ce8fc68b24dcfa45",
+      "url": "https://github.com/Bingboom/Hello-Docs/issues/238",
+      "title": "Workspace data update: publication",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "83c775050578903c",
-      "url": "https://github.com/JWST-GC/data-qa/issues/190",
-      "title": "GC Treasury — jw10678-o131 (NIRCam)",
+      "candidate_id": "d886ebe0fd33cd8a",
+      "url": "https://github.com/Jackxiaozhiren/MotionSites/issues/5",
+      "title": "Launch QA: 7 media fallbacks, per-project rights and physical-device testing",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "45748daad0f306a8",
-      "url": "https://github.com/autonomous-ai/lampOS/issues/1722",
-      "title": "Queue (continued from #705): the order of the builders' tasks",
+      "candidate_id": "594cf04c07adcfa1",
+      "url": "https://github.com/division-sh/swarm/issues/2667",
+      "title": "[design-gate][packs] Division Hive (formerly Colony) — the pack source: what it is, addressing and pinning, provenance, trust, what is publishable",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1df2508a764a66f5",
-      "url": "https://github.com/rmems/xai-dissect/issues/84",
-      "title": "[audit] Docs/release drift: dead codebase-map links, two \"Unreleased\" CHANGELOG sections, no tag for 0.1.1",
+      "candidate_id": "8bb13b9dded3e018",
+      "url": "https://github.com/aliezzat4321/hyperliquid-copy-engine/issues/130",
+      "title": "AI TEAM RUNTIME STATUS",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -163,33 +151,33 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "1aa9060ededb5c28",
-      "url": "https://github.com/cbundy/dev-system/issues/1026",
-      "title": "Flaky tests: mark a stop gate pass after a fail on the same clean head as a flake",
+      "candidate_id": "dd18fe708c064969",
+      "url": "https://github.com/cbusillo/codex-skills/issues/1043",
+      "title": "Supervisor pilot, week 2: record, brief and exit criteria",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "c88faf350aca814b",
-      "url": "https://github.com/PsychedelicShayna/neopi/issues/229",
-      "title": "feat(models): selectable fast and extended-context variants scoped to each model assignment",
+      "candidate_id": "cf249ba8791f01ed",
+      "url": "https://github.com/cailloumajor/opcua-line-gateway/issues/6",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "531666cbd406e256",
-      "url": "https://github.com/JWST-GC/data-qa/issues/188",
-      "title": "GC Treasury — jw10678-o130 (NIRCam)",
+      "candidate_id": "45f69c2971b4055e",
+      "url": "https://github.com/fredgis/sql-migration-advisor/issues/75",
+      "title": "Weekly KB report: human review required",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "8c7be4e8120a9788",
-      "url": "https://github.com/learn-ukrainian/learn-ukrainian.github.io/issues/10660",
-      "title": "[9737][infra] shared GitHub client: per-caller request attribution, top-consumer report, optional soft cap",
+      "candidate_id": "cb4e0f3031fdecfa",
+      "url": "https://github.com/SaboStudios/Tycoon-Monorepo/issues/1956",
+      "title": "contract: tycoon-main-game pause() duration_ledgers boundary and double-pause guard are untested",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "9028e9e7a58d0676",
-      "url": "https://github.com/Lumeeena/lumina-backend/issues/253",
-      "title": "Separate connection pools for reads and writes",
+      "candidate_id": "ef2df2f477315fda",
+      "url": "https://github.com/betagouv/lab-anssi-lib/issues/41",
+      "title": "Dependency Dashboard",
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
@@ -199,9 +187,21 @@
       "reason": "verified_payment_adapter_evidence_missing"
     },
     {
-      "candidate_id": "b24922deca65d94a",
-      "url": "https://github.com/objectstack-ai/objectstack/issues/24289",
-      "title": "Hook ctx.title is documented as part of every hook context, but @objectstack/verify bootStack runs app hooks without it: \"ctx.title is not a function\" under the test harness, while objectstack dev serves it",
+      "candidate_id": "7adcf91dd6bce8a1",
+      "url": "https://github.com/pyrycode/pyrycode-mobile/issues/2181",
+      "title": "test(e2e): replay captured Claude permission behaviour on Android",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "475aefc2211c13da",
+      "url": "https://github.com/heukshow/aicity-os/issues/292",
+      "title": "COSHUMA Work execution bridge",
+      "reason": "verified_payment_adapter_evidence_missing"
+    },
+    {
+      "candidate_id": "c7c94418d6ef076d",
+      "url": "https://github.com/Farm-credit/stellar-app-os/issues/1121",
+      "title": "feat(mobile): Push notifications - real-time tree milestones and sponsor achievements",
       "reason": "verified_payment_adapter_evidence_missing"
     }
   ],
