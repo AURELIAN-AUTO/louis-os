@@ -12,29 +12,28 @@
       ],
       "budget_rule": "Use existing local and cloud infrastructure first; any paid dependency or external purchase requires explicit approval.",
       "capability_id": "technical_proposal",
-      "capability_market_score": 62.27,
+      "capability_market_score": 60.81,
       "cluster_id": "cluster-08139470290c85d8",
       "evidence": [
         "https://github.com/logos-co/rfp/issues/185",
-        "freelancer_public_simple_jobs",
         "github_bounties"
       ],
       "fixture_opportunity_ids": [
-        "market-037ddd5dd34a0566",
         "market-0c3f1bc7296f3829",
-        "market-12cfa5016eca752c"
+        "market-12cfa5016eca752c",
+        "market-20b5d2cc939e7371"
       ],
       "immediate_next_action": "create_or_update_capability_issue:technical_proposal",
       "lane": "cash_first",
-      "objective": "Implement and validate `technical_proposal` as a reusable `technical_proposal` delivery capability for 11 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 11,
+      "objective": "Implement and validate `technical_proposal` as a reusable `technical_proposal` delivery capability for 10 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 10,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 1,
       "required_interface": {
         "input": "canonical opportunity dossier, source materials, acceptance criteria and payment evidence",
         "output": "bounded deliverable, validation report, hashes and execution receipt"
       },
-      "source_count": 2,
+      "source_count": 1,
       "stop_rule": "Defer if the cluster has no qualifying mission for three consecutive cycles, score falls below 35, or a mandatory human/physical constraint dominates."
     },
     {
@@ -62,8 +61,8 @@
       ],
       "immediate_next_action": "create_or_update_capability_issue:javascript_automation_delivery",
       "lane": "cash_first",
-      "objective": "Implement and validate `javascript_automation_delivery` as a reusable `javascript_automation_delivery` delivery capability for 10 currently observed cash-first opportunity(ies).",
-      "opportunity_count": 10,
+      "objective": "Implement and validate `javascript_automation_delivery` as a reusable `javascript_automation_delivery` delivery capability for 11 currently observed cash-first opportunity(ies).",
+      "opportunity_count": 11,
       "promotion_rule": "Promote only after green unit tests, one reproducible dry-run artifact and no regression in the versioned business benchmark.",
       "rank": 2,
       "required_interface": {
@@ -150,7 +149,7 @@
       "capability_id": "python_automation_delivery",
       "capability_market_score": 71.64,
       "capability_status": "validated",
-      "capped_score_value": 64.5,
+      "capped_score_value": 61.5,
       "cluster_id": "cluster-748ac3799d1d59fc",
       "deliverable_family": "python_automation_delivery",
       "first_payment_probability": 0.2283,
@@ -160,11 +159,10 @@
       "median_competition": 0.55,
       "median_effort_hours": 2.0,
       "median_reward": 3.0,
-      "median_time_to_cash_days": 10,
-      "opportunity_count": 19,
+      "median_time_to_cash_days": 10.0,
+      "opportunity_count": 18,
       "opportunity_ids": [
         "market-0a0b7855a3e9298f",
-        "market-126db925173daf41",
         "market-13268d410469a15c",
         "market-35e48723df7daf2e",
         "market-6f43da2d017e5f20",
@@ -185,7 +183,7 @@
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=19",
+        "opportunities=18",
         "sources=1",
         "median_effort_hours=2",
         "median_time_to_cash_days=10",
@@ -201,7 +199,7 @@
       "top_opportunity_title": "Build a bash script to parse Nginx logs and output JSON summary",
       "top_opportunity_url": "https://www.bountybook.ai/job/6043441c-41cc-40d0-9edc-fed586699cc8",
       "verified_value_by_currency": {
-        "USDC": 64.5
+        "USDC": 61.5
       }
     },
     {
@@ -259,9 +257,9 @@
     },
     {
       "capability_id": "technical_proposal",
-      "capability_market_score": 62.27,
+      "capability_market_score": 60.81,
       "capability_status": "experimental",
-      "capped_score_value": 5059.01,
+      "capped_score_value": 4809.01,
       "cluster_id": "cluster-08139470290c85d8",
       "deliverable_family": "technical_proposal",
       "first_payment_probability": 0.3129,
@@ -270,11 +268,10 @@
       "median_accessibility": 0.95,
       "median_competition": 0.0,
       "median_effort_hours": 8.0,
-      "median_reward": 250.0,
-      "median_time_to_cash_days": 30,
-      "opportunity_count": 11,
+      "median_reward": 400.0,
+      "median_time_to_cash_days": 30.0,
+      "opportunity_count": 10,
       "opportunity_ids": [
-        "market-037ddd5dd34a0566",
         "market-0c3f1bc7296f3829",
         "market-12cfa5016eca752c",
         "market-20b5d2cc939e7371",
@@ -288,8 +285,8 @@
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=11",
-        "sources=2",
+        "opportunities=10",
+        "sources=1",
         "median_effort_hours=8",
         "median_time_to_cash_days=30",
         "first_payment_probability=0.3129",
@@ -297,22 +294,21 @@
         "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
       ],
       "reusable_deliverable_ratio": 1.0,
-      "source_count": 2,
+      "source_count": 1,
       "source_ids": [
-        "freelancer_public_simple_jobs",
         "github_bounties"
       ],
       "top_opportunity_title": "[PROPOSAL] RFP-016 — Antumbra LBP: Weighted-Pool Launchpad",
       "top_opportunity_url": "https://github.com/logos-co/rfp/issues/185",
       "verified_value_by_currency": {
-        "USD": 180324.01
+        "USD": 180074.01
       }
     },
     {
       "capability_id": "javascript_automation_delivery",
       "capability_market_score": 58.88,
       "capability_status": "unknown",
-      "capped_score_value": 49.0,
+      "capped_score_value": 54.0,
       "cluster_id": "cluster-fbef83a6a25bc3ac",
       "deliverable_family": "javascript_automation_delivery",
       "first_payment_probability": 0.2283,
@@ -322,12 +318,13 @@
       "median_competition": 0.55,
       "median_effort_hours": 2.0,
       "median_reward": 5.0,
-      "median_time_to_cash_days": 10.0,
-      "opportunity_count": 10,
+      "median_time_to_cash_days": 10,
+      "opportunity_count": 11,
       "opportunity_ids": [
         "market-0ce5602d3d3c389c",
         "market-1fb23eafad516f31",
         "market-26b456dd609d3e3a",
+        "market-2cffba087e9be944",
         "market-59e80f1486713142",
         "market-94d8490d83fbd824",
         "market-c1e75be1978a1d1f",
@@ -338,7 +335,7 @@
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=10",
+        "opportunities=11",
         "sources=1",
         "median_effort_hours=2",
         "median_time_to_cash_days=10",
@@ -354,7 +351,7 @@
       "top_opportunity_title": "Build a generic MinHeap<T> class in TypeScript with push, pop, peek, and toSorte",
       "top_opportunity_url": "https://www.bountybook.ai/job/bcef57a8-6a9e-43a5-9e45-458d595f86c3",
       "verified_value_by_currency": {
-        "USDC": 49.0
+        "USDC": 54.0
       }
     },
     {
@@ -699,7 +696,7 @@
     "clusters": 11,
     "strategic_clusters": 5
   },
-  "generated_at": "2026-10-19T07:56:41.601631+00:00",
+  "generated_at": "2026-10-19T10:48:25.361734+00:00",
   "policy": {
     "cash_first_effort_hours_max": 16,
     "cash_first_time_to_cash_days_max": 30,
@@ -712,7 +709,7 @@
     "capability_id": "python_automation_delivery",
     "capability_market_score": 71.64,
     "capability_status": "validated",
-    "capped_score_value": 64.5,
+    "capped_score_value": 61.5,
     "cluster_id": "cluster-748ac3799d1d59fc",
     "deliverable_family": "python_automation_delivery",
     "first_payment_probability": 0.2283,
@@ -722,11 +719,10 @@
     "median_competition": 0.55,
     "median_effort_hours": 2.0,
     "median_reward": 3.0,
-    "median_time_to_cash_days": 10,
-    "opportunity_count": 19,
+    "median_time_to_cash_days": 10.0,
+    "opportunity_count": 18,
     "opportunity_ids": [
       "market-0a0b7855a3e9298f",
-      "market-126db925173daf41",
       "market-13268d410469a15c",
       "market-35e48723df7daf2e",
       "market-6f43da2d017e5f20",
@@ -747,7 +743,7 @@
     ],
     "rationale": [
       "lane=cash_first",
-      "opportunities=19",
+      "opportunities=18",
       "sources=1",
       "median_effort_hours=2",
       "median_time_to_cash_days=10",
@@ -763,7 +759,7 @@
     "top_opportunity_title": "Build a bash script to parse Nginx logs and output JSON summary",
     "top_opportunity_url": "https://www.bountybook.ai/job/6043441c-41cc-40d0-9edc-fed586699cc8",
     "verified_value_by_currency": {
-      "USDC": 64.5
+      "USDC": 61.5
     }
   }
 }
