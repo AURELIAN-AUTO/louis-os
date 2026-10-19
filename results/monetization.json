@@ -315,18 +315,20 @@
   "submission_blocked_stage": "fiat_liquidity_and_next_payment",
   "taskmarket_claim_states": {
     "blue_square_arcade": {
-      "rejected_at": null,
-      "selection_signal": false,
-      "submission_status": null,
       "task_status": "completed",
-      "winner": null
+      "submission_status": null,
+      "rejected_at": null,
+      "winner": null,
+      "selection_signal": false,
+      "submission_outcome": "completed_without_own_award_observed"
     },
     "rooftop_world_2030": {
-      "rejected_at": null,
-      "selection_signal": false,
+      "task_status": "completed",
       "submission_status": null,
-      "task_status": "open",
-      "winner": null
+      "rejected_at": null,
+      "winner": null,
+      "selection_signal": false,
+      "submission_outcome": "completed_without_own_award_observed"
     }
   },
   "taskmarket_claims_monitored": 2,
@@ -375,5 +377,7 @@
   "updated_at": "2026-10-19T10:48:25.361734+00:00",
   "upstream_root_cause_preserved": true,
   "weighted_pipeline": 0,
-  "worker_waiting": false
+  "worker_waiting": false,
+  "taskmarket_public_followup_checked_at": "2026-10-19T17:23:55.827963+00:00",
+  "taskmarket_wallet_balance_verification": "not_read_public_monitor"
 }

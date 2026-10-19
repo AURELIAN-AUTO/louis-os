@@ -1,7 +1,9 @@
 {
+  "schema_version": "2.0",
   "platform": "taskmarket",
   "worker_wallet": "0xCB5e092121C0dc63e62d215b8B8ceFf8a1a96c0C",
-  "wallet_balance_usdc": 0.0,
+  "wallet_balance_usdc": null,
+  "wallet_balance_verification": "not_read_public_monitor",
   "claims": [
     {
       "label": "blue_square_arcade",
@@ -14,28 +16,65 @@
       "own_submission_status": null,
       "own_submission_rejected_at": null,
       "task_winner": null,
-      "selection_signal": false
+      "selection_signal": false,
+      "submission_outcome": "completed_without_own_award_observed",
+      "awards_observed": 10,
+      "own_awards_observed": 0,
+      "award_settlement_references": [
+        "0xe7db9480b0c2023cddeb9fba3aa3f4ffa4b5e00fdd8ee5be59c8416abc492e27"
+      ],
+      "own_submission_evidence": {
+        "id": "99cba5cc-7c8a-4fd2-97ea-492df2ef1eb3",
+        "workerAddress": "0xCB5e092121C0dc63e62d215b8B8ceFf8a1a96c0C",
+        "submittedAt": "2026-08-15T08:01:23.974Z",
+        "deliverableHash": "0x7bdc7cf4538dc0222e2feb1c49b8dd9756454b3672d0c1ec82025b100c4606a3",
+        "submitTxHash": "0x1a19163b42ed665fab7857694be332d164d007476d2dbf70f601a0a3e2af350b"
+      },
+      "evidence_urls": [
+        "https://api.taskmarket.dev/api/tasks/0x34a65b919752f9b4500aae1574f44865a92c1b625e77c9a72741370c0daadccc",
+        "https://api.taskmarket.dev/api/tasks/0x34a65b919752f9b4500aae1574f44865a92c1b625e77c9a72741370c0daadccc/submissions"
+      ]
     },
     {
       "label": "rooftop_world_2030",
       "task_id": "0xb4e0e2150a5b69a781769fe71f9092de3cffe978a03fd7286ebd408b99b152e3",
       "submission_id": "3761b8e9-22ed-4d4c-ada8-b3a9c687e6a5",
-      "task_status": "open",
+      "task_status": "completed",
       "task_reward_usdc": 64.0,
       "task_expiry": "2026-08-21T02:38:21.801Z",
       "own_submission_found": true,
       "own_submission_status": null,
       "own_submission_rejected_at": null,
       "task_winner": null,
-      "selection_signal": false
+      "selection_signal": false,
+      "submission_outcome": "completed_without_own_award_observed",
+      "awards_observed": 4,
+      "own_awards_observed": 0,
+      "award_settlement_references": [
+        "0x4f81d47820355188d7012cf7a949f973b5398b783e8904170c7bfdb8f92be44a"
+      ],
+      "own_submission_evidence": {
+        "id": "3761b8e9-22ed-4d4c-ada8-b3a9c687e6a5",
+        "workerAddress": "0xCB5e092121C0dc63e62d215b8B8ceFf8a1a96c0C",
+        "submittedAt": "2026-08-15T08:34:54.180Z",
+        "deliverableHash": "0x118d3f69287402f592628ff73f090dc986902c415a8c3d189bdaea961854e32a",
+        "submitTxHash": "0x48fa5cb79a4765c61dbcb8f635232d672437c017e64223e46c68bfc64bed37a0"
+      },
+      "evidence_urls": [
+        "https://api.taskmarket.dev/api/tasks/0xb4e0e2150a5b69a781769fe71f9092de3cffe978a03fd7286ebd408b99b152e3",
+        "https://api.taskmarket.dev/api/tasks/0xb4e0e2150a5b69a781769fe71f9092de3cffe978a03fd7286ebd408b99b152e3/submissions"
+      ]
     }
   ],
   "claim_count": 2,
   "selection_signal_any": false,
   "payout_evidence_candidate": false,
+  "payment_verified": false,
+  "revenue_confirmed_eur": null,
   "errors": [],
   "monitor_healthy": true,
-  "checked_at": "2026-08-20T04:07:44Z",
-  "monitoring_mode": "read_only",
-  "revenue_policy": "Do not attribute revenue until selection and payout are independently verified."
+  "checked_at": "2026-10-19T17:23:55.827963+00:00",
+  "monitoring_mode": "anonymous_public_get_only_without_vm",
+  "coverage": "Public task/submission/award observations only; no wallet balance or independent settlement verification.",
+  "revenue_policy": "No award for this wallet observed is not a formal rejection. An API award is not an independently verified payment. Unknowns are not zero balances."
 }
