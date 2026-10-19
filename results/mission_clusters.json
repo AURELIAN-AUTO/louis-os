@@ -113,9 +113,9 @@
     },
     {
       "capability_id": "technical_proposal",
-      "capability_market_score": 60.81,
+      "capability_market_score": 62.27,
       "capability_status": "experimental",
-      "capped_score_value": 4809.01,
+      "capped_score_value": 5059.01,
       "cluster_id": "cluster-08139470290c85d8",
       "deliverable_family": "technical_proposal",
       "first_payment_probability": 0.3129,
@@ -124,10 +124,11 @@
       "median_accessibility": 0.95,
       "median_competition": 0.0,
       "median_effort_hours": 8.0,
-      "median_reward": 400.0,
-      "median_time_to_cash_days": 30.0,
-      "opportunity_count": 10,
+      "median_reward": 250.0,
+      "median_time_to_cash_days": 30,
+      "opportunity_count": 11,
       "opportunity_ids": [
+        "market-037ddd5dd34a0566",
         "market-0c3f1bc7296f3829",
         "market-12cfa5016eca752c",
         "market-20b5d2cc939e7371",
@@ -141,8 +142,8 @@
       ],
       "rationale": [
         "lane=cash_first",
-        "opportunities=10",
-        "sources=1",
+        "opportunities=11",
+        "sources=2",
         "median_effort_hours=8",
         "median_time_to_cash_days=30",
         "first_payment_probability=0.3129",
@@ -150,14 +151,15 @@
         "headline rewards are capped for scoring and strategic prizes cannot dominate cash-first rank"
       ],
       "reusable_deliverable_ratio": 1.0,
-      "source_count": 1,
+      "source_count": 2,
       "source_ids": [
+        "freelancer_public_simple_jobs",
         "github_bounties"
       ],
       "top_opportunity_title": "[PROPOSAL] RFP-016 — Antumbra LBP: Weighted-Pool Launchpad",
       "top_opportunity_url": "https://github.com/logos-co/rfp/issues/185",
       "verified_value_by_currency": {
-        "USD": 180074.01
+        "USD": 180324.01
       }
     },
     {
@@ -545,6 +547,6 @@
     }
   ],
   "count": 11,
-  "generated_at": "2026-10-19T04:49:51.912853+00:00",
+  "generated_at": "2026-10-19T07:56:41.601631+00:00",
   "schema_version": "1.0"
 }

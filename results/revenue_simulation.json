@@ -2,7 +2,7 @@
   "annualization_status": "insufficient_history",
   "counted_as_pipeline": false,
   "counted_as_revenue": false,
-  "generated_at": "2026-10-19T04:49:51.912853+00:00",
+  "generated_at": "2026-10-19T07:56:41.601631+00:00",
   "schema_version": "1.0",
   "simulations": [
     {
@@ -49,11 +49,11 @@
       "counted_as_revenue": false,
       "scenarios_by_currency": {
         "USD": {
-          "base_expected_value": 480.0,
-          "conservative_expected_value": 200.0,
-          "median_verified_reward": 400.0,
-          "observed_opportunity_count": 10,
-          "upside_expected_value": 1000.0
+          "base_expected_value": 330.0,
+          "conservative_expected_value": 137.5,
+          "median_verified_reward": 250.0,
+          "observed_opportunity_count": 11,
+          "upside_expected_value": 687.5
         }
       },
       "scope": "currently observed qualified opportunities; not annualized",
