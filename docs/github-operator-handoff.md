@@ -47,6 +47,36 @@ non appelé, autres états/erreurs visibles, BountyBook préservé, aucune autor
 externe inventée. Le remplacement par une nouvelle source accessible reste à
 traiter séparément, uniquement avec preuves et dans le budget existant.
 
+### Preuves après intégration — 19 octobre 2026, 10:50 UTC
+
+- PR #485 fusionnée après CI `39239710712` réussie au SHA exact
+  `509d71852d3499f5c60f8148e15b8ce5232c6969`, deux check-runs verts,
+  854 tests Python 3.11/3.12. Fusion :
+  `bddb005d6ac5d922b108d93a5aa2a78110c170d3`. Aucun contrôle requis manquant,
+  en cours ou en échec ; branche propre au moment du contrôle.
+- Cycle réel marché `39239936218` réussi, logs du job `118018017101` lus.
+  Reçu du 19/10 10:48:24 UTC versionné au commit
+  `8b30b42806f7b51dfa7508b7bb7da1671f1a53ef` :
+  `source_pivot.status=applied_source_pause`, AgentPact non appelé, sept autres
+  adaptateurs poursuivis, BountyBook lu avec succès (50 annonces).
+  Erreurs conservées : Guru HTTP 403, Truelancer HTTP 429 ; ces échecs ne sont
+  ni des sources vides ni des paiements. Aucun nouvel adaptateur activé.
+- Routeur `39240149967` et CI main `39239936118` réussis. Briefing à 10:49:24 UTC,
+  commit `c96a708be4a19e2b29f2e6a025178dc69024cb68` : dossier CI/CD et ses trois
+  hash inchangés, `market_handoff_errors=[]`, `submission_authorized=false`.
+  Runtime : 30 inspectées, 0 qualifiée, 0 soumise, 0 paiement vérifié.
+  Déploiement GCP explicitement sauté dans `39239936171`.
+- Effet observé : un appel d'adaptateur stérile évité dans ce cycle ; effet sur
+  les livraisons et revenus non démontré. Coût Actions marginal inconnu, aucun
+  achat engagé. Temps pilote total d'environ onze minutes ; aucune intervention
+  humaine demandée. Passation et preuves ne comptent pas comme revenu.
+
+Prochaine action précise : contrôler la reprise de cette source au prochain
+snapshot (la pause n'est pas un abandon permanent), puis rechercher une voie
+distincte réellement accessible dans le budget existant. Ne pas qualifier cette
+pause de remplacement commercial complet et ne pas réviser encore le dossier
+CI/CD sans événement nouveau. Conserver les 403/429/404 et accès inconnus visibles.
+
 Initialisée le 15 septembre 2026. Point de reprise :
 https://github.com/liubaining-louis/louis-os/issues/473.
 Lire aussi les commentaires récents de cette issue, qui consignent les preuves
