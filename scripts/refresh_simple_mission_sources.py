@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, fields
+from datetime import datetime, timezone
 import json
 from pathlib import Path
 import sys
@@ -29,6 +30,7 @@ BACKLOG_PATH = RESULTS / "capability_backlog.json"
 RECEIPT_PATH = RESULTS / "simple_mission_source_refresh.json"
 CAPABILITIES_PATH = ROOT / "config" / "universal_capabilities.json"
 MAX_RECEIPT_OPPORTUNITIES = 80
+ROUTER_PATH = RESULTS / "internet_opportunity_router.json"
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -99,6 +101,89 @@ def select_detailed_rows(
     return selected
 
 
+def collect_with_source_pivot(
+    sources: list[Any], router: Any, previous_receipt: Any,
+    *, now: datetime | None = None,
+) -> tuple[list[tuple[list[InternetOpportunity], SourceState]], dict[str, Any]]:
+    """Apply one reversible source pause; never invent or activate a new adapter.
+
+    The router's aggregate rejection threshold is a trigger, not a count of
+    distinct historical missions for any individual source. Only its measured
+    zero-eligible sources are candidates, and a new snapshot cannot pause the
+    same source twice consecutively. Replaying one snapshot is idempotent.
+    """
+    now = now or datetime.now(timezone.utc)
+    receipt: dict[str, Any] = {
+        "status": "not_applied", "router_generated_at": None,
+        "paused_source_id": None, "continued_source_ids": [], "errors": [],
+        "replacement_status": "existing_reviewed_sources_only_no_new_source_activated",
+        "economic_effect": "unmeasured_not_submission_or_revenue",
+    }
+    router = router if isinstance(router, dict) else {}
+    previous_receipt = previous_receipt if isinstance(previous_receipt, dict) else {}
+    previous = previous_receipt.get("source_pivot")
+    previous = previous if isinstance(previous, dict) else {}
+    timestamp = router.get("generated_at")
+    receipt["router_generated_at"] = timestamp
+    fresh = False
+    try:
+        generated = datetime.fromisoformat(str(timestamp).replace("Z", "+00:00"))
+        if generated.tzinfo is None or not 0 <= (now - generated).total_seconds() <= 86400:
+            raise ValueError("router timestamp outside freshness window")
+        fresh = True
+    except (TypeError, ValueError, OverflowError):
+        receipt["errors"].append("router_evidence_missing_invalid_stale_or_future")
+
+    metrics = router.get("source_metrics")
+    if not isinstance(metrics, dict):
+        receipt["errors"].append("router_source_metrics_missing_or_invalid")
+        metrics = {}
+    candidates = []
+    if fresh and router.get("next_pivot") == "pause_source_and_replace":
+        for source in sources:
+            metric = metrics.get(source.source_id)
+            if metric is None:
+                continue  # unmeasured is not evidence of zero yield
+            if (not isinstance(metric, dict)
+                    or type(metric.get("seen")) is not int
+                    or type(metric.get("eligible")) is not int
+                    or not 0 <= metric["eligible"] <= metric["seen"]):
+                receipt["errors"].append(f"invalid_source_metric:{source.source_id}")
+                continue
+            if metric["seen"] <= 0 or metric["eligible"] != 0:
+                continue
+            if (previous.get("router_generated_at") != timestamp
+                    and previous.get("paused_source_id") == source.source_id):
+                continue
+            candidates.append((-metric["seen"], source.source_id))
+    paused = min(candidates)[1] if candidates else None
+    if paused:
+        receipt.update(status="applied_source_pause", paused_source_id=paused,
+                       measured_source_sample=dict(metrics[paused]))
+        prior_sources = previous_receipt.get("sources")
+        prior_sources = prior_sources if isinstance(prior_sources, list) else []
+        prior_state = next((row for row in prior_sources
+                            if isinstance(row, dict) and row.get("source_id") == paused), None)
+        receipt["previous_source_observation"] = {
+            "generated_at": previous_receipt.get("generated_at"),
+            "source_state": prior_state,
+            "current_probe_performed": False,
+        }
+    results = []
+    for source in sources:
+        if source.source_id == paused:
+            results.append(([], SourceState(
+                source_id=source.source_id, category=source.source_category,
+                status="paused_by_router",
+                reason="One-cycle zero-eligible source pause; not a successful or empty probe.",
+                evidence=("results/internet_opportunity_router.json",), observed_count=0,
+            )))
+        else:
+            receipt["continued_source_ids"].append(source.source_id)
+            results.append(source.collect())
+    return results, receipt
+
+
 def capability_issue_payload(gap: Mapping[str, Any]) -> dict[str, str]:
     capability_id = str(gap["capability_id"])
     specification = gap.get("specification") or {}
@@ -144,18 +229,17 @@ def main() -> int:
     existing_states = [
         source_state_from_dict(item) for item in market.get("source_states", []) if isinstance(item, Mapping)
     ]
-    source_results = [
-        SuperteamAgentListingsSource().collect(),
-        BountyBookAgentJobsSource().collect(),
-        AgentPactNeedsSource().collect(),
-        MoltJobsAgentJobsSource().collect(),
-        FreelancerPublicJobsSource().collect(),
-        SoftwareFreelancerPublicJobsSource().collect(),
-        GuruPublicJobsSource().collect(),
-        TruelancerPublicJobsSource().collect(),
-    ]
+    source_results, source_pivot = collect_with_source_pivot(
+        [SuperteamAgentListingsSource(), BountyBookAgentJobsSource(),
+         AgentPactNeedsSource(), MoltJobsAgentJobsSource(),
+         FreelancerPublicJobsSource(), SoftwareFreelancerPublicJobsSource(),
+         GuruPublicJobsSource(), TruelancerPublicJobsSource()],
+        load_json(ROUTER_PATH, {}), load_json(RECEIPT_PATH, {}),
+    )
 
     refreshed_ids = {state.source_id for _, state in source_results}
+    # A paused or failed refresh must not silently revive an older source row.
+    opportunities = [row for row in opportunities if row.source_id not in refreshed_ids]
     states = [state for state in existing_states if state.source_id not in refreshed_ids]
     for rows, state in source_results:
         opportunities.extend(rows)
@@ -218,6 +302,7 @@ def main() -> int:
     receipt = {
         "schema_version": "1.1",
         "generated_at": payload["generated_at"],
+        "source_pivot": source_pivot,
         "sources": [
             {
                 "source_id": state.source_id,

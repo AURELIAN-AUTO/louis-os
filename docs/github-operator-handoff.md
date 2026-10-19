@@ -1,5 +1,52 @@
 # Passation du pilote GitHub
 
+## Reprise du 19 octobre 2026 à 10:39 UTC — pivot de collecte borné
+
+- `get_repo` appelé ; `main` épinglé à
+  `e7bcef0f45d19d66b27fc322ac3b556b73138665`. Aucun `AGENTS.md` dans l'arbre.
+  Instructions, politiques, PR ouvertes et runs examinés. Aucun correctif ouvert
+  ne raccorde le pivot du routeur aux appels des adaptateurs de missions simples.
+- Défaut constaté : routeur du 19/10 07:57 UTC, `pause_source_and_replace`,
+  64 résultats échantillonnés sans éligible sur plusieurs sources ; le collecteur
+  appelle encore tous ses adaptateurs. AgentPact : 17 observés, 0 éligible.
+  Ces 64 résultats ne sont pas 64 missions historiques distinctes d'une source.
+- Correctif réversible : consommer le snapshot du routeur (24 h maximum, pas de
+  date future), suspendre au plus un adaptateur connu avec échantillon mesuré et
+  zéro éligible, continuer les autres sans requête supplémentaire. Une source
+  avec un candidat admissible n'est jamais suspendue. Nouvelle observation :
+  interdiction de suspendre la même source deux fois de suite ; relecture du même
+  snapshot idempotente. Décision et observation antérieure conservées dans le
+  reçu de rafraîchissement ; `paused_by_router` n'est pas une lecture réussie.
+  Les anciennes annonces des sources rafraîchies ne sont pas réinjectées.
+- Limite volontaire : pause de collecte effectivement appliquée, pas activation
+  d'une nouvelle source ni preuve de remplacement commercial. Le reçu indique
+  `existing_reviewed_sources_only_no_new_source_activated`. Les coûts et l'effet
+  économique restent non mesurés ; politiques et fréquences inchangées.
+- 63 tests ciblés réussis, dont neuf tests de pivot et un test du chemin `main`
+  sans réseau. Gouvernance : trois workflows planifiés, sept runs/jour. Aucun
+  achat ni coût nouveau engagé ; coût marginal Actions et coûts historiques
+  inconnus. Temps pilote de préparation : environ six minutes à ce stade.
+- Rapprochement réel `39203522405`, job `117901330786`, 19/10 05:14 UTC :
+  cinq HTTP 404, wallet lu fraîchement, contrôle final en échec attendu ; aucune
+  transition économique. Le fichier de santé versionné reste daté du 18/10 car
+  aucune transition de santé n'a eu lieu ; les logs/artifacts portent la date.
+- Runtime sans VM `39219163873` : 30 inspectées, 0 qualifiée, 0 soumise ; aucune
+  preuve d'accès externe nouvelle. `results/degraded/intents.json` et
+  `receipts.json` absents (404), donc historique inconnu pour ces registres.
+  Le registre externe historique conserve huit reçus, trois acceptations et
+  11 RTC agrégés ; aucun nouveau paiement en euros affirmé. Manic 10 USD reste
+  non vérifié. Taskmarket reste bloqué par la facturation VM, sans relance.
+- Dossier CI/CD laissé inchangé : un dossier déjà terminé/revu, aucune nouvelle
+  mission distincte qualifiée, soumission/acceptation/paiement du cycle = 0/0/0,
+  intervention humaine = 0. Attente de l'autorisation/accès signalée depuis
+  environ 17 h 30. Aucun nouveau rappel identique envoyé.
+
+Prochaine action : vérifier la CI au SHA exact de la PR avant toute fusion ;
+puis vérifier le reçu du premier cycle marché réel : un adaptateur effectivement
+non appelé, autres états/erreurs visibles, BountyBook préservé, aucune autorisation
+externe inventée. Le remplacement par une nouvelle source accessible reste à
+traiter séparément, uniquement avec preuves et dans le budget existant.
+
 Initialisée le 15 septembre 2026. Point de reprise :
 https://github.com/liubaining-louis/louis-os/issues/473.
 Lire aussi les commentaires récents de cette issue, qui consignent les preuves
