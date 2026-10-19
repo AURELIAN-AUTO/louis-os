@@ -57,6 +57,37 @@ les deux résultats `completed_without_own_award_observed`. Ne pas confondre cet
 réconciliation avec une nouvelle livraison ou un revenu. Continuer ensuite vers
 une mission distincte accessible, sans redemande identique ni relance GCP.
 
+### Intégration et lecture réelle vérifiées — 19 octobre 2026, 17:24 UTC
+
+- PR #486 : https://github.com/liubaining-louis/louis-os/pull/486, fusion
+  `c7d60d81a18d460127c765f69bc160ac5e427b54`. CI `39293479174` réussie au SHA exact
+  `f4c63cf802b31a8fb932e7ef26025dcc89b3a547`, Python 3.11/3.12, 867 tests.
+  Les deux check-runs sont terminés/verts ; aucun contrôle requis supplémentaire,
+  manquant, en cours ou en échec lors de la fusion avec SHA attendu.
+- Run réel `39293734572`, job `118200761332`, terminé avec succès : 13 tests,
+  quatre GET, santé publique complète, persistance et artifact réussis. Snapshot
+  daté du 19/10 17:23:55 UTC au commit
+  `14eea4e29962fb656d0fa01f47562ffd7e6a79a9` : deux soumissions propres retrouvées,
+  deux tâches `completed_without_own_award_observed`, 10/4 bénéficiaires tiers,
+  0 attribution Louis observée, `errors=[]`, `payment_verified=false`.
+- `wallet_balance_usdc=null` et `not_read_public_monitor` : le solde n'a pas été
+  lu ni inféré. Dans le ledger, l'ancien contrôle wallet reste daté du 23/08 ;
+  il n'est pas renouvelé par cette lecture des tâches. Aucun revenu ajouté.
+- Artifact `taskmarket-public-followup-39293734572-1`, id `12207432038`, préservé
+  jusqu'au 02/11. Preuves résumées automatiquement dans #473, commentaire
+  `6273083140`. Le run de déploiement `39293734508` a sauté le job GCP.
+- Effet réel : deux suivis historiques débloqués de la dépendance VM/facturation,
+  et une attente obsolète sur le concours Rooftop corrigée. Aucun nouveau dossier,
+  soumission, contrat, acceptation ou paiement. Aucun achat ; coût Actions marginal
+  inconnu. Temps pilote environ dix minutes ; intervention humaine = 0.
+
+Prochaine action : ne plus attendre une sélection sur ces tâches terminées sans
+nouvelle preuve d'attribution ; conserver les deux reçus, sans les marquer comme
+rejets formels. Le suivi public continuera à sa fréquence antérieure et doit
+rester rouge en cas d'incomplétude. Chercher ensuite une mission distincte
+admissible et réellement accessible ; Manic et le solde wallet restent à vérifier
+avec un accès légitime existant, sans signature, transfert ou nouvelle connexion.
+
 ## Reprise du 19 octobre 2026 à 10:39 UTC — pivot de collecte borné
 
 - `get_repo` appelé ; `main` épinglé à
