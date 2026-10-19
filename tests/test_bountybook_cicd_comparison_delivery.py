@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+from datetime import date
 from pathlib import Path
 import re
 import unittest
@@ -36,6 +37,41 @@ REQUIRED_FIELDS = {
 
 
 class BountyBookCicdComparisonDeliveryTests(unittest.TestCase):
+    def test_generation_date_cannot_impersonate_historical_reference_period(self) -> None:
+        payload = json.loads(DELIVERABLE.read_text(encoding="utf-8"))
+        manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+        # The first artifact was created in October 2026, not in the requested
+        # 2024-2025 reference period. Never backdate generation to pass a rubric.
+        self.assertGreaterEqual(date.fromisoformat(payload["generated_at"]), date(2026, 10, 18))
+        self.assertEqual(payload["generated_at"], manifest["generated_at"])
+        self.assertEqual(payload["requested_reference_period"], "2024-2025")
+        self.assertEqual(payload["historical_verification_status"], "partial")
+        self.assertEqual(manifest["historical_verification_status"], "partial")
+        self.assertNotIn("dataset_reference_date", manifest)
+        self.assertIn("not archived proof", payload["verification_note"])
+
+    def test_historical_price_uncertainty_and_edition_scope_are_disclosed(self) -> None:
+        payload = json.loads(DELIVERABLE.read_text(encoding="utf-8"))
+        platforms = {item["name"]: item for item in payload["platforms"]}
+        for name in ("GitHub Actions", "GitLab CI/CD", "CircleCI"):
+            self.assertIn("check official pricing", platforms[name]["pricing_summary"])
+        for name in ("GitLab CI/CD", "Drone CI"):
+            self.assertIn("Community Edition", platforms[name]["open_source_notes"])
+        self.assertIn("Starlark", platforms["Drone CI"]["matrix_builds_notes"])
+        self.assertIn("legacy Drone 0.8", platforms["Drone CI"]["matrix_builds_notes"])
+        self.assertIn("May 8, 2025", platforms["CircleCI"]["free_tier_notes"])
+
+    def test_factual_review_is_hash_pinned_and_does_not_claim_payment(self) -> None:
+        manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+        registry = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        entry = next(item for item in registry["items"] if item.get("opportunity_id") == manifest["opportunity_id"])
+        review = ROOT / manifest["review_path"]
+        self.assertEqual(entry["sha256"][manifest["review_path"]], hashlib.sha256(review.read_bytes()).hexdigest())
+        self.assertIn(manifest["review_path"], entry["artifact_paths"])
+        for key in ("external_submission_verified", "acceptance_verified", "payment_verified"):
+            self.assertFalse(manifest[key])
+        self.assertTrue(manifest["review_limitations"])
+
     def test_matches_public_acceptance_contract(self) -> None:
         payload = json.loads(DELIVERABLE.read_text(encoding="utf-8"))
         self.assertRegex(payload["generated_at"], r"^\d{4}-\d{2}-\d{2}$")

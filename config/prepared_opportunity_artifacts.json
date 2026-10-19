@@ -39,11 +39,13 @@
       "source_url": "https://www.bountybook.ai/job/d47a42b6-8203-4bc7-8bbf-c22ef912c232",
       "artifact_paths": [
         "deliverables/bountybook_cicd_comparison_d47a42b6/cicd_comparison.json",
-        "deliverables/bountybook_cicd_comparison_d47a42b6/manifest.json"
+        "deliverables/bountybook_cicd_comparison_d47a42b6/manifest.json",
+        "deliverables/bountybook_cicd_comparison_d47a42b6/FACTUAL_REVIEW.md"
       ],
       "sha256": {
-        "deliverables/bountybook_cicd_comparison_d47a42b6/cicd_comparison.json": "5da3d4b0eb34b560b04dfc6005a55dde5a4cf1d72a9b438a631a6b69b649be8c",
-        "deliverables/bountybook_cicd_comparison_d47a42b6/manifest.json": "61d2b7d3e130a862210ddac87d1110b58174dc5535473d01273fd089eddfce71"
+        "deliverables/bountybook_cicd_comparison_d47a42b6/cicd_comparison.json": "d535054f5070a3b7e7aff664dfc23527a41bbed9a57590d572a403cae0952440",
+        "deliverables/bountybook_cicd_comparison_d47a42b6/manifest.json": "ace364fbbe01d590ed584fbe6841c20e5fcb3c67161aa1b536af09da0e26b329",
+        "deliverables/bountybook_cicd_comparison_d47a42b6/FACTUAL_REVIEW.md": "3a7acf033c8e43709e01271f596f90c18bb4141583d43f66fed4ad38a164e60c"
       },
       "human_action_instructions": [
         "Review the BountyBook terms and authorize use of an existing lawful BountyBook identity to claim job d47a42b6-8203-4bc7-8bbf-c22ef912c232 and submit the already tested cicd_comparison.json artifact. Do not create or fund a wallet, transfer assets, complete KYC, or sign any financial transaction."
