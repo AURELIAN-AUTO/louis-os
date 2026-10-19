@@ -1,7 +1,7 @@
 {
   "external_deployments_verified": 0,
   "external_submissions_verified": 0,
-  "generated_at": "2026-10-18T17:27:09.896910+00:00",
+  "generated_at": "2026-10-19T04:49:51.585071+00:00",
   "receipts": [
     {
       "checks": [
@@ -32,9 +32,9 @@
           "sha256": "270939a749f30d190b9682ab6524c7c73741a9a0d538315dc0ebd50ac5c3243d"
         }
       ],
-      "generated_at": "2026-10-18T17:27:09.896910+00:00",
+      "generated_at": "2026-10-19T04:49:51.585071+00:00",
       "manifest_path": "results/software_micro_mission_demos/landing_page/manifest.json",
-      "manifest_sha256": "76163f5dcedc850141826047a5301676432ce7f1a2979c75cf0f437204a843ed",
+      "manifest_sha256": "8a94928d26f678179675a161cfbc3fa3ac158181962a05ecdaff92b679092bbf",
       "revenue_verified": false,
       "schema_version": "1.0",
       "status": "validated"
@@ -68,9 +68,9 @@
           "sha256": "3bcea008a5bce8f139aea03ad2b14ad07124968b0ccff8a2ee7c99565ee785fb"
         }
       ],
-      "generated_at": "2026-10-18T17:27:09.896910+00:00",
+      "generated_at": "2026-10-19T04:49:51.585071+00:00",
       "manifest_path": "results/software_micro_mission_demos/csv_automation/manifest.json",
-      "manifest_sha256": "125ad3e24418438f964208ee17ac11dd80a5e9ca18f21ed58cf89e87e119478b",
+      "manifest_sha256": "07c62151b9fc9f43dfccd9af979d5084f56b75c535d877e76292d85f1c4ff654",
       "revenue_verified": false,
       "schema_version": "1.0",
       "status": "validated"
@@ -100,9 +100,9 @@
           "sha256": "4505cea18a26f460fa50293205030d99f692a6288860117a17426fda5b321949"
         }
       ],
-      "generated_at": "2026-10-18T17:27:09.896910+00:00",
+      "generated_at": "2026-10-19T04:49:51.585071+00:00",
       "manifest_path": "results/software_micro_mission_demos/api_integration/manifest.json",
-      "manifest_sha256": "2b3100d286d9e44739cbf3f92f5ae17aa94cdbd1ec8bd06fdfea878ac2d397ed",
+      "manifest_sha256": "750226c67c19697c15c168a2dc8f7f9f3667d5a4f83849d5dfb3d112bbb07436",
       "revenue_verified": false,
       "schema_version": "1.0",
       "status": "validated"

@@ -1,6 +1,6 @@
 {
   "count": 1,
-  "generated_at": "2026-10-18T17:27:10.003351+00:00",
+  "generated_at": "2026-10-19T04:49:51.672231+00:00",
   "instruction": "Notify the owner with the exact action, payout, deadline, risk, prepared artifacts and evidence; continue all reversible work meanwhile.",
   "items": [
     {
@@ -30,7 +30,8 @@
       ],
       "prepared_artifacts": [
         "deliverables/bountybook_cicd_comparison_d47a42b6/cicd_comparison.json",
-        "deliverables/bountybook_cicd_comparison_d47a42b6/manifest.json"
+        "deliverables/bountybook_cicd_comparison_d47a42b6/manifest.json",
+        "deliverables/bountybook_cicd_comparison_d47a42b6/FACTUAL_REVIEW.md"
       ],
       "rationale": [
         "estimated_effort_hours=2",
