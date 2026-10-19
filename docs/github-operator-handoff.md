@@ -1,5 +1,62 @@
 # Passation du pilote GitHub
 
+## Reprise du 19 octobre 2026 à 17:15 UTC — réconciliation Taskmarket sans VM
+
+- `get_repo` appelé, `main` épinglé à
+  `322cca6f7e8977f216acbd88293c544d63edb34c`, aucun `AGENTS.md` applicable.
+  Instructions, politiques, registres et PR ouverts relus ; aucune PR ouverte
+  ne traite ce suivi public. Pas de nouvelle autorisation dans #473.
+- Le rapprochement réel `39263914177`, job `118098429202`, à 13:52 UTC garde
+  cinq HTTP 404 visibles, wallet RTC fraîchement lu, aucune transition économique.
+  `get_repo(Scottcjn/rustchain-bounties)` renvoie aussi 404 : existence/accessibilité
+  inconnue, ne pas supposer un dépôt supprimé ni contourner l'accès.
+- Priorité aux travaux engagés : les lectures publiques Taskmarket du 19/10
+  17:17–17:18 UTC retrouvent les deux soumissions Louis exactes, sur son wallet
+  `0xCB5e092121C0dc63e62d215b8B8ceFf8a1a96c0C`. Les deux tâches sont `completed`.
+  Blue Square : dix bénéficiaires, transaction déclarée par l'API
+  `0xe7db9480b0c2023cddeb9fba3aa3f4ffa4b5e00fdd8ee5be59c8416abc492e27`,
+  règlement daté du 20/08. Rooftop : quatre bénéficiaires, transaction déclarée
+  `0x4f81d47820355188d7012cf7a949f973b5398b783e8904170c7bfdb8f92be44a`,
+  règlement daté du 17/10 11:09:59 UTC. Louis ne figure dans aucune de ces listes.
+  `rejectedAt=null` : absence d'attribution observée, pas rejet formel inventé.
+  Ces transactions sont des preuves déclarées par l'API pour d'autres wallets,
+  pas des paiements Louis ni une vérification indépendante de la chaîne.
+- Sources canoniques : `https://api.taskmarket.dev/api/tasks/<task_id>` et
+  `.../<task_id>/submissions`, identifiants des deux reçus historiques conservés.
+  Documentation officielle relue : `https://docs.taskmarket.dev/reference/raw-api`.
+  Elle autorise les lectures publiques sans nouvelle acceptation ; une lecture
+  restreinte doit rester inconnue. Aucune signature ni connexion wallet effectuée.
+- Blocage causal mesuré : ancien run Taskmarket `39185751484` bloqué avant lecture
+  par GCP/facturation, alors que les quatre GET publics aboutissent depuis ce
+  poste. Correctif borné : nouveau probe Python public en lecture seule, remplaçant
+  SSH/gcloud dans le workflow existant, environnement production conservé,
+  fréquence quotidienne inchangée. Solde wallet et revenu EUR restent `null`/non
+  vérifiés ; aucune ancienne vérification wallet n'est renouvelée artificiellement.
+  Erreurs/visibilité inconnue conservées et échec final après artifact/persistance.
+  Aucun retry automatique, endpoint privé, écriture ou import de credential.
+- Treize tests nouveaux couvrent correspondance tâche/soumission/wallet, prix
+  multiples, signaux anciens, erreurs HTTP/schéma, visibilité, unités USDC exactes,
+  confidentialité et stabilité sémantique. Le reçu n'enregistre ni signature ni
+  URL d'artefact. Gouvernance inchangée : trois workflows planifiés, sept runs/jour.
+- Manic relu en lecture seule : la notification officielle annonce toujours un
+  total individuel de 10 USD avec versement futur ; aucune preuve de réception
+  retrouvée. Ne pas comptabiliser la dotation de 1 000 USDC ni participer aux
+  campagnes de trading. Pas de nouvelle demande au propriétaire.
+- Mesures : deux missions historiques réconciliées, zéro nouvelle qualifiée,
+  zéro nouveau dossier/soumission/acceptation/paiement. Les soumissions demeurent
+  prouvées historiquement ; aucun frais nouveau engagé, coût marginal Actions
+  et coût historique par mission inconnus, intervention humaine = 0. Le blocage
+  du dossier CI/CD inchangé dure environ 24 h ; dossier laissé intact.
+- Aucun nouveau cycle marché depuis 10:48 UTC au moment de cette reprise : la
+  reprise de la source AgentPact après sa pause ne peut pas encore être vérifiée.
+  Intents/reçus du runtime dégradé toujours absents (404), pas réputés vides.
+
+Prochaine action : CI au SHA exact, fusion seulement si tous les contrôles sont
+verts, puis vérifier le premier run réel de ce suivi sans VM, sa persistance et
+les deux résultats `completed_without_own_award_observed`. Ne pas confondre cette
+réconciliation avec une nouvelle livraison ou un revenu. Continuer ensuite vers
+une mission distincte accessible, sans redemande identique ni relance GCP.
+
 ## Reprise du 19 octobre 2026 à 10:39 UTC — pivot de collecte borné
 
 - `get_repo` appelé ; `main` épinglé à
